@@ -1,0 +1,837 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.1.150.1.5 
+Compiled: Jun 23 2023.
+
+Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Titanium", Device "Ti60F225" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/outflow/DDR3_MC.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.484597 seconds.
+	VDB Netlist Checker took 0.203125 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 124.628 MB, end = 124.628 MB, delta = 0 MB
+	VDB Netlist Checker peak virtual memory usage = 128.736 MB
+VDB Netlist Checker resident set memory usage: begin = 132.788 MB, end = 133.068 MB, delta = 0.28 MB
+	VDB Netlist Checker peak resident set memory usage = 136.772 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from 'F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/outflow/DDR3_MC.interface.csv'.
+Successfully processed interface constraints file "F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/outflow/DDR3_MC.interface.csv".
+Creating interface clock pin DDR3_PLL_CLKOUT4.
+Creating interface clock pin fb.
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+logical_block #64(hdmi_rx_clk_RX_DATA) has no fanout.
+Removing input.
+logical_block #156(i_dqs_n_hi[1]) has no fanout.
+Removing input.
+logical_block #157(i_dqs_n_hi[0]) has no fanout.
+Removing input.
+logical_block #158(i_dqs_n_lo[1]) has no fanout.
+Removing input.
+logical_block #159(i_dqs_n_lo[0]) has no fanout.
+Removing input.
+logical_block #262(clk_10m) has no fanout.
+Removing input.
+Pass 0: Swept away 6 blocks with no fanout.
+Pass 1: Swept away 0 nets with no fanout.
+Pass 1: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 6 blocks in total.
+Removed 0 LUT buffers.
+Sweeped away 6 nodes.
+Successfully created VPR logical netlist from Verific binary DataBase file "F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/outflow/DDR3_MC.vdb".
+Netlist pre-processing took 1.46209 seconds.
+	Netlist pre-processing took 0.421875 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 24.188 MB, end = 208.804 MB, delta = 184.616 MB
+	Netlist pre-processing peak virtual memory usage = 215.58 MB
+Netlist pre-processing resident set memory usage: begin = 36.244 MB, end = 214.556 MB, delta = 178.312 MB
+	Netlist pre-processing peak resident set memory usage = 221.228 MB
+***** Ending stage netlist pre-processing *****
+
+Load Global Network took 1.30797 seconds.
+	Load Global Network took 0.046875 seconds (approximately) in total CPU time.
+Load Global Network virtual memory usage: begin = 108.852 MB, end = 211.708 MB, delta = 102.856 MB
+	Load Global Network peak virtual memory usage = 271.696 MB
+Load Global Network resident set memory usage: begin = 116.496 MB, end = 195.992 MB, delta = 79.496 MB
+	Load Global Network peak resident set memory usage = 255.628 MB
+Reading C:/Efinity/2023.1/arch/.\rr_pb_hier_mapping.xml
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+
+***** Beginning stage packing ... *****
+	[PrepackAnalyzer] Cannot pack adder chain size=65, socInst/u_EfxSapphireSoc/system_fpu_logic/add_3756/i64
+Generate proto netlist for file "F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/work_pnr\DDR3_MC.net_proto" took 0.12 seconds
+Creating IO constraints file 'F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/work_pnr\DDR3_MC.io_place'
+Packing took 0.470684 seconds.
+	Packing took 0.109375 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 275.968 MB, end = 312.76 MB, delta = 36.792 MB
+	Packing peak virtual memory usage = 316.664 MB
+Packing resident set memory usage: begin = 257.804 MB, end = 293.452 MB, delta = 35.648 MB
+	Packing peak resident set memory usage = 296.544 MB
+***** Ending stage packing *****
+
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/work_pnr\DDR3_MC.net_proto
+Read proto netlist for file "F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/work_pnr\DDR3_MC.net_proto" took 0.02 seconds
+Setup net and block data structure took 2.673 seconds
+Reading core interface constraints from 'F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/outflow/DDR3_MC.interface.csv'.
+Successfully processed interface constraints file "F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/outflow/DDR3_MC.interface.csv".
+Packed netlist loading took 14.2593 seconds.
+	Packed netlist loading took 7.57812 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 312.76 MB, end = 1837.22 MB, delta = 1524.46 MB
+	Packed netlist loading peak virtual memory usage = 1876.39 MB
+Packed netlist loading resident set memory usage: begin = 293.456 MB, end = 1752.24 MB, delta = 1458.78 MB
+	Packed netlist loading peak resident set memory usage = 1791.29 MB
+***** Ending stage packed netlist loading *****
+
+***** Beginning stage pre-placement ... *****
+High resource utilization found. Software will optimize placement for routability.
+
+***** Ending stage pre-placement *****
+
+Read router lookahead for device Ti60F225 from file C:/Efinity/2023.1/arch/./lookahead/QX25_C4.lookahead.zst.
+
+Load Router Lookahead took 0.474642 seconds.
+	Load Router Lookahead took 0.140625 seconds (approximately) in total CPU time.
+Load Router Lookahead virtual memory usage: begin = 2002.55 MB, end = 2203.76 MB, delta = 201.208 MB
+	Load Router Lookahead peak virtual memory usage = 2470.66 MB
+Load Router Lookahead resident set memory usage: begin = 1911.57 MB, end = 2109.39 MB, delta = 197.824 MB
+	Load Router Lookahead peak resident set memory usage = 2378.85 MB
+WARNING(1): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:26] No clocks matched 'jtag_inst1_TCK'
+WARNING(2): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:26] set_clock_groups: No valid clock(s) found for -group 'jtag_inst1_TCK'
+WARNING(3): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:32] No valid object(s) found for 'clk_125m'
+WARNING(4): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:32] No valid pin(s) found for clock
+WARNING(5): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:32] Unable to run 'create_clock' constraint due to warnings found
+WARNING(6): No ports matched 'jtag_inst1_DRCK'
+WARNING(7): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:56] No valid object(s) found for ''
+WARNING(8): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:56] No valid pin(s) found for clock
+WARNING(9): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:56] Unable to run 'create_clock' constraint due to warnings found
+WARNING(10): No ports matched 'jtag_inst1_RESET'
+WARNING(11): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:61] No valid object(s) found for ''
+WARNING(12): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:61] set_input_delay: No valid input port(s) found
+WARNING(13): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:61] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(14): No ports matched 'jtag_inst1_RESET'
+WARNING(15): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:62] No valid object(s) found for ''
+WARNING(16): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:62] set_input_delay: No valid input port(s) found
+WARNING(17): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:62] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(18): No ports matched 'jtag_inst1_RUNTEST'
+WARNING(19): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:63] No valid object(s) found for ''
+WARNING(20): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:63] set_input_delay: No valid input port(s) found
+WARNING(21): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:63] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(22): No ports matched 'jtag_inst1_RUNTEST'
+WARNING(23): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:64] No valid object(s) found for ''
+WARNING(24): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:64] set_input_delay: No valid input port(s) found
+WARNING(25): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:64] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(26): No ports matched 'jtag_inst1_UPDATE'
+WARNING(27): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:67] No valid object(s) found for ''
+WARNING(28): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:67] set_input_delay: No valid input port(s) found
+WARNING(29): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:67] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(30): No ports matched 'jtag_inst1_UPDATE'
+WARNING(31): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:68] No valid object(s) found for ''
+WARNING(32): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:68] set_input_delay: No valid input port(s) found
+WARNING(33): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:68] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(34): No ports matched 'rxc~CLKOUT~1~146'
+WARNING(35): No ports matched 'rx_dv_LO'
+WARNING(36): No ports matched 'rx_dv_HI'
+WARNING(37): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:315] No clocks matched 'rxc'
+WARNING(38): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:315] set_input_delay: No valid clock found for -clock
+WARNING(39): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:315] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(40): No ports matched 'rxc~CLKOUT~1~146'
+WARNING(41): No ports matched 'rx_dv_LO'
+WARNING(42): No ports matched 'rx_dv_HI'
+WARNING(43): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:316] No clocks matched 'rxc'
+WARNING(44): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:316] set_input_delay: No valid clock found for -clock
+WARNING(45): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:316] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(46): No ports matched 'rxc1~CLKOUT~1~293'
+WARNING(47): No ports matched 'rx_dv1_LO'
+WARNING(48): No ports matched 'rx_dv1_HI'
+WARNING(49): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:317] No clocks matched 'rxc1'
+WARNING(50): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:317] set_input_delay: No valid clock found for -clock
+WARNING(51): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:317] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(52): No ports matched 'rxc1~CLKOUT~1~293'
+WARNING(53): No ports matched 'rx_dv1_LO'
+WARNING(54): No ports matched 'rx_dv1_HI'
+WARNING(55): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:318] No clocks matched 'rxc1'
+WARNING(56): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:318] set_input_delay: No valid clock found for -clock
+WARNING(57): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:318] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(58): No ports matched 'rxc'
+WARNING(59): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:319] No valid object(s) found for ''
+WARNING(60): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:319] No valid pin(s) found for clock
+WARNING(61): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:319] Unable to run 'create_clock' constraint due to warnings found
+WARNING(62): No ports matched 'rxc1'
+WARNING(63): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:320] No valid object(s) found for ''
+WARNING(64): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:320] No valid pin(s) found for clock
+WARNING(65): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:320] Unable to run 'create_clock' constraint due to warnings found
+WARNING(66): No ports matched 'rxc1~CLKOUT~1~277'
+WARNING(67): No ports matched 'rxd1_LO[0]'
+WARNING(68): No ports matched 'rxd1_HI[0]'
+WARNING(69): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:321] No clocks matched 'rxc1'
+WARNING(70): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:321] set_input_delay: No valid clock found for -clock
+WARNING(71): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:321] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(72): No ports matched 'rxc1~CLKOUT~1~277'
+WARNING(73): No ports matched 'rxd1_LO[0]'
+WARNING(74): No ports matched 'rxd1_HI[0]'
+WARNING(75): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:322] No clocks matched 'rxc1'
+WARNING(76): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:322] set_input_delay: No valid clock found for -clock
+WARNING(77): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:322] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(78): No ports matched 'rxc1~CLKOUT~1~278'
+WARNING(79): No ports matched 'rxd1_LO[1]'
+WARNING(80): No ports matched 'rxd1_HI[1]'
+WARNING(81): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:323] No clocks matched 'rxc1'
+WARNING(82): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:323] set_input_delay: No valid clock found for -clock
+WARNING(83): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:323] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(84): No ports matched 'rxc1~CLKOUT~1~278'
+WARNING(85): No ports matched 'rxd1_LO[1]'
+WARNING(86): No ports matched 'rxd1_HI[1]'
+WARNING(87): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:324] No clocks matched 'rxc1'
+WARNING(88): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:324] set_input_delay: No valid clock found for -clock
+WARNING(89): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:324] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(90): No ports matched 'rxc1~CLKOUT~1~267'
+WARNING(91): No ports matched 'rxd1_LO[2]'
+WARNING(92): No ports matched 'rxd1_HI[2]'
+WARNING(93): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:325] No clocks matched 'rxc1'
+WARNING(94): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:325] set_input_delay: No valid clock found for -clock
+WARNING(95): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:325] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(96): No ports matched 'rxc1~CLKOUT~1~267'
+WARNING(97): No ports matched 'rxd1_LO[2]'
+WARNING(98): No ports matched 'rxd1_HI[2]'
+WARNING(99): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:326] No clocks matched 'rxc1'
+WARNING(100): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:326] set_input_delay: No valid clock found for -clock
+WARNING(101): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:326] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(102): No ports matched 'rxc1~CLKOUT~1~222'
+WARNING(103): No ports matched 'rxd1_LO[3]'
+WARNING(104): No ports matched 'rxd1_HI[3]'
+WARNING(105): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:327] No clocks matched 'rxc1'
+WARNING(106): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:327] set_input_delay: No valid clock found for -clock
+WARNING(107): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:327] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(108): No ports matched 'rxc1~CLKOUT~1~222'
+WARNING(109): No ports matched 'rxd1_LO[3]'
+WARNING(110): No ports matched 'rxd1_HI[3]'
+WARNING(111): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:328] No clocks matched 'rxc1'
+WARNING(112): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:328] set_input_delay: No valid clock found for -clock
+WARNING(113): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:328] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(114): No ports matched 'rxc~CLKOUT~1~129'
+WARNING(115): No ports matched 'rxd_lo_i[0]'
+WARNING(116): No ports matched 'rxd_hi_i[0]'
+WARNING(117): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:329] No clocks matched 'rxc'
+WARNING(118): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:329] set_input_delay: No valid clock found for -clock
+WARNING(119): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:329] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(120): No ports matched 'rxc~CLKOUT~1~129'
+WARNING(121): No ports matched 'rxd_lo_i[0]'
+WARNING(122): No ports matched 'rxd_hi_i[0]'
+WARNING(123): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:330] No clocks matched 'rxc'
+WARNING(124): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:330] set_input_delay: No valid clock found for -clock
+WARNING(125): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:330] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(126): No ports matched 'rxc~CLKOUT~1~113'
+WARNING(127): No ports matched 'rxd_lo_i[1]'
+WARNING(128): No ports matched 'rxd_hi_i[1]'
+WARNING(129): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:331] No clocks matched 'rxc'
+WARNING(130): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:331] set_input_delay: No valid clock found for -clock
+WARNING(131): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:331] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(132): No ports matched 'rxc~CLKOUT~1~113'
+WARNING(133): No ports matched 'rxd_lo_i[1]'
+WARNING(134): No ports matched 'rxd_hi_i[1]'
+WARNING(135): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:332] No clocks matched 'rxc'
+WARNING(136): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:332] set_input_delay: No valid clock found for -clock
+WARNING(137): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:332] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(138): No ports matched 'rxc~CLKOUT~1~12'
+WARNING(139): No ports matched 'rxd_lo_i[2]'
+WARNING(140): No ports matched 'rxd_hi_i[2]'
+WARNING(141): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:333] No clocks matched 'rxc'
+WARNING(142): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:333] set_input_delay: No valid clock found for -clock
+WARNING(143): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:333] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(144): No ports matched 'rxc~CLKOUT~1~12'
+WARNING(145): No ports matched 'rxd_lo_i[2]'
+WARNING(146): No ports matched 'rxd_hi_i[2]'
+WARNING(147): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:334] No clocks matched 'rxc'
+WARNING(148): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:334] set_input_delay: No valid clock found for -clock
+WARNING(149): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:334] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(150): No ports matched 'rxc~CLKOUT~1~96'
+WARNING(151): No ports matched 'rxd_lo_i[3]'
+WARNING(152): No ports matched 'rxd_hi_i[3]'
+WARNING(153): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:335] No clocks matched 'rxc'
+WARNING(154): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:335] set_input_delay: No valid clock found for -clock
+WARNING(155): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:335] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(156): No ports matched 'rxc~CLKOUT~1~96'
+WARNING(157): No ports matched 'rxd_lo_i[3]'
+WARNING(158): No ports matched 'rxd_hi_i[3]'
+WARNING(159): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:336] No clocks matched 'rxc'
+WARNING(160): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:336] set_input_delay: No valid clock found for -clock
+WARNING(161): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:336] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(162): No ports matched 'clk_10m~CLKOUT~1~195'
+WARNING(163): No ports matched 'mdc_o_LO'
+WARNING(164): No ports matched 'mdc_o_HI'
+WARNING(165): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:337] No clocks matched 'clk_10m'
+WARNING(166): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:337] set_output_delay: No valid clock found for -clock
+WARNING(167): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:337] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(168): No ports matched 'clk_10m~CLKOUT~1~195'
+WARNING(169): No ports matched 'mdc_o_LO'
+WARNING(170): No ports matched 'mdc_o_HI'
+WARNING(171): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:338] No clocks matched 'clk_10m'
+WARNING(172): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:338] set_output_delay: No valid clock found for -clock
+WARNING(173): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:338] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(174): No ports matched 'clk_10m~CLKOUT~1~181'
+WARNING(175): No ports matched 'mdc_o1_LO'
+WARNING(176): No ports matched 'mdc_o1_HI'
+WARNING(177): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:339] No clocks matched 'clk_10m'
+WARNING(178): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:339] set_output_delay: No valid clock found for -clock
+WARNING(179): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:339] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(180): No ports matched 'clk_10m~CLKOUT~1~181'
+WARNING(181): No ports matched 'mdc_o1_LO'
+WARNING(182): No ports matched 'mdc_o1_HI'
+WARNING(183): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:340] No clocks matched 'clk_10m'
+WARNING(184): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:340] set_output_delay: No valid clock found for -clock
+WARNING(185): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:340] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(186): No ports matched 'clk_125m~CLKOUT~1~15'
+WARNING(187): No ports matched 'tx_en_o_LO'
+WARNING(188): No ports matched 'tx_en_o_HI'
+WARNING(189): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:341] No clocks matched 'clk_125m'
+WARNING(190): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:341] set_output_delay: No valid clock found for -clock
+WARNING(191): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:341] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(192): No ports matched 'clk_125m~CLKOUT~1~15'
+WARNING(193): No ports matched 'tx_en_o_LO'
+WARNING(194): No ports matched 'tx_en_o_HI'
+WARNING(195): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:342] No clocks matched 'clk_125m'
+WARNING(196): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:342] set_output_delay: No valid clock found for -clock
+WARNING(197): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:342] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(198): No ports matched 'clk_125m~CLKOUT~1~223'
+WARNING(199): No ports matched 'tx_en_o1_LO'
+WARNING(200): No ports matched 'tx_en_o1_HI'
+WARNING(201): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:343] No clocks matched 'clk_125m'
+WARNING(202): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:343] set_output_delay: No valid clock found for -clock
+WARNING(203): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:343] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(204): No ports matched 'clk_125m~CLKOUT~1~223'
+WARNING(205): No ports matched 'tx_en_o1_LO'
+WARNING(206): No ports matched 'tx_en_o1_HI'
+WARNING(207): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:344] No clocks matched 'clk_125m'
+WARNING(208): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:344] set_output_delay: No valid clock found for -clock
+WARNING(209): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:344] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(210): No ports matched 'clk_125m~CLKOUT~1~130'
+WARNING(211): No ports matched 'txc_lo_o'
+WARNING(212): No ports matched 'txc_hi_o'
+WARNING(213): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:345] No clocks matched 'clk_125m'
+WARNING(214): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:345] set_output_delay: No valid clock found for -clock
+WARNING(215): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:345] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(216): No ports matched 'clk_125m~CLKOUT~1~130'
+WARNING(217): No ports matched 'txc_lo_o'
+WARNING(218): No ports matched 'txc_hi_o'
+WARNING(219): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:346] No clocks matched 'clk_125m'
+WARNING(220): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:346] set_output_delay: No valid clock found for -clock
+WARNING(221): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:346] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(222): No ports matched 'clk_125m~CLKOUT~1~268'
+WARNING(223): No ports matched 'txc1_LO'
+WARNING(224): No ports matched 'txc1_HI'
+WARNING(225): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:347] No clocks matched 'clk_125m'
+WARNING(226): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:347] set_output_delay: No valid clock found for -clock
+WARNING(227): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:347] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(228): No ports matched 'clk_125m~CLKOUT~1~268'
+WARNING(229): No ports matched 'txc1_LO'
+WARNING(230): No ports matched 'txc1_HI'
+WARNING(231): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:348] No clocks matched 'clk_125m'
+WARNING(232): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:348] set_output_delay: No valid clock found for -clock
+WARNING(233): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:348] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(234): No ports matched 'clk_125m~CLKOUT~1~257'
+WARNING(235): No ports matched 'txd1_LO[0]'
+WARNING(236): No ports matched 'txd1_HI[0]'
+WARNING(237): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:349] No clocks matched 'clk_125m'
+WARNING(238): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:349] set_output_delay: No valid clock found for -clock
+WARNING(239): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:349] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(240): No ports matched 'clk_125m~CLKOUT~1~257'
+WARNING(241): No ports matched 'txd1_LO[0]'
+WARNING(242): No ports matched 'txd1_HI[0]'
+WARNING(243): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:350] No clocks matched 'clk_125m'
+WARNING(244): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:350] set_output_delay: No valid clock found for -clock
+WARNING(245): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:350] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(246): No ports matched 'clk_125m~CLKOUT~1~245'
+WARNING(247): No ports matched 'txd1_LO[1]'
+WARNING(248): No ports matched 'txd1_HI[1]'
+WARNING(249): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:351] No clocks matched 'clk_125m'
+WARNING(250): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:351] set_output_delay: No valid clock found for -clock
+WARNING(251): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:351] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(252): No ports matched 'clk_125m~CLKOUT~1~245'
+WARNING(253): No ports matched 'txd1_LO[1]'
+WARNING(254): No ports matched 'txd1_HI[1]'
+WARNING(255): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:352] No clocks matched 'clk_125m'
+WARNING(256): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:352] set_output_delay: No valid clock found for -clock
+WARNING(257): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:352] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(258): No ports matched 'clk_125m~CLKOUT~1~246'
+WARNING(259): No ports matched 'txd1_LO[2]'
+WARNING(260): No ports matched 'txd1_HI[2]'
+WARNING(261): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:353] No clocks matched 'clk_125m'
+WARNING(262): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:353] set_output_delay: No valid clock found for -clock
+WARNING(263): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:353] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(264): No ports matched 'clk_125m~CLKOUT~1~246'
+WARNING(265): No ports matched 'txd1_LO[2]'
+WARNING(266): No ports matched 'txd1_HI[2]'
+WARNING(267): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:354] No clocks matched 'clk_125m'
+WARNING(268): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:354] set_output_delay: No valid clock found for -clock
+WARNING(269): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:354] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(270): No ports matched 'clk_125m~CLKOUT~1~171'
+WARNING(271): No ports matched 'txd1_LO[3]'
+WARNING(272): No ports matched 'txd1_HI[3]'
+WARNING(273): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:355] No clocks matched 'clk_125m'
+WARNING(274): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:355] set_output_delay: No valid clock found for -clock
+WARNING(275): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:355] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(276): No ports matched 'clk_125m~CLKOUT~1~171'
+WARNING(277): No ports matched 'txd1_LO[3]'
+WARNING(278): No ports matched 'txd1_HI[3]'
+WARNING(279): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:356] No clocks matched 'clk_125m'
+WARNING(280): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:356] set_output_delay: No valid clock found for -clock
+WARNING(281): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:356] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(282): No ports matched 'clk_125m~CLKOUT~1~114'
+WARNING(283): No ports matched 'txd_lo_o[0]'
+WARNING(284): No ports matched 'txd_hi_o[0]'
+WARNING(285): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:357] No clocks matched 'clk_125m'
+WARNING(286): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:357] set_output_delay: No valid clock found for -clock
+WARNING(287): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:357] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(288): No ports matched 'clk_125m~CLKOUT~1~114'
+WARNING(289): No ports matched 'txd_lo_o[0]'
+WARNING(290): No ports matched 'txd_hi_o[0]'
+WARNING(291): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:358] No clocks matched 'clk_125m'
+WARNING(292): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:358] set_output_delay: No valid clock found for -clock
+WARNING(293): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:358] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(294): No ports matched 'clk_125m~CLKOUT~1~97'
+WARNING(295): No ports matched 'txd_lo_o[1]'
+WARNING(296): No ports matched 'txd_hi_o[1]'
+WARNING(297): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:359] No clocks matched 'clk_125m'
+WARNING(298): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:359] set_output_delay: No valid clock found for -clock
+WARNING(299): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:359] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(300): No ports matched 'clk_125m~CLKOUT~1~97'
+WARNING(301): No ports matched 'txd_lo_o[1]'
+WARNING(302): No ports matched 'txd_hi_o[1]'
+WARNING(303): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:360] No clocks matched 'clk_125m'
+WARNING(304): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:360] set_output_delay: No valid clock found for -clock
+WARNING(305): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:360] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(306): No ports matched 'clk_125m~CLKOUT~1~206'
+WARNING(307): No ports matched 'txd_lo_o[2]'
+WARNING(308): No ports matched 'txd_hi_o[2]'
+WARNING(309): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:361] No clocks matched 'clk_125m'
+WARNING(310): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:361] set_output_delay: No valid clock found for -clock
+WARNING(311): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:361] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(312): No ports matched 'clk_125m~CLKOUT~1~206'
+WARNING(313): No ports matched 'txd_lo_o[2]'
+WARNING(314): No ports matched 'txd_hi_o[2]'
+WARNING(315): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:362] No clocks matched 'clk_125m'
+WARNING(316): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:362] set_output_delay: No valid clock found for -clock
+WARNING(317): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:362] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(318): No ports matched 'clk_125m~CLKOUT~1~207'
+WARNING(319): No ports matched 'txd_lo_o[3]'
+WARNING(320): No ports matched 'txd_hi_o[3]'
+WARNING(321): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:363] No clocks matched 'clk_125m'
+WARNING(322): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:363] set_output_delay: No valid clock found for -clock
+WARNING(323): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:363] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(324): No ports matched 'clk_125m~CLKOUT~1~207'
+WARNING(325): No ports matched 'txd_lo_o[3]'
+WARNING(326): No ports matched 'txd_hi_o[3]'
+WARNING(327): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:364] No clocks matched 'clk_125m'
+WARNING(328): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:364] set_output_delay: No valid clock found for -clock
+WARNING(329): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:364] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(330): No ports matched 'hdmi_rx_slow_clk~CLKOUT~218~175'
+WARNING(331): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:368] No valid object(s) found for ''
+WARNING(332): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:368] set_output_delay: No valid output port found for -reference_pin
+WARNING(333): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:368] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(334): No ports matched 'hdmi_rx_slow_clk~CLKOUT~218~175'
+WARNING(335): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:369] No valid object(s) found for ''
+WARNING(336): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:369] set_output_delay: No valid output port found for -reference_pin
+WARNING(337): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:369] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(338): No ports matched 'hdmi_rx_slow_clk~CLKOUT~218~175'
+WARNING(339): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:370] No valid object(s) found for ''
+WARNING(340): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:370] set_output_delay: No valid output port found for -reference_pin
+WARNING(341): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:370] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(342): No ports matched 'hdmi_rx_slow_clk~CLKOUT~218~175'
+WARNING(343): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:371] No valid object(s) found for ''
+WARNING(344): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:371] set_output_delay: No valid output port found for -reference_pin
+WARNING(345): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:371] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(346): No ports matched 'hdmi_rx_slow_clk~CLKOUT~218~215'
+WARNING(347): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:372] No valid object(s) found for ''
+WARNING(348): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:372] set_output_delay: No valid output port found for -reference_pin
+WARNING(349): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:372] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(350): No ports matched 'hdmi_rx_slow_clk~CLKOUT~218~215'
+WARNING(351): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:373] No valid object(s) found for ''
+WARNING(352): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:373] set_output_delay: No valid output port found for -reference_pin
+WARNING(353): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:373] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(354): No ports matched 'hdmi_rx_slow_clk~CLKOUT~218~215'
+WARNING(355): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:374] No valid object(s) found for ''
+WARNING(356): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:374] set_output_delay: No valid output port found for -reference_pin
+WARNING(357): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:374] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(358): No ports matched 'hdmi_rx_slow_clk~CLKOUT~218~215'
+WARNING(359): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:375] No valid object(s) found for ''
+WARNING(360): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:375] set_output_delay: No valid output port found for -reference_pin
+WARNING(361): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:375] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(362): No ports matched 'hdmi_rx_slow_clk~CLKOUT~218~187'
+WARNING(363): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:376] No valid object(s) found for ''
+WARNING(364): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:376] set_output_delay: No valid output port found for -reference_pin
+WARNING(365): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:376] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(366): No ports matched 'hdmi_rx_slow_clk~CLKOUT~218~187'
+WARNING(367): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:377] No valid object(s) found for ''
+WARNING(368): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:377] set_output_delay: No valid output port found for -reference_pin
+WARNING(369): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:377] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(370): No ports matched 'hdmi_rx_slow_clk~CLKOUT~218~187'
+WARNING(371): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:378] No valid object(s) found for ''
+WARNING(372): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:378] set_output_delay: No valid output port found for -reference_pin
+WARNING(373): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:378] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(374): No ports matched 'hdmi_rx_slow_clk~CLKOUT~218~187'
+WARNING(375): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:379] No valid object(s) found for ''
+WARNING(376): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:379] set_output_delay: No valid output port found for -reference_pin
+WARNING(377): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:379] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(378): No ports matched 'hdmi_rx_slow_clk~CLKOUT~218~200'
+WARNING(379): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:380] No valid object(s) found for ''
+WARNING(380): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:380] set_output_delay: No valid output port found for -reference_pin
+WARNING(381): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:380] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(382): No ports matched 'hdmi_rx_slow_clk~CLKOUT~218~200'
+WARNING(383): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:381] No valid object(s) found for ''
+WARNING(384): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:381] set_output_delay: No valid output port found for -reference_pin
+WARNING(385): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:381] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(386): No ports matched 'hdmi_rx_slow_clk~CLKOUT~218~200'
+WARNING(387): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:382] No valid object(s) found for ''
+WARNING(388): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:382] set_output_delay: No valid output port found for -reference_pin
+WARNING(389): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:382] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(390): No ports matched 'hdmi_rx_slow_clk~CLKOUT~218~200'
+WARNING(391): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:383] No valid object(s) found for ''
+WARNING(392): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:383] set_output_delay: No valid output port found for -reference_pin
+WARNING(393): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:383] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(394): No ports matched 'hdmi_rx_slow_clk~CLKOUT~218~175'
+WARNING(395): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:384] No valid object(s) found for ''
+WARNING(396): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:384] set_output_delay: No valid output port found for -reference_pin
+WARNING(397): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:384] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(398): No ports matched 'hdmi_rx_slow_clk~CLKOUT~218~175'
+WARNING(399): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:385] No valid object(s) found for ''
+WARNING(400): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:385] set_output_delay: No valid output port found for -reference_pin
+WARNING(401): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:385] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(402): No ports matched 'hdmi_rx_slow_clk~CLKOUT~218~215'
+WARNING(403): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:386] No valid object(s) found for ''
+WARNING(404): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:386] set_output_delay: No valid output port found for -reference_pin
+WARNING(405): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:386] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(406): No ports matched 'hdmi_rx_slow_clk~CLKOUT~218~215'
+WARNING(407): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:387] No valid object(s) found for ''
+WARNING(408): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:387] set_output_delay: No valid output port found for -reference_pin
+WARNING(409): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:387] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(410): No ports matched 'hdmi_rx_slow_clk~CLKOUT~218~187'
+WARNING(411): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:388] No valid object(s) found for ''
+WARNING(412): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:388] set_output_delay: No valid output port found for -reference_pin
+WARNING(413): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:388] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(414): No ports matched 'hdmi_rx_slow_clk~CLKOUT~218~187'
+WARNING(415): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:389] No valid object(s) found for ''
+WARNING(416): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:389] set_output_delay: No valid output port found for -reference_pin
+WARNING(417): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:389] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(418): No ports matched 'hdmi_rx_slow_clk~CLKOUT~218~200'
+WARNING(419): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:390] No valid object(s) found for ''
+WARNING(420): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:390] set_output_delay: No valid output port found for -reference_pin
+WARNING(421): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:390] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(422): No ports matched 'hdmi_rx_slow_clk~CLKOUT~218~200'
+WARNING(423): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:391] No valid object(s) found for ''
+WARNING(424): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:391] set_output_delay: No valid output port found for -reference_pin
+WARNING(425): [SDC F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc:391] Unable to run 'set_output_delay' constraint due to warnings found
+
+SDC file 'F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/DDR3_MC.pt.sdc' parsed successfully.
+9 clocks (including virtual clocks), 69 inputs and 90 outputs were constrained.
+
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from 'F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/outflow/DDR3_MC.interface.csv'.
+Successfully processed interface constraints file "F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/outflow/DDR3_MC.interface.csv".
+Writing IO placement constraints to 'F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/outflow\DDR3_MC.interface.io'.
+
+Reading placement constraints from 'F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/outflow\DDR3_MC.interface.io'.
+
+Reading placement constraints from 'F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/work_pnr\DDR3_MC.io_place'.
+WARNING(426): o_dqs_n_hi[1] has no assigned placement; it will be placed randomly.
+WARNING(427): o_dqs_n_hi[0] has no assigned placement; it will be placed randomly.
+WARNING(428): o_dqs_n_lo[1] has no assigned placement; it will be placed randomly.
+WARNING(429): o_dqs_n_lo[0] has no assigned placement; it will be placed randomly.
+WARNING(430): memoryCheckerPass has no assigned placement; it will be placed randomly.
+WARNING(431): systemClk_rstn has no assigned placement; it will be placed randomly.
+6 IOs will have random placement.
+***** Ending stage initial placement *****
+
+***** Beginning stage placement ... *****
+Found 141 synchronizers as follows: 
+	Synchronizer 0:  socInst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/flowCCByToggle_1/inputArea_target_buffercc/i7_2
+	Synchronizer 1:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/pushToPopGray_buffercc/buffers_0[6]~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/pushToPopGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 2:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/pushToPopGray_buffercc/buffers_0[5]~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/pushToPopGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 3:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/pushToPopGray_buffercc/buffers_0[4]~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/pushToPopGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 4:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/pushToPopGray_buffercc/buffers_0[3]~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/pushToPopGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 5:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/pushToPopGray_buffercc/buffers_0[2]~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/pushToPopGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 6:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/pushToPopGray_buffercc/buffers_0[1]~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/pushToPopGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 7:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/pushToPopGray_buffercc/buffers_0[0]~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/pushToPopGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 8:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/bufferCC_12/buffers_0~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/bufferCC_12_io_dataOut~FF
+	Synchronizer 9:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/popToPushGray_buffercc/buffers_0[4]~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/popToPushGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 10:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/popToPushGray_buffercc/buffers_0[3]~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/popToPushGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 11:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/popToPushGray_buffercc/buffers_0[2]~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/popToPushGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 12:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/popToPushGray_buffercc/buffers_0[1]~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/popToPushGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 13:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/popToPushGray_buffercc/buffers_0[0]~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/popToPushGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 14:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/popToPushGray_buffercc/buffers_0[0]~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/popToPushGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 15:  socInst/u_EfxSapphireSoc/bufferCC_15/buffers_0~FF socInst/u_EfxSapphireSoc/bufferCC_15_io_dataOut~FF
+	Synchronizer 16:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/popToPushGray_buffercc/buffers_0[5]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/popToPushGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 17:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/popToPushGray_buffercc/buffers_0[3]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/popToPushGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 18:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/popToPushGray_buffercc/buffers_0[2]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/popToPushGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 19:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/popToPushGray_buffercc/buffers_0[1]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/popToPushGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 20:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/popToPushGray_buffercc/buffers_0[0]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/popToPushGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 21:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/controller_main/dq_pipe_ap[3]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/controller_main/dq_pipe_ap[4]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/controller_main/dq_pipe_ap[5]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/controller_main/dq_pipe_ap[6]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/controller_main/dq_pipe_ap[7]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/controller_main/dq_pipe_ap[8]~FF
+	Synchronizer 22:  socInst/u_EfxSapphireSoc/bufferCC_14/buffers_0~FF socInst/u_EfxSapphireSoc/bufferCC_14_io_dataOut~FF
+	Synchronizer 23:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rdpush/popToPushGray_buffercc/buffers_0[6]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rdpush/popToPushGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 24:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rdpush/popToPushGray_buffercc/buffers_0[3]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rdpush/popToPushGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 25:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/popToPushGray_buffercc/buffers_0[6]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/popToPushGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 26:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/popToPushGray_buffercc/buffers_0[5]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/popToPushGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 27:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/popToPushGray_buffercc/buffers_0[4]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/popToPushGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 28:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/popToPushGray_buffercc/buffers_0[3]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/popToPushGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 29:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/popToPushGray_buffercc/buffers_0[2]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/popToPushGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 30:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/popToPushGray_buffercc/buffers_0[1]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/popToPushGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 31:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/popToPushGray_buffercc/buffers_0[0]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/popToPushGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 32:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/pushToPopGray_buffercc/buffers_0[6]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/pushToPopGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 33:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/pushToPopGray_buffercc/buffers_0[5]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/pushToPopGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 34:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rdpush/popToPushGray_buffercc/buffers_0[0]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rdpush/popToPushGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 35:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/pushToPopGray_buffercc/buffers_0[4]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/pushToPopGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 36:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/pushToPopGray_buffercc/buffers_0[3]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/pushToPopGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 37:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/popToPushGray_buffercc/buffers_0[0]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/popToPushGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 38:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/pushToPopGray_buffercc/buffers_0[2]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/pushToPopGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 39:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/pushToPopGray_buffercc/buffers_0[1]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/pushToPopGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 40:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/popToPushGray_buffercc/buffers_0[2]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/popToPushGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 41:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/pushToPopGray_buffercc/buffers_0[6]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/pushToPopGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 42:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/popToPushGray_buffercc/buffers_0[6]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/popToPushGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 43:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/pushToPopGray_buffercc/buffers_0[5]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/pushToPopGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 44:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/pushToPopGray_buffercc/buffers_0[0]~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/pushToPopGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 45:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/popToPushGray_buffercc/buffers_0[5]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/popToPushGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 46:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/pushToPopGray_buffercc/buffers_0[0]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/pushToPopGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 47:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/controller_main/ram_wr_ack_p1~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/controller_main/get_wr_ack[0]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/controller_main/get_wr_ack[1]~FF
+	Synchronizer 48:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/pushToPopGray_buffercc/buffers_0[4]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/pushToPopGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 49:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/popToPushGray_buffercc/buffers_0[4]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/popToPushGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 50:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/controller_main/ram_wr_ack_p~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/controller_main/get_dqs_wr_start_p[0]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/controller_main/get_dqs_wr_start_p[1]~FF
+	Synchronizer 51:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/pushToPopGray_buffercc/buffers_0[3]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/pushToPopGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 52:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/bufferCC_12/buffers_0~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/bufferCC_12_io_dataOut~FF
+	Synchronizer 53:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/popToPushGray_buffercc/buffers_0[3]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/popToPushGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 54:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/popToPushGray_buffercc/buffers_0[3]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/popToPushGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 55:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/pushToPopGray_buffercc/buffers_0[2]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/pushToPopGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 56:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/popToPushGray_buffercc/buffers_0[6]~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/popToPushGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 57:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/popToPushGray_buffercc/buffers_0[2]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/popToPushGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 58:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rdpush/pushToPopGray_buffercc/buffers_0[0]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rdpush/pushToPopGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 59:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/pushToPopGray_buffercc/buffers_0[1]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/pushToPopGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 60:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/popToPushGray_buffercc/buffers_0[5]~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/popToPushGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 61:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/popToPushGray_buffercc/buffers_0[1]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/popToPushGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 62:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/popToPushGray_buffercc/buffers_0[6]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/popToPushGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 63:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/pushToPopGray_buffercc/buffers_0[0]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/pushToPopGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 64:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/pushToPopGray_buffercc/buffers_0[0]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/pushToPopGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 65:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rdpush/pushToPopGray_buffercc/buffers_0[5]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rdpush/pushToPopGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 66:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rdpush/pushToPopGray_buffercc/buffers_0[6]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rdpush/pushToPopGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 67:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/popToPushGray_buffercc/buffers_0[6]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/popToPushGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 68:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/popToPushGray_buffercc/buffers_0[1]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/popToPushGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 69:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/pushToPopGray_buffercc/buffers_0[1]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/pushToPopGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 70:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/popToPushGray_buffercc/buffers_0[2]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/popToPushGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 71:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/pushToPopGray_buffercc/buffers_0[2]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/pushToPopGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 72:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/popToPushGray_buffercc/buffers_0[5]~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/popToPushGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 73:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/popToPushGray_buffercc/buffers_0[3]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/popToPushGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 74:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/popToPushGray_buffercc/buffers_0[6]~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/popToPushGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 75:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/controller_main/get_wr_ack[2]~FF
+	Synchronizer 76:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/popToPushGray_buffercc/buffers_0[0]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/popToPushGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 77:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rdpush/popToPushGray_buffercc/buffers_0[5]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rdpush/popToPushGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 78:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/popToPushGray_buffercc/buffers_0[4]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/popToPushGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 79:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rdpush/popToPushGray_buffercc/buffers_0[2]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rdpush/popToPushGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 80:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/popToPushGray_buffercc/buffers_0[5]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/popToPushGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 81:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/pushToPopGray_buffercc/buffers_0[5]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/pushToPopGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 82:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/popToPushGray_buffercc/buffers_0[6]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/popToPushGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 83:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/pushToPopGray_buffercc/buffers_0[6]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/pushToPopGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 84:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/popToPushGray_buffercc/buffers_0[1]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/popToPushGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 85:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/popToPushGray_buffercc/buffers_0[5]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/popToPushGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 86:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/popToPushGray_buffercc/buffers_0[2]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/popToPushGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 87:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/popToPushGray_buffercc/buffers_0[1]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/popToPushGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 88:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rdpush/popToPushGray_buffercc/buffers_0[4]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rdpush/popToPushGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 89:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/popToPushGray_buffercc/buffers_0[3]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/popToPushGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 90:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/popToPushGray_buffercc/buffers_0[4]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/popToPushGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 91:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rdpush/popToPushGray_buffercc/buffers_0[1]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rdpush/popToPushGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 92:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/popToPushGray_buffercc/buffers_0[4]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/popToPushGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 93:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/popToPushGray_buffercc/buffers_0[5]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/popToPushGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 94:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rdpush/pushToPopGray_buffercc/buffers_0[1]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rdpush/pushToPopGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 95:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rdpush/pushToPopGray_buffercc/buffers_0[2]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rdpush/pushToPopGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 96:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rdpush/pushToPopGray_buffercc/buffers_0[3]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rdpush/pushToPopGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 97:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rdpush/pushToPopGray_buffercc/buffers_0[4]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rdpush/pushToPopGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 98:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/popToPushGray_buffercc/buffers_0[0]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/popToPushGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 99:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/pushToPopGray_buffercc/buffers_0[0]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/pushToPopGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 100:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/pushToPopGray_buffercc/buffers_0[1]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/pushToPopGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 101:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/pushToPopGray_buffercc/buffers_0[2]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/pushToPopGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 102:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/pushToPopGray_buffercc/buffers_0[3]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/pushToPopGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 103:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/pushToPopGray_buffercc/buffers_0[4]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/pushToPopGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 104:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/pushToPopGray_buffercc/buffers_0[5]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/pushToPopGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 105:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/pushToPopGray_buffercc/buffers_0[6]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/pushToPopGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 106:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/pushToPopGray_buffercc/buffers_0[0]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/pushToPopGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 107:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/pushToPopGray_buffercc/buffers_0[1]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/pushToPopGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 108:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/pushToPopGray_buffercc/buffers_0[2]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/pushToPopGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 109:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/pushToPopGray_buffercc/buffers_0[3]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/pushToPopGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 110:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/pushToPopGray_buffercc/buffers_0[4]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/pushToPopGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 111:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/pushToPopGray_buffercc/buffers_0[5]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/pushToPopGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 112:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/pushToPopGray_buffercc/buffers_0[6]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/pushToPopGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 113:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/pushToPopGray_buffercc/buffers_0[1]~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/pushToPopGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 114:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/pushToPopGray_buffercc/buffers_0[0]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/pushToPopGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 115:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/pushToPopGray_buffercc/buffers_0[2]~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/pushToPopGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 116:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/pushToPopGray_buffercc/buffers_0[3]~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/pushToPopGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 117:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/pushToPopGray_buffercc/buffers_0[4]~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/pushToPopGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 118:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/pushToPopGray_buffercc/buffers_0[1]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/pushToPopGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 119:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/pushToPopGray_buffercc/buffers_0[5]~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/pushToPopGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 120:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/pushToPopGray_buffercc/buffers_0[2]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/pushToPopGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 121:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/pushToPopGray_buffercc/buffers_0[6]~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/pushToPopGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 122:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/pushToPopGray_buffercc/buffers_0[3]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/pushToPopGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 123:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/pushToPopGray_buffercc/buffers_0[4]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/pushToPopGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 124:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/pushToPopGray_buffercc/buffers_0[5]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/pushToPopGray_buffercc_io_dataOut[5]~FF
+	Synchronizer 125:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/pushToPopGray_buffercc/buffers_0[6]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/pushToPopGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 126:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/controller_main/get_dqs_wr_start_p[2]~FF
+	Synchronizer 127:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/controller_main/ram_rd_ack_ap[2]~FF
+	Synchronizer 128:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/popToPushGray_buffercc/buffers_0[4]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/popToPushGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 129:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/popToPushGray_buffercc/buffers_0[6]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/popToPushGray_buffercc_io_dataOut[6]~FF
+	Synchronizer 130:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/popToPushGray_buffercc/buffers_0[1]~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/popToPushGray_buffercc_io_dataOut[1]~FF
+	Synchronizer 131:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/popToPushGray_buffercc/buffers_0[2]~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/popToPushGray_buffercc_io_dataOut[2]~FF
+	Synchronizer 132:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/popToPushGray_buffercc/buffers_0[0]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/popToPushGray_buffercc_io_dataOut[0]~FF
+	Synchronizer 133:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/popToPushGray_buffercc/buffers_0[3]~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/popToPushGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 134:  socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/popToPushGray_buffercc/buffers_0[4]~FF socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/popToPushGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 135:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/pushToPopGray_buffercc/buffers_0[3]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/pushToPopGray_buffercc_io_dataOut[3]~FF
+	Synchronizer 136:  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/pushToPopGray_buffercc/buffers_0[4]~FF inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/pushToPopGray_buffercc_io_dataOut[4]~FF
+	Synchronizer 137:  socInst/u_EfxSapphireSoc/bufferCC_12/buffers_0~FF socInst/u_EfxSapphireSoc/bufferCC_12_io_dataOut~FF
+	Synchronizer 138:  socInst/u_EfxSapphireSoc/bufferCC_13/buffers_0~FF socInst/u_EfxSapphireSoc/bufferCC_13_io_dataOut~FF
+	Synchronizer 139:  socInst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/system_rsp_payload_error~FF
+	Synchronizer 140:  socInst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/system_rsp_valid~FF
+Create F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/outflow\DDR3_MC_after_qp.qdelay
+QPLACER STATIC DB USAGE DISABLED
+NumRegions 1
+Starting Global Placer with 4 threads ...
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL Worst Slack (ps) Convergence
+ ----------     -------  --------------     -------
+          1    23385292            -148         1.4%
+          2    13149753            -148         3.2%
+          3     9028938            -272         5.7%
+          4     6106215            -145        11.2%
+          5     3636896            -337        17.1%
+          6     2528184            -236        28.2%
+          7     2195353            -200        32.9%
+          8     2008027            -116        37.5%
+          9     1920413            -305        40.6%
+         10     1890495            -284        41.4%
+         11     1866448            -141        41.9%
+         12     1778768            -296        42.7%
+         13     1721023            -152        44.5%
+         14     1669505            -309        47.2%
+         15     1657022            -309        47.2%
+         16     1594776            -318        49.2%
+         17     1571387            -263        51.9%
+         18     1672860            -284        51.9%
+         19     1658721            -147        51.9%
+         20     1629406            -224        52.6%
+         21     1610075            -199        53.1%
+         22     1461081             -93        61.0%
+         23     1462569            -244        61.2%
+         24     1497533            -202        61.2%
+         25     1446120            -335        62.4%
+         26     1463534            -104        62.4%
+         27     1419522            -238        64.4%
+         28     1382872            -104        66.8%
+         29     1327460            -237        71.6%
+         30     1323895            -293        72.1%
+         31     1325248            -227        72.7%
+         32     1324034             -68        73.3%
+         33     1316191            -293        74.6%
+         34     1316344            -262        76.1%
+         35     1318423            -249        77.4%
+         36     1328188            -249        77.4%
+         37     1314386            -304        79.7%
+         38     1307812            -401        81.5%
+         39     1302273            -295        82.3%
+         40     1298040            -316        82.9%
+         41     1298518            -322        83.8%
+         42     1300876            -357        84.5%
+         43     1298641            -462        85.7%
+         44     1301944            -350        85.8%
+         45     1317879            -359        85.8%
+         46     1308777            -382        88.1%
+         47     1314647            -451        88.1%
+         48     1318968            -323        88.1%
+         49     1301535            -319        89.8%
+         50     1690782            -361        89.8%
+         51     1415021            -367        92.9%
+         52     1392946            -523        93.2%
+         53     1507940            -658        93.2%
+         54     1377315            -572        94.0%
+         55     1357581            -534        95.3%
+         56     1353771            -534        95.3%
+         57     1374906            -450        95.3%
+         58     1454682            -689        95.3%
+         59     1453127            -599        95.3%
+Starting Annealer
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0     1374906            3417        30.0
+          1     1340033            3331        28.7
+          2     1316663            3144        26.6
+          3     1237219            3083        24.5
+          4     1198076            2960        22.4
+          5     1170073            2933        20.5
+          6     1147353            2871        18.7
+          7     1128498             382        17.0
+          8     1112370             380        15.5
+          9     1098155             387        14.1
+         10     1087785             387        12.8
+         11     1073249             382        11.6
+         12     1064084             380        10.5
+         13     1054738             372         9.5
+         14     1046094             352         8.6
+         15     1037701             352         7.8
+         16     1031225             352         7.0
+         17     1023777             390         6.3
+         18     1018810             385         5.7
+         19     1012261             385         5.1
+         20     1008407             385         4.6
+         21     1002941             385         4.2
+         22      999172             385         3.8
+         23      996093             385         3.4
+         24      993729             385         3.1
+         25      991503             385         2.8
+         26      990750             352         2.5
+         27      988606             352         2.2
+         28      987985             352         2.0
+         29      986168             352         1.8
+         30      985918             352         1.6
+         31      984817             352         1.5
+         32      983182             380         1.3
+Starting incremental timing annealer
+Starting incremental timing quench 1 with temperature 0.1 and 1 moves per pass
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0      981177             380        30.0
+          1      994807             380        26.8
+          2     1015712             380        24.0
+          3     1018661             380        21.4
+          4     1021356             380        19.2
+          5     1021609             380        17.1
+          6     1021511             380        15.3
+          7     1019750             380        13.7
+          8     1015652             380        12.2
+          9     1012240             371        10.9
+         10     1008904             352         9.7
+         11      998466             352         8.7
+Generate F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/outflow\DDR3_MC_after_qp.qdelay
+Placement successful: 35428 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.574059 at 89,233
+Congestion-weighted HPWL per net: 21.0389
+
+Reading placement constraints from 'F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/outflow/DDR3_MC.qplace'.
+Finished Realigning Types (7765 blocks needed type change)
+Run checks after placement.
+
+Completed placement consistency check successfully.
+Successfully created FPGA place file 'F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/outflow/DDR3_MC.place'
+Placement took 690.714 seconds.
+	Placement took 498.031 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 2203.76 MB, end = 2495.28 MB, delta = 291.524 MB
+	Placement peak virtual memory usage = 3040.25 MB
+Placement resident set memory usage: begin = 2109.4 MB, end = 2392.54 MB, delta = 283.14 MB
+	Placement peak resident set memory usage = 2894.61 MB
+***** Ending stage placement *****
+

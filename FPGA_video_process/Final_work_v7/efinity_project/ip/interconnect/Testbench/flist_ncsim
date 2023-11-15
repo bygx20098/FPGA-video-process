@@ -1,0 +1,7 @@
+ncsim/interconnect.v
+top.v
+efx_crc32.v
+efx_custom_master_model.v
+efx_custom_slave_model.v
+efx_fifo_top.ncsim.v
+tb.v

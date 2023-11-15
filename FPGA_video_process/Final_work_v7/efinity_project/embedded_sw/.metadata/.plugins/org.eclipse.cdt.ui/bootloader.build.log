@@ -1,0 +1,10 @@
+17:56:17 **** Build of configuration Default for project bootloader ****
+make all 
+CC src/main.c
+CC ../common/start.S
+LD bootloader
+Memory region         Used Size  Region Size  %age Used
+             ram:        1584 B         4 KB     38.67%
+
+17:56:18 Build Finished. 0 errors, 0 warnings. (took 553ms)
+

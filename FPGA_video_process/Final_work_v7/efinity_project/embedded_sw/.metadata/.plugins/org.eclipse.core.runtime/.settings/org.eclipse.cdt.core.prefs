@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+environment/workspace/BSP/delimiter=;
+environment/workspace/BSP/operation=prepend
+environment/workspace/BSP/value=efinix/EfxSapphireSoc
+environment/workspace/PATH/delimiter=;
+environment/workspace/PATH/operation=prepend
+environment/workspace/PATH/value=${eclipse_home}/../toolchain/bin;${eclipse_home}/../build_tools/bin
+environment/workspace/append=true
+environment/workspace/appendContributed=true

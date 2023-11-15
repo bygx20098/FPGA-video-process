@@ -1,0 +1,27 @@
+#Introduction
+-----------------------
+This is testbench template for Efinix SoC. Modelsim run script is provided. Modify run.py to change other simulator run script.
+
+#Dependencies
+-----------------------
+Modelsim (vsim)
+Efinity Python3
+
+#How to use
+-----------------------
+1. Source Efinity environment
+	a. In Windows, open command prompt: "${EFINITY_HOME}\bin\setup.bat
+	b. In Linux, open terminal: "source ${EFINITY_HOME}/bin/setup.sh"
+1. Execute run script to start run the simulation. : "python3 run.py"
+2. By default, simulation will run helloWorld application, a simple application that indicates SoC is alive.
+
+#How to target user app
+-----------------------
+1. Specify the bin file path through argument. E.g; python run.py --b ../../../embedded_sw/<soc>/software/standalone/uartEchoDemo/build/uartEchoDemo.bin
+2. You need to develop your own driver and monitor sequences in provided testbech if you target user application.
+
+#Note
+-----------------------
+1.  Sapphire SOC simulation bypass SPI flash offloading process, thus do not use soc_riscv.v_toplevel_system_ramA_logic_ram_symbol*.bin in "Testbench" folder for real hardware implementation.
+2.  Sapphire SOC is loading the application binary directly in RAM or to external memory.
+3.  If you are required to run simulation with SPI flash, please contact Efinix for support.

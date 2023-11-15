@@ -1,0 +1,9 @@
+Clock Domain Pair Hold Fix Requirements
+---------------------------------------
+driver_clock,	sink_clock,	excess_delay,	%_total_excess delay,	excess_delay_vs_base_min_delay,	hold_fix_requirements_are_high
+sys_clk,	jtag_inst1_TCK,	6781,	77.8%,	152.1%,	NO
+jtag_inst1_TCK,	jtag_inst1_TCK,	1180,	13.5%,	513.9%,	NO
+jtag_inst1_TCK,	sys_clk,	496,	5.7%,	236.8%,	NO
+sys_clk,	sys_clk,	221,	2.5%,	38.3%,	NO
+tac_clk,	jtag_inst1_TCK,	33,	0.4%,	28.3%,	NO
+tac_clk,	sys_clk,	6,	0.1%,	5.4%,	NO

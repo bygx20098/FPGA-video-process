@@ -1,0 +1,7 @@
+**** Efinity Programming Tool Generation Report *****
+Time: 2023-11-10 17:51
+
+Generated FPGA Soc Image output file: F:\FPGA_PRJ\YLS\inf_riscv_interconnect_v6_2_test\efinity_project\outflow\sad.hex
+Flash Address  Length      Input Image File
+0x00000000     0x000034da  F:/FPGA_PRJ/YLS/soc_from_copy/Nearest_interpolation_transplantion/efinity_project/embedded_sw/soc_test_2/software/standalone/fpuDemo/build/fpuDemo.bin
+

@@ -1,0 +1,364 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.1.150.1.5 
+Date: Sat Nov 11 14:14:48 2023
+
+Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+ 
+Family: Titanium 
+Device: Ti60F225
+Top-level Entity Name: DDR3_MC
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- Resource Summary (begin) ----------
+Inputs: 100 / 1703 (5.87%)
+Outputs: 275 / 2267 (12.13%)
+Global Clocks (GBUF): 16 / 32 (50.00%)
+Regional Clocks (RBUF): 1 / 32 (3.12%)
+	RBUF: Core: 0 / 16 (0.00%)
+	RBUF: Periphery: 1 / 8 (12.50%)
+	RBUF: Multi-Region: 0 / 8 (0.00%)
+XLRs: 35173 / 60800 (57.85%)
+	XLRs needed for Logic: 12791 / 60800 (21.04%)
+	XLRs needed for Logic + FF: 7588 / 60800 (12.48%)
+	XLRs needed for Adder: 3010 / 60800 (4.95%)
+	XLRs needed for Adder + FF: 1975 / 60800 (3.25%)
+	XLRs needed for FF: 9280 / 60800 (15.26%)
+	XLRs needed for SRL8: 529 / 14720 (3.59%)
+	XLRs needed for SRL8+FF: 0 / 14720 (0.00%)
+	XLRs needed for Routing: 0 / 60800 (0.00%)
+Memory Blocks: 201 / 256 (78.52%)
+DSP Blocks: 52 / 160 (32.50%)
+---------- Resource Summary (end) ----------
+
+
+---------- DSP Packer Summary (begin) ----------
+
+	DSP48 blocks required to legally pack design: 52
+	DSP48 blocks recoverable by optimizing:
+		-> DSP24/12 control signals & parameters: 0
+	Best case scenario DSP count after optimizing: 52
+
+---------- DSP Packer Summary (end) ----------
+
+
+---------- DSP48 Block Information (begin) ----------
+
++-------------------------------------------------------------+--------+--------+---------+-------+--------------+-------+-------------+
+|                            NAME                             |  MODE  | SIGNED | SHIFTER | M_SEL |    N_SEL     | W_SEL | CASCOUT_SEL |
++-------------------------------------------------------------+--------+--------+---------+-------+--------------+-------+-------------+
+|                      i35/inst2/mult_4                       | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                      i35/inst2/mult_12                      | NORMAL | false  |  false  |   P   |      C       |   X   |      P      |
+|                      i35/inst2/mult_16                      | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                   bilinear_inst/mult_139                    | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                   bilinear_inst/mult_140                    | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                   bilinear_inst/mult_141                    | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                   bilinear_inst/mult_142                    | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                 bilinear_inst/n2134_pp_0x0                  | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                 bilinear_inst/n2177_pp_0x0                  | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                 bilinear_inst/n2220_pp_0x0                  | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                 bilinear_inst/n2263_pp_0x0                  | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                 bilinear_inst/n2306_pp_0x0                  | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                 bilinear_inst/n2349_pp_0x0                  | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                 bilinear_inst/n2392_pp_0x0                  | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                 bilinear_inst/n2435_pp_0x0                  | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                 bilinear_inst/n2478_pp_0x0                  | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                 bilinear_inst/n2521_pp_0x0                  | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                 bilinear_inst/n2564_pp_0x0                  | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                 bilinear_inst/n2607_pp_0x0                  | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                 bilinear_inst/n2134_pp_1x0                  | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+|                 bilinear_inst/n2177_pp_1x0                  | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+|                 bilinear_inst/n2220_pp_1x0                  | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+|                 bilinear_inst/n2263_pp_1x0                  | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+|                 bilinear_inst/n2306_pp_1x0                  | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+|                 bilinear_inst/n2349_pp_1x0                  | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+|                 bilinear_inst/n2392_pp_1x0                  | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+|                 bilinear_inst/n2435_pp_1x0                  | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+|                 bilinear_inst/n2478_pp_1x0                  | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+|                 bilinear_inst/n2521_pp_1x0                  | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+|                 bilinear_inst/n2564_pp_1x0                  | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+|                 bilinear_inst/n2607_pp_1x0                  | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+|         u_frame_buffer_ch0/u_ddr_tx_buffer/mult_32          | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|             u_frame_buffer_ch0/u_bank_sw/mult_3             | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|     socInst/u_EfxSapphireSoc/system_fpu_logic/mult_2396     | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|     socInst/u_EfxSapphireSoc/system_fpu_logic/mult_2397     | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|     socInst/u_EfxSapphireSoc/system_fpu_logic/mult_2398     | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|     socInst/u_EfxSapphireSoc/system_fpu_logic/mult_2399     | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|     socInst/u_EfxSapphireSoc/system_fpu_logic/mult_2400     | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|     socInst/u_EfxSapphireSoc/system_fpu_logic/mult_2401     | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|     socInst/u_EfxSapphireSoc/system_fpu_logic/mult_2402     | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|     socInst/u_EfxSapphireSoc/system_fpu_logic/mult_2403     | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|     socInst/u_EfxSapphireSoc/system_fpu_logic/mult_2404     | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+| socInst/u_EfxSapphireSoc/system_cores_0_logic_cpu/mult_2666 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+| socInst/u_EfxSapphireSoc/system_cores_0_logic_cpu/mult_2667 | NORMAL |  true  |  false  |   P   |      C       |   P   |      P      |
+| socInst/u_EfxSapphireSoc/system_cores_0_logic_cpu/mult_2668 | NORMAL |  true  |  false  |   P   |      C       |   P   |      P      |
+| socInst/u_EfxSapphireSoc/system_cores_0_logic_cpu/mult_2669 | NORMAL |  true  |  false  |   P   |      C       |   P   |      P      |
++-------------------------------------------------------------+--------+--------+---------+-------+--------------+-------+-------------+
+
+----------- DSP48 Block Information (end) ----------
+
+
+---------- DSP24 Block Information (begin) ----------
+
++-------------------+--------+---------+-------+--------+-------+-------------+----------------+------------------+
+|       NAME        | SIGNED | SHIFTER | M_SEL | N_SEL  | W_SEL | CASCOUT_SEL | CTL_SIG_SET_ID | PARAMETER_SET_ID |
++-------------------+--------+---------+-------+--------+-------+-------------+----------------+------------------+
+| i34/inst1/mult_6  | false  |  false  |   P   |   C    |   P   |      P      |       0        |        0         |
+| i34/inst1/mult_12 | false  |  false  |   P   |   C    |   P   |      P      |       0        |        1         |
+| i34/inst1/mult_11 | false  |  false  |   P   |   C    |   P   |      P      |       0        |        1         |
+| i34/inst1/mult_13 | false  |  false  |   P   |   C    |   P   |      P      |       0        |        1         |
+| i34/inst1/mult_18 | false  |  false  |   P   |   C    |   P   |      P      |       0        |        0         |
+| i34/inst1/mult_5  | false  |  false  |   P   |   C    |   P   |      P      |       0        |        1         |
+| i35/inst2/mult_11 | false  |  false  |   P   |   C    |   P   |      P      |       1        |        2         |
+| i35/inst2/mult_17 | false  |  false  |   P   |   C    |   P   |      P      |       1        |        2         |
+| i34/inst1/mult_4  | false  |  false  |   P   | CASCIN |   X   |      P      |       0        |        3         |
++-------------------+--------+---------+-------+--------+-------+-------------+----------------+------------------+
+* DSP24/DSP12 that share a CTL_SIG_SET_ID have identical control signals (CE, CLK, etc).
+* DSP24/DSP12 that share a PARAMETER_SET_ID have identical netlist parameters (DSP mode, registers, polarity, etc).
+* If fractured DSP primitives share both CTL_SIG_SET_ID and PARAMETER_SET_ID, they can be legally packed together.
+* See output file dsp_control_sets.csv for detailed breakdown. 
+
+----------- DSP24 Block Information (end) ----------
+
+
+---------- Simple Dual Port RAM Information (begin) ----------
+
++------------------------------------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+|                                                          NAME                                                          | MODE | READ_WIDTH | WRITE_WIDTH |  WRITE_MODE  | OUTPUT_REG |
++------------------------------------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+|                                          u_hdmi_rx/u_simple_dual_port_ram/ram                                          | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                        u_dvi_decoder/u_tmds_decoder_0/u_channelbond/u_simple_dual_port_ram/ram                         | SDP  |     10     |     10      |  READ_FIRST  |    true    |
+|                        u_dvi_decoder/u_tmds_decoder_1/u_channelbond/u_simple_dual_port_ram/ram                         | SDP  |     10     |     10      |  READ_FIRST  |    true    |
+|                        u_dvi_decoder/u_tmds_decoder_2/u_channelbond/u_simple_dual_port_ram/ram                         | SDP  |     10     |     10      |  READ_FIRST  |    true    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_blue/mem__D$b12                            | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|                            rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_blue/mem__D$12                            | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|                             rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_red/mem__D$12                             | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|                            rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_green/mem__D$2                            | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_green/mem__D$b12                           | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|                            rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_blue/mem__D$2                             | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_green/mem__D$12                            | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|                          rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_green/mem_3__D$b12                           | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_red/mem_3__D$b12                            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                            rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_red/mem__D$b12                             | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|                            rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_green/mem__D$c1                            | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|                            rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_green/mem__D$12                            | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|                            rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_green/mem__D$2                             | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_green/mem__D$b12                            | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|                          rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_green/mem_3__D$b12                          | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_red/mem_2__D$b12                           | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_red/mem_2__D$12                            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                            rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_red/mem_3__D$2                            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_red/mem_3__D$12                            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_red/mem_2__D$c1                            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_red/mem_2__D$b12                            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_red/mem_3__D$c1                            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                            rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_red/mem_2__D$2                            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                            rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_red/mem_2__D$12                            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                            rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_red/mem_3__D$2                             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                            rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_red/mem_3__D$12                            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                            rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_red/mem_2__D$c1                            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                          rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_green/mem_2__D$b12                          | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                            rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_red/mem_3__D$c1                            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                            rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_red/mem_2__D$2                             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                          rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_green/mem_2__D$12                           | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_green/mem_3__D$2                           | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                          rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_green/mem_3__D$12                           | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                          rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_green/mem_2__D$c1                           | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                          rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_green/mem_2__D$b12                           | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                          rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_green/mem_3__D$c1                           | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_green/mem_2__D$2                           | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_green/mem_2__D$12                           | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_green/mem_3__D$2                            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_green/mem_3__D$12                           | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_green/mem_2__D$c1                           | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                          rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_blue/mem_2__D$b12                           | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_green/mem_3__D$c1                           | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_green/mem_2__D$2                            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_blue/mem_2__D$12                           | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                             rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_red/mem__D$2                              | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_blue/mem_3__D$2                            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_blue/mem_3__D$12                           | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_blue/mem_2__D$c1                           | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_blue/mem_2__D$b12                           | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                             rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_blue/mem__D$2                             | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_blue/mem_3__D$c1                           | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_blue/mem_2__D$2                            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_blue/mem_2__D$12                            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                            rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_blue/mem_3__D$2                            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_blue/mem_3__D$12                            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_blue/mem_2__D$c1                            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_blue/mem_3__D$c1                            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                            rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_blue/mem_2__D$2                            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$m12                              | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$p12                              | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$o12                              | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$l12                              | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$n12                              | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$12                               | SDP  |     4      |      4      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$b12                              | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$j12                              | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                               u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$2                               | SDP  |     4      |      4      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$i12                              | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$h12                              | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$g12                              | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$f12                              | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$e12                              | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$d12                              | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$c12                              | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$k12                              | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$q12                              | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$r12                              | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$s12                              | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$t12                              | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$u12                              | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$v12                              | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$w12                              | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$x12                              | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$y1                               | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_tx_buffer/u_wr_fifo/FifoBuff__D$12                               | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_tx_buffer/u_wr_fifo/FifoBuff__D$e12                              | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_tx_buffer/u_wr_fifo/FifoBuff__D$b12                              | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_tx_buffer/u_wr_fifo/FifoBuff__D$f1                               | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_tx_buffer/u_wr_fifo/FifoBuff__D$d12                              | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|                              u_frame_buffer_ch0/u_ddr_tx_buffer/u_wr_fifo/FifoBuff__D$c12                              | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|                               u_frame_buffer_ch0/u_ddr_tx_buffer/u_wr_fifo/FifoBuff__D$2                               | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_blue/mem_3__D$b12                           | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                            u_frame_buffer_ch0/u_ddr_tx_buffer/u_data_tx/u_rd_fifo/FifoBuff                             | SDP  |     16     |     16      |  READ_FIRST  |   false    |
+|                            rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_blue/mem__D$c1                             | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|                            rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_blue/mem__D$12                             | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|                            rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_blue/mem__D$b12                            | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|                          rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_blue/mem_3__D$b12                           | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_green/mem__D$c1                            | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|                           rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_red/mem_3__D$b12                           | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                     inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/ram__D$2                     | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|                     inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/ram__D$2                     | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|                     inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/ram__D$1                     | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|                     inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/ram__D$2                     | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|                     inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/ram__D$1                     | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|                    inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/ram__D$12                     | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|                    inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/ram__D$b12                    | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|                    inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/ram__D$c12                    | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|                    inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/ram__D$d12                    | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|                    inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/ram__D$e12                    | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|                    inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/ram__D$f12                    | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|                    inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/ram__D$g1                     | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|                       inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/ram                       | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                     inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/ram__D$2                     | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|                    inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/ram__D$12                     | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|                    inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/ram__D$b12                    | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|                    inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/ram__D$c12                    | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|                    inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/ram__D$d12                    | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|                    inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/ram__D$e12                    | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|                    inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/ram__D$f1                     | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|                     inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/ram__D$2                     | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|                    inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/ram__D$12                     | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|                    inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/ram__D$b1                     | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|            inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/controller_main/map_ram/ram__D$c1             | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|            inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/controller_main/map_ram/ram__D$b12            | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|            inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/controller_main/map_ram/ram__D$12             | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|             inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/controller_main/map_ram/ram__D$2             | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|                                socInst/u_EfxSapphireSoc/system_fpu_logic/rf_ram_3__D$c1                                | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                                socInst/u_EfxSapphireSoc/system_fpu_logic/rf_ram_2__D$12                                | SDP  |     20     |     20      |  READ_FIRST  |   false    |
+|                               socInst/u_EfxSapphireSoc/system_fpu_logic/rf_ram_3__D$b12                                | SDP  |     20     |     20      |  READ_FIRST  |   false    |
+|                                 socInst/u_EfxSapphireSoc/system_fpu_logic/rf_ram__D$12                                 | SDP  |     20     |     20      |  READ_FIRST  |   false    |
+|                               socInst/u_EfxSapphireSoc/system_fpu_logic/rf_ram_2__D$b12                                | SDP  |     20     |     20      |  READ_FIRST  |   false    |
+|                                socInst/u_EfxSapphireSoc/system_fpu_logic/rf_ram_3__D$12                                | SDP  |     20     |     20      |  READ_FIRST  |   false    |
+|                                socInst/u_EfxSapphireSoc/system_fpu_logic/rf_ram_2__D$2                                 | SDP  |     20     |     20      |  READ_FIRST  |   false    |
+|                                socInst/u_EfxSapphireSoc/system_fpu_logic/rf_ram_2__D$c1                                | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                                 socInst/u_EfxSapphireSoc/system_fpu_logic/rf_ram__D$2                                  | SDP  |     20     |     20      |  READ_FIRST  |   false    |
+|                                socInst/u_EfxSapphireSoc/system_fpu_logic/rf_ram__D$b12                                 | SDP  |     20     |     20      |  READ_FIRST  |   false    |
+|                                 socInst/u_EfxSapphireSoc/system_fpu_logic/rf_ram__D$c1                                 | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                                socInst/u_EfxSapphireSoc/system_fpu_logic/rf_ram_3__D$2                                 | SDP  |     20     |     20      |  READ_FIRST  |   false    |
+|                     socInst/u_EfxSapphireSoc/system_cores_0_logic_cpu/RegFilePlugin_regFile_2__D$2                     | SDP  |     16     |     16      |  READ_FIRST  |   false    |
+|                     socInst/u_EfxSapphireSoc/system_cores_0_logic_cpu/RegFilePlugin_regFile_2__D$1                     | SDP  |     16     |     16      |  READ_FIRST  |   false    |
+|                      socInst/u_EfxSapphireSoc/system_cores_0_logic_cpu/RegFilePlugin_regFile__D$1                      | SDP  |     16     |     16      |  READ_FIRST  |   false    |
+|                      socInst/u_EfxSapphireSoc/system_cores_0_logic_cpu/RegFilePlugin_regFile__D$2                      | SDP  |     16     |     16      |  READ_FIRST  |   false    |
+|                 socInst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/banks_0__D$12                 | SDP  |     16     |     16      |  READ_FIRST  |   false    |
+|                 socInst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/banks_0__D$2                  | SDP  |     16     |     16      |  READ_FIRST  |   false    |
+|               socInst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/ways_0_tags__D$1                | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|               socInst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/ways_0_tags__D$2                | SDP  |     16     |     16      |  READ_FIRST  |   false    |
+|                   socInst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/ways_0_data_symbol1                    | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                socInst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/banks_0__D$b12                 | SDP  |     16     |     16      |  READ_FIRST  |   false    |
+|                 socInst/u_EfxSapphireSoc/system_cores_0_logic_cpu/IBusCachedPlugin_cache/banks_0__D$c1                 | SDP  |     16     |     16      |  READ_FIRST  |   false    |
+|                     socInst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/ways_0_tags__D$1                     | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                     socInst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/ways_0_tags__D$2                     | SDP  |     16     |     16      |  READ_FIRST  |   false    |
+|                   socInst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/ways_0_data_symbol2                    | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                   socInst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/ways_0_data_symbol3                    | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                   socInst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/ways_0_data_symbol4                    | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                   socInst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/ways_0_data_symbol5                    | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                   socInst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/ways_0_data_symbol6                    | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                   socInst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/ways_0_data_symbol7                    | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                   socInst/u_EfxSapphireSoc/system_cores_0_logic_cpu/dataCache_1/ways_0_data_symbol0                    | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                      socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/ram__D$2                       | SDP  |     16     |     16      |  READ_FIRST  |   false    |
+|                      socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/ram__D$12                      | SDP  |     16     |     16      |  READ_FIRST  |   false    |
+|                      socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/ram__D$2                      | SDP  |     16     |     16      |  READ_FIRST  |   false    |
+|                     socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/ram__D$b12                      | SDP  |     20     |     20      |  READ_FIRST  |   false    |
+|                     socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/ram__D$c12                      | SDP  |     20     |     20      |  READ_FIRST  |   false    |
+|                     socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/ram__D$d12                      | SDP  |     20     |     20      |  READ_FIRST  |   false    |
+|                     socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/ram__D$e12                      | SDP  |     20     |     20      |  READ_FIRST  |   false    |
+|                     socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/ram__D$f12                      | SDP  |     20     |     20      |  READ_FIRST  |   false    |
+|                     socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/ram__D$g12                      | SDP  |     20     |     20      |  READ_FIRST  |   false    |
+|                     socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/ram__D$h12                      | SDP  |     20     |     20      |  READ_FIRST  |   false    |
+|                      socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_input_cmd_queue/ram__D$i1                      | SDP  |     20     |     20      |  READ_FIRST  |   false    |
+|                     socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/ram__D$12                      | SDP  |     16     |     16      |  READ_FIRST  |   false    |
+|                     socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/ram__D$b12                     | SDP  |     16     |     16      |  READ_FIRST  |   false    |
+|                     socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/ram__D$c12                     | SDP  |     20     |     20      |  READ_FIRST  |   false    |
+|                     socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/ram__D$d12                     | SDP  |     20     |     20      |  READ_FIRST  |   false    |
+|                     socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/ram__D$e12                     | SDP  |     20     |     20      |  READ_FIRST  |   false    |
+|                     socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/ram__D$f12                     | SDP  |     20     |     20      |  READ_FIRST  |   false    |
+|                     socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_cc/io_output_rsp_queue/ram__D$g1                      | SDP  |     10     |     10      |  READ_FIRST  |   false    |
+|                socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_bmbToAxiBridge/writeCmdInfo_fifo/logic_ram                 | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                 socInst/u_EfxSapphireSoc/system_ddr_ddrLogic_bmbToAxiBridge/readCmdInfo_fifo/logic_ram                 | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                                 socInst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1                                 | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                                 socInst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2                                 | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                                 socInst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3                                 | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                                 socInst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol4                                 | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                                 socInst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol5                                 | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                                 socInst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol6                                 | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                                 socInst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol7                                 | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                                 socInst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0                                 | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|       socInst/u_EfxSapphireSoc/system_uart_0_io_logic/bridge_write_streamUnbuffered_queueWithOccupancy/logic_ram       | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+| socInst/u_EfxSapphireSoc/system_uart_0_io_logic/system_uart_0_io_logic_uartCtrl_1_io_read_queueWithOccupancy/logic_ram | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                            rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_blue/mem__D$c1                            | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|    socInst/u_EfxSapphireSoc/system_spi_0_io_logic/mapping_cmdLogic_streamUnbuffered_queueWithAvailability/logic_ram    | SDP  |     16     |     16      |  READ_FIRST  |   false    |
+|     socInst/u_EfxSapphireSoc/system_spi_0_io_logic/system_spi_0_io_logic_ctrl_io_rsp_queueWithOccupancy/logic_ram      | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|                             rgb_bram_top_inst/bram_asymmetric_r2_w1_port_odd_red/mem__D$c1                             | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|                            rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_red/mem__D$c1                             | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|                            rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_red/mem__D$12                             | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|                            rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_red/mem__D$b12                            | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|                             rgb_bram_top_inst/bram_asymmetric_r2_w1_port_even_red/mem__D$2                             | SDP  |     2      |      2      |  READ_FIRST  |   false    |
++------------------------------------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+
+----------- Simple Dual Port RAM Information (end) ----------
+
+
+---------- IO Interface Summary (begin) ----------
+
++------------------------+--------------+
+| Missing Interface Pins | Input/Output |
++------------------------+--------------+
+|   pll_inst4_CLKOUT0    |    Input     |
+|        clk_10m         |    Input     |
+|     i_sysclk_div_2     |    Input     |
+|        clk_125m        |    Input     |
++------------------------+--------------+
+
+----------- IO Interface Summary (end) ----------
+
+
+---------- IO Placement Summary (begin) ----------
+
++----------------------+--------------+
+| Unassigned Core Pins | Input/Output |
++----------------------+--------------+
+|    o_dqs_n_hi[1]     |    Output    |
+|    o_dqs_n_hi[0]     |    Output    |
+|    o_dqs_n_lo[1]     |    Output    |
+|    o_dqs_n_lo[0]     |    Output    |
+|  memoryCheckerPass   |    Output    |
+|    systemClk_rstn    |    Output    |
++----------------------+--------------+
+
+----------- IO Placement Summary (end) ----------
+
+Elapsed time for placement: 0 hours 11 minutes 30 seconds

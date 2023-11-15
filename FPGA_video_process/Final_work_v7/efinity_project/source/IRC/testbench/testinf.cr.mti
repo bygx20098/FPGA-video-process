@@ -1,0 +1,36 @@
+F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/testbench/tb_inf.v {1 {vlog -work work -vopt -stats=none F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/testbench/tb_inf.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module tb_inf
+
+Top level modules:
+	tb_inf
+
+} {} {}} F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/inf_rev.v {1 {vlog -work work -vopt -stats=none F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/inf_rev.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module inf_rev
+
+Top level modules:
+	inf_rev
+
+} {} {}} F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/inf_control.v {1 {vlog -work work -vopt -stats=none F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/inf_control.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module inf_control
+
+Top level modules:
+	inf_control
+
+} {} {}} F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/led_ctrl.v {1 {vlog -work work -vopt -stats=none F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/led_ctrl.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module led_ctrl
+
+Top level modules:
+	led_ctrl
+
+} {} {}} F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/edge_gen.v {1 {vlog -work work -vopt -stats=none F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/edge_gen.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module edge_gen
+
+Top level modules:
+	edge_gen
+
+} {} {}}

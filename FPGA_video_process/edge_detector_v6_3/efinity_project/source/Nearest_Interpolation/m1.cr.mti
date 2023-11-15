@@ -1,0 +1,29 @@
+F:/FPGA_PRJ/YLS/edge_detector_v6_3/efinity_project/source/Nearest_Interpolation/sim/testbench.sv {1 {vlog -work work -vopt -sv -stats=none F:/FPGA_PRJ/YLS/edge_detector_v6_3/efinity_project/source/Nearest_Interpolation/sim/testbench.sv
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} F:/FPGA_PRJ/YLS/edge_detector_v6_3/efinity_project/source/Nearest_Interpolation/src/bram_asymmetric_r2_w1_port.v {1 {vlog -work work -vopt -stats=none F:/FPGA_PRJ/YLS/edge_detector_v6_3/efinity_project/source/Nearest_Interpolation/src/bram_asymmetric_r2_w1_port.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module bram_asymmetric_r2_w1_port
+
+Top level modules:
+	bram_asymmetric_r2_w1_port
+
+} {} {}} F:/FPGA_PRJ/YLS/edge_detector_v6_3/efinity_project/source/Nearest_Interpolation/src/advanced_edge_interpolation.v {1 {vlog -work work -vopt -stats=none F:/FPGA_PRJ/YLS/edge_detector_v6_3/efinity_project/source/Nearest_Interpolation/src/advanced_edge_interpolation.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module advanced_edge_interpolation
+
+Top level modules:
+	advanced_edge_interpolation
+
+} {} {}} F:/FPGA_PRJ/YLS/edge_detector_v6_3/efinity_project/source/Nearest_Interpolation/src/asyn_fifo.v {1 {vlog -work work -vopt -stats=none F:/FPGA_PRJ/YLS/edge_detector_v6_3/efinity_project/source/Nearest_Interpolation/src/asyn_fifo.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module asyn_fifo
+
+Top level modules:
+	asyn_fifo
+
+} {} {}}

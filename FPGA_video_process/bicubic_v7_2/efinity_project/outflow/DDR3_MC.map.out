@@ -1,0 +1,869 @@
+[EFX-0000 INFO] Efinix FPGA Synthesis.
+[EFX-0000 INFO] Version: 2023.1.150.1.5
+[EFX-0000 INFO] Compiled: Jun 23 2023.
+[EFX-0000 INFO] 
+[EFX-0000 INFO] Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+
+-- Analyzing Verilog file 'C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(8): INFO: compiling module 'EFX_IBUF' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(16): INFO: compiling module 'EFX_OBUF' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(23): INFO: compiling module 'EFX_IO_BUF' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(33): INFO: compiling module 'EFX_CLKOUT' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(41): INFO: compiling module 'EFX_IREG' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(51): INFO: compiling module 'EFX_OREG' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(60): INFO: compiling module 'EFX_IOREG' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(75): INFO: compiling module 'EFX_IDDIO' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(87): INFO: compiling module 'EFX_ODDIO' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(99): INFO: compiling module 'EFX_GPIO_V1' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(118): INFO: compiling module 'EFX_PLL_V1' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(136): INFO: compiling module 'EFX_OSC_V1' (VERI-1018)
+INFO: Read project database "F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_v5_1/efinity_project/DDR3_MC.xml"
+INFO: ***** Beginning Analysis ... *****
+INFO: default VHDL library search path is now "C:/Efinity/2023.1/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+-- Analyzing Verilog file 'C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+-- Analyzing Verilog file 'C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_axi.v' (VERI-1482)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_axi.v(1): INFO: analyzing included file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3/ddr3_controller.vh' (VERI-1328)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_axi.v(1): INFO: back to file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_axi.v' (VERI-2320)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v' (VERI-1482)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(250): INFO: analyzing included file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3/ddr3_controller.vh' (VERI-1328)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(250): INFO: back to file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v' (VERI-2320)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): INFO: undeclared symbol '**', assumed default net type '**' (VERI-2561)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): INFO: undeclared symbol '**', assumed default net type '**' (VERI-2561)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(559): INFO: analyzing included file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3/ddr3_controller.vh' (VERI-1328)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(559): INFO: back to file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v' (VERI-2320)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(1541): INFO: analyzing included file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3/ddr3_controller.vh' (VERI-1328)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(1541): INFO: back to file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v' (VERI-2320)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(1857): INFO: analyzing included file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3/ddr3_controller.vh' (VERI-1328)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(1857): INFO: back to file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v' (VERI-2320)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v' (VERI-1482)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v(1): INFO: analyzing included file 'ddr3_controller.vh' (VERI-1328)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v(1): INFO: back to file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v' (VERI-2320)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v(433): INFO: undeclared symbol 'tx_r', assumed default net type 'wire' (VERI-2561)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v(434): INFO: undeclared symbol 'tx_g', assumed default net type 'wire' (VERI-2561)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v(435): INFO: undeclared symbol 'tx_b', assumed default net type 'wire' (VERI-2561)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v(436): INFO: undeclared symbol 'tx_hs', assumed default net type 'wire' (VERI-2561)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v(437): INFO: undeclared symbol 'tx_vs', assumed default net type 'wire' (VERI-2561)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v(438): INFO: undeclared symbol 'tx_de', assumed default net type 'wire' (VERI-2561)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v(745): INFO: undeclared symbol 'Axi0Clk', assumed default net type 'wire' (VERI-2561)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v(746): INFO: undeclared symbol 'axi0_rst_n', assumed default net type 'wire' (VERI-2561)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\Source\memory_checker_axi.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\phasealign_v1.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\dvi_decoder.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\syncbase.v' (VERI-1482)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\syncbase.v(34): WARNING: redeclaration of ANSI port 'oout' is not allowed (VERI-1372)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\frame_bitslip.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\i2c_edid.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\tmds_decoder.v' (VERI-1482)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\tmds_decoder.v(44): WARNING: redeclaration of ANSI port 'pc0' is not allowed (VERI-1372)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\tmds_decoder.v(45): WARNING: redeclaration of ANSI port 'pc1' is not allowed (VERI-1372)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\tmds_decoder.v(46): WARNING: redeclaration of ANSI port 'pvde' is not allowed (VERI-1372)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\tmds_decoder.v(47): WARNING: redeclaration of ANSI port 'pdatain' is not allowed (VERI-1372)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\tmds_decoder.v(48): WARNING: redeclaration of ANSI port 'peyesize' is not allowed (VERI-1372)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\decoder.v' (VERI-1482)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\decoder.v(44): WARNING: redeclaration of ANSI port 'pdatain' is not allowed (VERI-1372)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\decoder.v(45): WARNING: redeclaration of ANSI port 'pc0' is not allowed (VERI-1372)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\decoder.v(46): WARNING: redeclaration of ANSI port 'pc1' is not allowed (VERI-1372)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\decoder.v(47): WARNING: redeclaration of ANSI port 'pvde' is not allowed (VERI-1372)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_src\dvi_tx\encode.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_src\dvi_tx\dvi_encoder.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_src\dvi_tx\serdes_4b_10to1.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_src\dvi_rx\hdmi_rx.v' (VERI-1482)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_src\dvi_rx\hdmi_rx.v(46): INFO: undeclared symbol 'rx_hpd', assumed default net type 'wire' (VERI-2561)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_src\dvi_rx\simple_dual_port_ram.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_src\dvi_rx\I2Cslave.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\channelbond.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\ddr_rx_buffer.v' (VERI-1482)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\ddr_rx_buffer.v(124): INFO: undeclared symbol 'fifo_wrusedw', assumed default net type 'wire' (VERI-2561)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\ddr_rx_buffer.v(129): INFO: undeclared symbol 'fifo_rd_en', assumed default net type 'wire' (VERI-2561)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\ddr_rx_buffer.v(131): INFO: undeclared symbol 'fifo_rd_empty', assumed default net type 'wire' (VERI-2561)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\Axi4FullDeplex.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\DdrWrCtrl.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\ddr_tx_buffer.v' (VERI-1482)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\ddr_tx_buffer.v(435): INFO: undeclared symbol 'fifo_rd_en', assumed default net type 'wire' (VERI-2561)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\DdrRdCtrl.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\Ddr_Ctrl_Sc_Fifo.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\frame_buffer.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\rst_n_piple.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\vid_rx_align.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\frame_info_det.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\DC_FIFO.v' (VERI-1482)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\DC_FIFO.v(743): WARNING: parameter 'TCo_C' becomes localparam in 'GrayDecode' with formal parameter declaration list (VERI-1199)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\data_tx.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\bank_switch.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\RGB_YCbCr_YC\rgb_to_ycbcr.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\RGB_YCbCr_YC\my_rgb_to_yuv422.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\RGB_YCbCr_YC\my_yuv422_to_rgb.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\RGB_YCbCr_YC\ycbcr_to_rgb.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\RGB_YCbCr_YC\yuv422_2_ycbcr444.v' (VERI-1482)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\RGB_YCbCr_YC\yuv422_2_ycbcr444.v(52): WARNING: redeclaration of ANSI port 'o_v_sync' is not allowed (VERI-1372)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\RGB_YCbCr_YC\yuv422_2_ycbcr444.v(53): WARNING: redeclaration of ANSI port 'o_h_sync' is not allowed (VERI-1372)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\RGB_YCbCr_YC\yuv422_2_ycbcr444.v(54): WARNING: redeclaration of ANSI port 'o_de' is not allowed (VERI-1372)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\RGB_YCbCr_YC\yuv422_2_ycbcr444.v(62): WARNING: redeclaration of ANSI port 'y_out' is not allowed (VERI-1372)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\RGB_YCbCr_YC\VIP_RGB888_YCbCr444.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\RGB_YCbCr_YC\yuv444_yuv422.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\bicubic_interpolation.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\mul_add_2.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\BiCubic_x1.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\BiCubic_y0.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\BiCubic_y3.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\BiCubic_y2.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\mul_3.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\BiCubic.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\BiCubic_x0.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\mul_4.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\mul_add_1.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\BiCubic_x3.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\coefficient.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\BiCubic_x2.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\BiCubic_y1.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\mul_2.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\asyn_fifo.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\bram_asymmetric_r2_w1_port.v' (VERI-1482)
+-- Analyzing Verilog file 'F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\high_speed_ram_controller.v' (VERI-1482)
+-- Analyzing Verilog file 'F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_v5_1/efinity_project\ip/efx_ddr3_axi_1\efx_ddr3_axi_1.v' (VERI-1482)
+F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_v5_1/efinity_project\ip/efx_ddr3_axi_1\efx_ddr3_axi_1.v(244): INFO: analyzing included file 'ddr3_controller.vh' (VERI-1328)
+F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_v5_1/efinity_project\ip/efx_ddr3_axi_1\efx_ddr3_axi_1.v(244): INFO: back to file 'F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_v5_1/efinity_project\ip/efx_ddr3_axi_1\efx_ddr3_axi_1.v' (VERI-2320)
+F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_v5_1/efinity_project\ip/efx_ddr3_axi_1\efx_ddr3_axi_1.v(0): INFO: undeclared symbol '**', assumed default net type '**' (VERI-2561)
+F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_v5_1/efinity_project\ip/efx_ddr3_axi_1\efx_ddr3_axi_1.v(0): INFO: undeclared symbol '**', assumed default net type '**' (VERI-2561)
+F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_v5_1/efinity_project\ip/efx_ddr3_axi_1\efx_ddr3_axi_1.v(553): INFO: analyzing included file 'ddr3_controller.vh' (VERI-1328)
+F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_v5_1/efinity_project\ip/efx_ddr3_axi_1\efx_ddr3_axi_1.v(553): INFO: back to file 'F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_v5_1/efinity_project\ip/efx_ddr3_axi_1\efx_ddr3_axi_1.v' (VERI-2320)
+F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_v5_1/efinity_project\ip/efx_ddr3_axi_1\efx_ddr3_axi_1.v(1536): INFO: analyzing included file 'ddr3_controller.vh' (VERI-1328)
+F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_v5_1/efinity_project\ip/efx_ddr3_axi_1\efx_ddr3_axi_1.v(1536): INFO: back to file 'F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_v5_1/efinity_project\ip/efx_ddr3_axi_1\efx_ddr3_axi_1.v' (VERI-2320)
+F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_v5_1/efinity_project\ip/efx_ddr3_axi_1\efx_ddr3_axi_1.v(1790): INFO: analyzing included file 'ddr3_controller.vh' (VERI-1328)
+F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_v5_1/efinity_project\ip/efx_ddr3_axi_1\efx_ddr3_axi_1.v(1790): INFO: back to file 'F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_v5_1/efinity_project\ip/efx_ddr3_axi_1\efx_ddr3_axi_1.v' (VERI-2320)
+F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_v5_1/efinity_project\ip/efx_ddr3_axi_1\efx_ddr3_axi_1.v(2093): INFO: analyzing included file 'ddr3_controller.vh' (VERI-1328)
+F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_v5_1/efinity_project\ip/efx_ddr3_axi_1\efx_ddr3_axi_1.v(2093): INFO: back to file 'F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_v5_1/efinity_project\ip/efx_ddr3_axi_1\efx_ddr3_axi_1.v' (VERI-2320)
+-- Analyzing Verilog file 'F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_v5_1/efinity_project\ip/dsi_tx\dsi_tx.sv' (VERI-1482)
+-- Analyzing Verilog file 'F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_v5_1/efinity_project\ip/radio_calculator\radio_calculator.v' (VERI-1482)
+INFO: Analysis took 0.486476 seconds.
+INFO: 	Analysis took 0.09375 seconds (approximately) in total CPU time.
+INFO: Analysis virtual memory usage: begin = 55.12 MB, end = 64.624 MB, delta = 9.504 MB
+INFO: 	Analysis peak virtual memory usage = 64.624 MB
+INFO: Analysis resident set memory usage: begin = 59.528 MB, end = 71.02 MB, delta = 11.492 MB
+INFO: 	Analysis peak resident set memory usage = 71.02 MB
+INFO: ***** Ending Analysis ... *****
+INFO: ***** Beginning Elaboration ... *****
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v(362): WARNING: port 'clk_200m' is not connected on this instance (VERI-2435)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v(732): WARNING: port 'o_bresp' remains unconnected for this instance (VERI-1927)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v(5): INFO: compiling module 'example_top' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\rst_n_piple.v(1): INFO: compiling module 'rst_n_piple' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_src\dvi_rx\hdmi_rx.v(3): INFO: compiling module 'hdmi_rx' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_src\dvi_rx\I2Cslave.v(87): INFO: compiling module 'I2Cslave(I2C_ADDR=7'b1010000)' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_src\dvi_rx\simple_dual_port_ram.v(14): INFO: compiling module 'simple_dual_port_ram(RAM_INIT_FILE="./ram_init_file.inithex")' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_src\dvi_rx\simple_dual_port_ram.v(31): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_src\dvi_rx\hdmi_rx.v(84): WARNING: actual bit length 8 differs from formal bit length 9 for port 'waddr' (VERI-1330)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_src\dvi_rx\hdmi_rx.v(85): WARNING: actual bit length 8 differs from formal bit length 9 for port 'raddr' (VERI-1330)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\dvi_decoder.v(22): INFO: compiling module 'dvi_decoder' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\tmds_decoder.v(22): INFO: compiling module 'tmds_decoder(kCtlTknCount=300)' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\frame_bitslip.v(3): INFO: compiling module 'frame_bitslip' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\frame_bitslip.v(36): WARNING: expression size 5 truncated to fit in target size 4 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\phasealign_v1.v(2): INFO: compiling module 'phasealign_v1' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\decoder.v(22): INFO: compiling module 'decoder' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\channelbond.v(22): INFO: compiling module 'channelbond' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_src\dvi_rx\simple_dual_port_ram.v(14): INFO: compiling module 'simple_dual_port_ram(DATA_WIDTH=10,ADDR_WIDTH=4)' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_src\dvi_rx\simple_dual_port_ram.v(31): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_src\dvi_rx\simple_dual_port_ram.v(41): WARNING: illegal entry at ram_init_file.inithex:17 for index 16 in range [0:15] (VERI-2588)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\tmds_decoder.v(53): WARNING: net 'palignerr_int' does not have a driver (VDB-1002)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v(408): WARNING: module instantiation should have an instance name (VERI-1229)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\RGB_YCbCr_YC\my_rgb_to_yuv422.v(1): INFO: compiling module 'my_rgb_to_yuv422' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\RGB_YCbCr_YC\rgb_to_ycbcr.v(13): INFO: compiling module 'rgb_to_ycbcr' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\RGB_YCbCr_YC\yuv444_yuv422.v(8): INFO: compiling module 'yuv444_yuv422' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v(424): WARNING: module instantiation should have an instance name (VERI-1229)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\RGB_YCbCr_YC\my_yuv422_to_rgb.v(1): INFO: compiling module 'my_yuv422_to_rgb' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\RGB_YCbCr_YC\yuv422_2_ycbcr444.v(16): INFO: compiling module 'yuv422_2_ycbcr444' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\RGB_YCbCr_YC\ycbcr_to_rgb.v(18): INFO: compiling module 'ycbcr_to_rgb' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\bicubic_interpolation.v(19): INFO: compiling module 'bicubic_interpolation' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\high_speed_ram_controller.v(1): INFO: compiling module 'high_speed_ram_controller(C_ADDR_WIDTH=12)' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\bram_asymmetric_r2_w1_port.v(1): INFO: compiling module 'bram_asymmetric_r2_w1_port(C_ADDR_WIDTH=12)' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\bram_asymmetric_r2_w1_port.v(21): INFO: extracting RAM for identifier 'mem' (VERI-2571)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\asyn_fifo.v(17): INFO: compiling module 'asyn_fifo(C_DATA_WIDTH=11)' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\asyn_fifo.v(37): INFO: extracting RAM for identifier 'mem' (VERI-2571)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\asyn_fifo.v(79): WARNING: expression size 6 truncated to fit in target size 5 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\asyn_fifo.v(89): WARNING: expression size 6 truncated to fit in target size 5 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\asyn_fifo.v(137): WARNING: expression size 5 truncated to fit in target size 4 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\asyn_fifo.v(138): WARNING: expression size 5 truncated to fit in target size 4 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\BiCubic.v(1): INFO: compiling module 'BiCubic' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\BiCubic_y3.v(1): INFO: compiling module 'BiCubic_y3' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\mul_4.v(1): INFO: compiling module 'mul_4' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\mul_3.v(1): INFO: compiling module 'mul_3' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\mul_2.v(1): INFO: compiling module 'mul_2' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\mul_add_2.v(1): INFO: compiling module 'mul_add_2' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\BiCubic_y2.v(1): INFO: compiling module 'BiCubic_y2' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\BiCubic_y2.v(21): WARNING: expression size 32 truncated to fit in target size 10 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\BiCubic_y2.v(22): WARNING: expression size 32 truncated to fit in target size 10 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\mul_add_1.v(1): INFO: compiling module 'mul_add_1' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\BiCubic_y1.v(1): INFO: compiling module 'BiCubic_y1' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\BiCubic_y1.v(20): WARNING: expression size 32 truncated to fit in target size 10 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\BiCubic_y1.v(21): WARNING: expression size 32 truncated to fit in target size 10 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\BiCubic_y0.v(1): INFO: compiling module 'BiCubic_y0' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\BiCubic_x3.v(1): INFO: compiling module 'BiCubic_x3' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\BiCubic_x2.v(1): INFO: compiling module 'BiCubic_x2' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\BiCubic_x2.v(21): WARNING: expression size 32 truncated to fit in target size 10 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\BiCubic_x2.v(22): WARNING: expression size 32 truncated to fit in target size 10 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\BiCubic_x1.v(1): INFO: compiling module 'BiCubic_x1' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\BiCubic_x1.v(20): WARNING: expression size 32 truncated to fit in target size 10 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\BiCubic_x1.v(21): WARNING: expression size 32 truncated to fit in target size 10 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\BiCubic_x0.v(1): INFO: compiling module 'BiCubic_x0' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\coefficient.v(1): INFO: compiling module 'coefficient' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\coefficient.v(154): WARNING: expression size 32 truncated to fit in target size 18 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\coefficient.v(155): WARNING: expression size 32 truncated to fit in target size 18 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\coefficient.v(156): WARNING: expression size 32 truncated to fit in target size 18 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\coefficient.v(157): WARNING: expression size 32 truncated to fit in target size 18 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\coefficient.v(159): WARNING: expression size 32 truncated to fit in target size 18 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\coefficient.v(160): WARNING: expression size 32 truncated to fit in target size 18 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\coefficient.v(161): WARNING: expression size 32 truncated to fit in target size 18 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\coefficient.v(162): WARNING: expression size 32 truncated to fit in target size 18 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\coefficient.v(164): WARNING: expression size 32 truncated to fit in target size 18 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\coefficient.v(165): WARNING: expression size 32 truncated to fit in target size 18 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\coefficient.v(166): WARNING: expression size 32 truncated to fit in target size 18 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\coefficient.v(167): WARNING: expression size 32 truncated to fit in target size 18 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\coefficient.v(169): WARNING: expression size 32 truncated to fit in target size 18 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\coefficient.v(170): WARNING: expression size 32 truncated to fit in target size 18 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\coefficient.v(171): WARNING: expression size 32 truncated to fit in target size 18 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\coefficient.v(172): WARNING: expression size 32 truncated to fit in target size 18 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\bicubic_interpolation.v(1899): WARNING: invert of if-condition matches sensitivity list edge; this is unconventional (VERI-2548)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_src\dvi_tx\dvi_encoder.v(2): INFO: compiling module 'dvi_encoder' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_src\dvi_tx\encode.v(46): INFO: compiling module 'encode' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_src\dvi_tx\encode.v(167): WARNING: expression size 9 truncated to fit in target size 8 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\frame_buffer.v(158): WARNING: port 'fifo_wr_overflow' remains unconnected for this instance (VERI-1927)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\frame_buffer.v(217): WARNING: port 'rd_addr_error' remains unconnected for this instance (VERI-1927)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\frame_buffer.v(2): INFO: compiling module 'frame_buffer(AXI_WR_ID=8'b10101010,AXI_RD_ID=8'b01010101,AXI_DATA_WIDTH=128)' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\ddr_rx_buffer.v(133): WARNING: port 'DataVal' remains unconnected for this instance (VERI-1927)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\ddr_rx_buffer.v(3): INFO: compiling module 'ddr_rx_buffer(AXI_DDR_WIDTH=128,AXI_WR_ID=8'b10101010)' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\vid_rx_align.v(3): INFO: compiling module 'vid_rx_align(AXI_DDR_WIDTH=128)' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\frame_info_det.v(3): INFO: compiling module 'frame_info_det' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\ddr_rx_buffer.v(105): WARNING: actual bit length 32 differs from formal bit length 24 for port 'frame_cnt' (VERI-1330)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\DC_FIFO.v(111): INFO: compiling module 'DC_FIFO(DATA_WIDTH=128,FIFO_DEPTH=2048)' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\DC_FIFO.v(208): INFO: extracting RAM for identifier 'FifoBuff' (VERI-2571)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\DC_FIFO.v(536): INFO: compiling module 'FifoAddrCnt(CounterWidth_C=11)' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\DC_FIFO.v(628): INFO: compiling module 'GrayCnt(CounterWidth_C=11)' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\DC_FIFO.v(732): INFO: compiling module 'GrayDecode(DataWidht_C=11)' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\ddr_rx_buffer.v(124): WARNING: actual bit length 1 differs from formal bit length 12 for port 'WrDNum' (VERI-1330)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\ddr_rx_buffer.v(182): WARNING: expression size 29 truncated to fit in target size 28 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\ddr_rx_buffer.v(187): WARNING: expression size 32 truncated to fit in target size 24 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\ddr_rx_buffer.v(188): WARNING: expression size 32 truncated to fit in target size 8 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\DdrWrCtrl.v(14): INFO: compiling module 'DdrWrCtrl(AXI_WR_ID=8'b10101010,AXI_DATA_WIDTH=128)' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\frame_buffer.v(144): WARNING: actual bit length 1 differs from formal bit length 2 for port 'AWLOCK' (VERI-1330)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\ddr_tx_buffer.v(439): WARNING: port 'DataVal' remains unconnected for this instance (VERI-1927)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\ddr_tx_buffer.v(599): WARNING: port 'fifo_rd_underflow' remains unconnected for this instance (VERI-1927)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\ddr_tx_buffer.v(3): INFO: compiling module 'ddr_tx_buffer(AXI_RD_ID=8'b01010101,AXI_DDR_WIDTH=128)' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\ddr_tx_buffer.v(198): WARNING: expression size 3 truncated to fit in target size 2 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\ddr_tx_buffer.v(206): WARNING: expression size 29 truncated to fit in target size 28 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\ddr_tx_buffer.v(208): WARNING: expression size 32 truncated to fit in target size 24 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\ddr_tx_buffer.v(209): WARNING: expression size 32 truncated to fit in target size 8 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\DdrRdCtrl.v(16): INFO: compiling module 'DdrRdCtrl(AXI_RD_ID=8'b01010101,AXI_DATA_WIDTH=128)' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\DC_FIFO.v(111): INFO: compiling module 'DC_FIFO(DATA_WIDTH=128)' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\DC_FIFO.v(208): INFO: extracting RAM for identifier 'FifoBuff' (VERI-2571)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\DC_FIFO.v(536): INFO: compiling module 'FifoAddrCnt' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\DC_FIFO.v(628): INFO: compiling module 'GrayCnt' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\DC_FIFO.v(732): INFO: compiling module 'GrayDecode(DataWidht_C=9)' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\ddr_tx_buffer.v(430): WARNING: actual bit length 9 differs from formal bit length 10 for port 'WrDNum' (VERI-1330)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\data_tx.v(133): WARNING: port 'DataVal' remains unconnected for this instance (VERI-1927)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\data_tx.v(2): INFO: compiling module 'data_tx(FIFO_ALMOST_FULL=450)' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\DC_FIFO.v(111): INFO: compiling module 'DC_FIFO(DATA_WIDTH=16)' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\DC_FIFO.v(208): INFO: extracting RAM for identifier 'FifoBuff' (VERI-2571)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\data_tx.v(124): WARNING: actual bit length 9 differs from formal bit length 10 for port 'WrDNum' (VERI-1330)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\frame_buffer.v(207): WARNING: actual bit length 1 differs from formal bit length 2 for port 'ARLOCK' (VERI-1330)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\bank_switch.v(3): INFO: compiling module 'bank_switch(FB_NUM=3,AXI_DATA_WIDTH=128)' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_axi.v(713): WARNING: port 'cal_fail_log' remains unconnected for this instance (VERI-1927)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_axi.v(3): INFO: compiling module 'efx_ddr3_axi' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\Ddr_Ctrl_Sc_Fifo.v(13): INFO: compiling module 'Ddr_Ctrl_Sc_Fifo(DATA_WIDTH=8,DATA_DEPTH=32)' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\Ddr_Ctrl_Sc_Fifo.v(87): WARNING: expression size 32 truncated to fit in target size 6 (VERI-1209)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(926): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_axi.v(451): WARNING: actual bit length 2 differs from formal bit length 8 for port 'O_Rd_Data' (VERI-1330)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\Ddr_Ctrl_Sc_Fifo.v(13): INFO: compiling module 'Ddr_Ctrl_Sc_Fifo(DATA_DEPTH=32)' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\Ddr_Ctrl_Sc_Fifo.v(87): WARNING: expression size 32 truncated to fit in target size 6 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\Ddr_Ctrl_Sc_Fifo.v(13): INFO: compiling module 'Ddr_Ctrl_Sc_Fifo(DATA_WIDTH=48,DATA_DEPTH=32)' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\Ddr_Ctrl_Sc_Fifo.v(87): WARNING: expression size 32 truncated to fit in target size 6 (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_axi.v(499): WARNING: actual bit length 50 differs from formal bit length 48 for port 'O_Rd_Data' (VERI-1330)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(49): INFO: compiling module 'efx_ddr3_soft_controller' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(1795): INFO: compiling module 'efx_ddr3_soft_controller_6407b0f71fba4e5b90898b565f250ce8' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): INFO: compiling module '**' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): WARNING: port '**' remains unconnected for this instance (VERI-1927)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): INFO: compiling module '**' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): INFO: compiling module '**' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): INFO: compiling module '**' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): INFO: compiling module '**' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): INFO: compiling module '**' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): INFO: extracting RAM for identifier '**' (VERI-2571)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): INFO: compiling module '**' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): INFO: compiling module '**' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): INFO: compiling module '**' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): INFO: extracting RAM for identifier '**' (VERI-2571)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): INFO: compiling module '**' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): INFO: extracting RAM for identifier '**' (VERI-2571)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): INFO: compiling module '**' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): INFO: extracting RAM for identifier '**' (VERI-2571)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): INFO: compiling module '**' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): INFO: extracting RAM for identifier '**' (VERI-2571)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): INFO: compiling module '**' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): INFO: extracting RAM for identifier '**' (VERI-2571)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): INFO: compiling module '**' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): INFO: compiling module '**' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): INFO: extracting RAM for identifier '**' (VERI-2571)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): WARNING: expression size ** truncated to fit in target size ** (VERI-1209)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): WARNING: net '**' does not have a driver (VDB-1002)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): INFO: compiling module '**' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): INFO: compiling module '**' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v(0): INFO: compiling module '**' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v(722): WARNING: actual bit length 4 differs from formal bit length 8 for port 'o_rid' (VERI-1330)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\Axi4FullDeplex.v(4): INFO: compiling module 'Axi4FullDeplex(AXI_DATA_WIDTH=128)' (VERI-1018)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v(753): WARNING: actual bit length 1 differs from formal bit length 2 for port 'AWLOCK' (VERI-1330)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v(773): WARNING: actual bit length 1 differs from formal bit length 2 for port 'ARLOCK' (VERI-1330)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v(802): WARNING: actual bit length 4 differs from formal bit length 8 for port 'rid' (VERI-1330)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v(745): WARNING: net 'Axi0Clk' does not have a driver (VDB-1002)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v(746): WARNING: net 'axi0_rst_n' does not have a driver (VDB-1002)
+F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v(347): WARNING: input port 'clk_200m' is not connected on this instance (VDB-1013)
+INFO: Elaboration took 0.544313 seconds.
+INFO: 	Elaboration took 0.140625 seconds (approximately) in total CPU time.
+INFO: Elaboration virtual memory usage: begin = 64.624 MB, end = 128.352 MB, delta = 63.728 MB
+INFO: 	Elaboration peak virtual memory usage = 128.352 MB
+INFO: Elaboration resident set memory usage: begin = 71.032 MB, end = 133.304 MB, delta = 62.272 MB
+INFO: 	Elaboration peak resident set memory usage = 133.304 MB
+INFO: ***** Ending Elaboration ... *****
+[EFX-0256 WARNING] The primary output port 'jtag_inst1_TDO' wire 'jtag_inst1_TDO' is not driven.
+[EFX-0256 WARNING] The primary output port 'beep' wire 'beep' is not driven.
+[EFX-0256 WARNING] The primary output port 'b_led[1]' wire 'b_led[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'uart_tx' wire 'uart_tx' is not driven.
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+INFO: ***** Beginning Reading Mapping Library ... *****
+-- Analyzing Verilog file 'C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(8): INFO: compiling module 'EFX_ADD' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(21): INFO: compiling module 'EFX_FF' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(38): INFO: compiling module 'EFX_COMB4' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(48): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(57): INFO: compiling module 'EFX_IDDR' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(71): INFO: compiling module 'EFX_ODDR' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(87): INFO: compiling module 'EFX_IOBUF' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(99): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(107): INFO: compiling module 'EFX_MULT' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(142): INFO: compiling module 'EFX_DSP48' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(198): INFO: compiling module 'EFX_DSP24' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(251): INFO: compiling module 'EFX_DSP12' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(304): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(364): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(436): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(541): INFO: compiling module 'RAMB5' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(603): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(695): INFO: compiling module 'EFX_RAM10' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(796): INFO: compiling module 'EFX_DPRAM10' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(926): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+INFO: Reading Mapping Library took 0.0192106 seconds.
+INFO: 	Reading Mapping Library took 0 seconds (approximately) in total CPU time.
+INFO: Reading Mapping Library virtual memory usage: begin = 130.48 MB, end = 130.48 MB, delta = 0 MB
+INFO: 	Reading Mapping Library peak virtual memory usage = 135.168 MB
+INFO: Reading Mapping Library resident set memory usage: begin = 135.756 MB, end = 135.768 MB, delta = 0.012 MB
+INFO: 	Reading Mapping Library peak resident set memory usage = 140.272 MB
+INFO: ***** Ending Reading Mapping Library ... *****
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0256 WARNING] The primary output port 'jtag_inst1_TDO' wire 'jtag_inst1_TDO' is not driven.
+[EFX-0256 WARNING] The primary output port 'beep' wire 'beep' is not driven.
+[EFX-0256 WARNING] The primary output port 'b_led[1]' wire 'b_led[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'uart_tx' wire 'uart_tx' is not driven.
+[EFX-0266 WARNING] Module Instance 'u_I2Cslave_edid' input pin tied to constant (clr_in=0).
+[EFX-0266 WARNING] Module Instance 'u_simple_dual_port_ram' input pin tied to constant (waddr[8]=0).
+[EFX-0266 WARNING] Module Instance 'u_simple_dual_port_ram' input pin tied to constant (raddr[8]=0).
+[EFX-0266 WARNING] Module Instance 'u_simple_dual_port_ram' input pin tied to constant (re=1).
+[EFX-0200 WARNING] Removing redundant signal : scl_o. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_src\dvi_rx\hdmi_rx.v:10)
+[EFX-0200 WARNING] Removing redundant signal : scl_oe. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_src\dvi_rx\hdmi_rx.v:11)
+[EFX-0200 WARNING] Removing redundant signal : sda_o. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_src\dvi_rx\hdmi_rx.v:13)
+[EFX-0200 WARNING] Removing redundant signal : edid_sda_oe. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_src\dvi_rx\hdmi_rx.v:26)
+[EFX-0200 WARNING] Removing redundant signal : i2c_sda_in. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_src\dvi_rx\hdmi_rx.v:27)
+[EFX-0200 WARNING] Removing redundant signal : pblank_begin. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\phasealign_v1.v:27)
+[EFX-0266 WARNING] Module Instance 'u_simple_dual_port_ram' input pin tied to constant (re=1).
+[EFX-0200 WARNING] Removing redundant signal : prst. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\tmds_decoder.v:28)
+[EFX-0200 WARNING] Removing redundant signal : peyesize[4]. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\tmds_decoder.v:39)
+[EFX-0200 WARNING] Removing redundant signal : peyesize[3]. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\tmds_decoder.v:39)
+[EFX-0200 WARNING] Removing redundant signal : peyesize[2]. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\tmds_decoder.v:39)
+[EFX-0200 WARNING] Removing redundant signal : peyesize[1]. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\tmds_decoder.v:39)
+[EFX-0200 WARNING] Removing redundant signal : peyesize[0]. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\tmds_decoder.v:39)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'palignerr_int'. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\tmds_decoder.v:53)
+[EFX-0200 WARNING] Removing redundant signal : clk_200m. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\hdmi_in\dvi_decoder.v:23)
+[EFX-0266 WARNING] Module Instance 'inst2' input pin tied to constant (line_end=0).
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\bram_asymmetric_r2_w1_port.v:22)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\bram_asymmetric_r2_w1_port.v:22)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\bram_asymmetric_r2_w1_port.v:22)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\bram_asymmetric_r2_w1_port.v:22)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\bram_asymmetric_r2_w1_port.v:22)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\bram_asymmetric_r2_w1_port.v:22)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\bram_asymmetric_r2_w1_port.v:22)
+[EFX-0200 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0266 WARNING] Module Instance 'mul_3_y2_inst' input pin tied to constant (a[10]=0).
+[EFX-0266 WARNING] Module Instance 'mul_3_y2_inst' input pin tied to constant (a[11]=0).
+[EFX-0266 WARNING] Module Instance 'mul_3_y2_inst' input pin tied to constant (a[12]=0).
+[EFX-0266 WARNING] Module Instance 'mul_3_y2_inst' input pin tied to constant (a[13]=0).
+[EFX-0266 WARNING] Module Instance 'mul_3_y2_inst' input pin tied to constant (a[14]=0).
+[EFX-0266 WARNING] Module Instance 'mul_3_y2_inst' input pin tied to constant (a[15]=0).
+[EFX-0266 WARNING] Module Instance 'mul_3_y2_inst' input pin tied to constant (a[16]=0).
+[EFX-0266 WARNING] Module Instance 'mul_3_y2_inst' input pin tied to constant (a[17]=0).
+[EFX-0266 WARNING] Module Instance 'mul_add_1_y2_inst' input pin tied to constant (c=1).
+[EFX-0266 WARNING] Module Instance 'mul_3_y1_inst' input pin tied to constant (a[10]=0).
+[EFX-0266 WARNING] Module Instance 'mul_3_y1_inst' input pin tied to constant (a[11]=0).
+[EFX-0266 WARNING] Module Instance 'mul_3_y1_inst' input pin tied to constant (a[12]=0).
+[EFX-0266 WARNING] Module Instance 'mul_3_y1_inst' input pin tied to constant (a[13]=0).
+[EFX-0266 WARNING] Module Instance 'mul_3_y1_inst' input pin tied to constant (a[14]=0).
+[EFX-0266 WARNING] Module Instance 'mul_3_y1_inst' input pin tied to constant (a[15]=0).
+[EFX-0266 WARNING] Module Instance 'mul_3_y1_inst' input pin tied to constant (a[16]=0).
+[EFX-0266 WARNING] Module Instance 'mul_3_y1_inst' input pin tied to constant (a[17]=0).
+[EFX-0266 WARNING] Module Instance 'mul_add_1_y1_inst' input pin tied to constant (c=1).
+[EFX-0266 WARNING] Module Instance 'mul_3_x2_inst' input pin tied to constant (a[10]=0).
+[EFX-0266 WARNING] Module Instance 'mul_3_x2_inst' input pin tied to constant (a[11]=0).
+[EFX-0266 WARNING] Module Instance 'mul_3_x2_inst' input pin tied to constant (a[12]=0).
+[EFX-0266 WARNING] Module Instance 'mul_3_x2_inst' input pin tied to constant (a[13]=0).
+[EFX-0266 WARNING] Module Instance 'mul_3_x2_inst' input pin tied to constant (a[14]=0).
+[EFX-0266 WARNING] Module Instance 'mul_3_x2_inst' input pin tied to constant (a[15]=0).
+[EFX-0266 WARNING] Module Instance 'mul_3_x2_inst' input pin tied to constant (a[16]=0).
+[EFX-0266 WARNING] Module Instance 'mul_3_x2_inst' input pin tied to constant (a[17]=0).
+[EFX-0266 WARNING] Module Instance 'mul_add_1_x2_inst' input pin tied to constant (c=1).
+[EFX-0266 WARNING] Module Instance 'mul_3_x1_inst' input pin tied to constant (a[10]=0).
+[EFX-0266 WARNING] Module Instance 'mul_3_x1_inst' input pin tied to constant (a[11]=0).
+[EFX-0266 WARNING] Module Instance 'mul_3_x1_inst' input pin tied to constant (a[12]=0).
+[EFX-0266 WARNING] Module Instance 'mul_3_x1_inst' input pin tied to constant (a[13]=0).
+[EFX-0266 WARNING] Module Instance 'mul_3_x1_inst' input pin tied to constant (a[14]=0).
+[EFX-0266 WARNING] Module Instance 'mul_3_x1_inst' input pin tied to constant (a[15]=0).
+[EFX-0266 WARNING] Module Instance 'mul_3_x1_inst' input pin tied to constant (a[16]=0).
+[EFX-0266 WARNING] Module Instance 'mul_3_x1_inst' input pin tied to constant (a[17]=0).
+[EFX-0266 WARNING] Module Instance 'mul_add_1_x1_inst' input pin tied to constant (c=1).
+[EFX-0266 WARNING] Module Instance 'encr' input pin tied to constant (c0=0).
+[EFX-0266 WARNING] Module Instance 'encr' input pin tied to constant (c1=0).
+[EFX-0266 WARNING] Module Instance 'encg' input pin tied to constant (c0=0).
+[EFX-0266 WARNING] Module Instance 'encg' input pin tied to constant (c1=0).
+[EFX-0266 WARNING] Module Instance 'U1_AddrCnt' input pin tied to constant (SyncClr=0).
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'mem'. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\asyn_fifo.v:37)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'FifoBuff'. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\DC_FIFO.v:208)
+[EFX-0266 WARNING] Module Instance 'U1_AddrCnt' input pin tied to constant (SyncClr=0).
+[EFX-0266 WARNING] Module Instance 'u_data_tx' input pin tied to constant (frame_en=1).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wclk=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[0]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[1]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[2]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[3]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[4]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[5]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[6]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[7]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[8]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[9]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[10]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[11]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[12]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[13]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[14]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[15]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[16]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[17]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[18]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[19]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[20]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[21]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[22]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[23]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[24]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[25]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[26]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[27]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[28]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[29]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[30]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[31]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[32]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[33]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[34]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[35]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[36]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[37]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[38]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[39]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[40]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[41]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[42]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[43]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[44]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[45]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[46]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[47]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[48]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[49]=0).
+[EFX-0266 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'w_ar_fifo_rd_vaild'. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v:0)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'w_aw_fifo_rd_vaild'. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v:0)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_dvi_decoder.clk_200m'. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v:347)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'jtag_inst1_TDO'. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v:18)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'beep'. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v:27)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'b_led[1]'. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v:129)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'uart_tx'. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v:131)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'Axi0Clk'. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v:745)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'axi0_rst_n'. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\top_module\example_top.v:746)
+[EFX-0201 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'FifoBuff'. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\DC_FIFO.v:208)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'FifoBuff'. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\frame_buffer\DC_FIFO.v:208)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v:0)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v:0)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v:0)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v:0)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v:0)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\soft_ddr3\efx_ddr3_soft_controller.v:0)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "example_top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "rst_n_piple" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "rst_n_piple" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "I2Cslave(I2C_ADDR=7'b1010000)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "I2Cslave(I2C_ADDR=7'b1010000)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "simple_dual_port_ram(RAM_INIT_FILE="./ram_init_file.inithex")" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "simple_dual_port_ram(RAM_INIT_FILE="./ram_init_file.inithex")" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "hdmi_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "hdmi_rx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "frame_bitslip" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "frame_bitslip" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "phasealign_v1" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "phasealign_v1" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "decoder" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "decoder" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "simple_dual_port_ram(DATA_WIDTH=10,ADDR_WIDTH=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "simple_dual_port_ram(DATA_WIDTH=10,ADDR_WIDTH=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "channelbond" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "channelbond" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "tmds_decoder(kCtlTknCount=300)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "tmds_decoder(kCtlTknCount=300)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "dvi_decoder" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "dvi_decoder" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "rgb_to_ycbcr" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "rgb_to_ycbcr" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "yuv444_yuv422" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "yuv444_yuv422" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "my_rgb_to_yuv422" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "my_rgb_to_yuv422" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "yuv422_2_ycbcr444" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "yuv422_2_ycbcr444" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ycbcr_to_rgb" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ycbcr_to_rgb" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "my_yuv422_to_rgb" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "my_yuv422_to_rgb" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_asymmetric_r2_w1_port(C_ADDR_WIDTH=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_asymmetric_r2_w1_port(C_ADDR_WIDTH=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "high_speed_ram_controller(C_ADDR_WIDTH=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "high_speed_ram_controller(C_ADDR_WIDTH=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "asyn_fifo(C_DATA_WIDTH=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "asyn_fifo(C_DATA_WIDTH=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "mul_4" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "mul_4" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "mul_3" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "mul_3" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "mul_2" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "mul_2" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "mul_add_2" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "mul_add_2" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BiCubic_y3" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BiCubic_y3" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "mul_add_1" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "mul_add_1" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BiCubic_y2" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BiCubic_y2" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BiCubic_y1" begin
+[EFX-0666 WARNING] Mapping into logic multiplier 'n140_pp_0x1'. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\mul_4.v:46)
+[EFX-0666 WARNING] Mapping into logic multiplier 'n140_pp_1x0'. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\mul_4.v:46)
+[EFX-0666 WARNING] Mapping into logic multiplier 'n140_pp_1x1'. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\mul_4.v:46)
+[EFX-0666 WARNING] Mapping into logic multiplier 'n115_pp_1x0'. (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\quanzhong\mul_3.v:47)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BiCubic_y1" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BiCubic_y0" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BiCubic_y0" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BiCubic_x3" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BiCubic_x3" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BiCubic_x2" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BiCubic_x2" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BiCubic_x1" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BiCubic_x1" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BiCubic_x0" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BiCubic_x0" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BiCubic" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BiCubic" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "coefficient" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "coefficient" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bicubic_interpolation" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bicubic_interpolation" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "encode" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "encode" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "dvi_encoder" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "dvi_encoder" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "frame_info_det" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "frame_info_det" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "vid_rx_align(AXI_DDR_WIDTH=128)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "vid_rx_align(AXI_DDR_WIDTH=128)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "GrayCnt(CounterWidth_C=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "GrayCnt(CounterWidth_C=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "FifoAddrCnt(CounterWidth_C=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "FifoAddrCnt(CounterWidth_C=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "GrayDecode(DataWidht_C=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "GrayDecode(DataWidht_C=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "DC_FIFO(DATA_WIDTH=128,FIFO_DEPTH=2048)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "DC_FIFO(DATA_WIDTH=128,FIFO_DEPTH=2048)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "DdrWrCtrl(AXI_WR_ID=8'b10101010,AXI_DATA_WIDTH=128)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "DdrWrCtrl(AXI_WR_ID=8'b10101010,AXI_DATA_WIDTH=128)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddr_rx_buffer(AXI_DDR_WIDTH=128,AXI_WR_ID=8'b10101010)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddr_rx_buffer(AXI_DDR_WIDTH=128,AXI_WR_ID=8'b10101010)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "DdrRdCtrl(AXI_RD_ID=8'b01010101,AXI_DATA_WIDTH=128)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "DdrRdCtrl(AXI_RD_ID=8'b01010101,AXI_DATA_WIDTH=128)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "GrayCnt" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "GrayCnt" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "FifoAddrCnt" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "FifoAddrCnt" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "GrayDecode(DataWidht_C=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "GrayDecode(DataWidht_C=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "DC_FIFO(DATA_WIDTH=128)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "DC_FIFO(DATA_WIDTH=128)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "DC_FIFO(DATA_WIDTH=16)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "DC_FIFO(DATA_WIDTH=16)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "data_tx(FIFO_ALMOST_FULL=450)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "data_tx(FIFO_ALMOST_FULL=450)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddr_tx_buffer(AXI_RD_ID=8'b01010101,AXI_DDR_WIDTH=128)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddr_tx_buffer(AXI_RD_ID=8'b01010101,AXI_DDR_WIDTH=128)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bank_switch(FB_NUM=3,AXI_DATA_WIDTH=128)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bank_switch(FB_NUM=3,AXI_DATA_WIDTH=128)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "frame_buffer(AXI_WR_ID=8'b10101010,AXI_RD_ID=8'b01010101,AXI_DATA_WIDTH=128)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "frame_buffer(AXI_WR_ID=8'b10101010,AXI_RD_ID=8'b01010101,AXI_DATA_WIDTH=128)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo(DATA_WIDTH=8,DATA_DEPTH=32)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo(DATA_WIDTH=8,DATA_DEPTH=32)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo(DATA_DEPTH=32)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo(DATA_DEPTH=32)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo(DATA_WIDTH=48,DATA_DEPTH=32)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo(DATA_WIDTH=48,DATA_DEPTH=32)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "native_mux_6407b0f71fba4e5b90898b565f250ce8" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "native_mux_6407b0f71fba4e5b90898b565f250ce8" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_sub_6407b0f71fba4e5b90898b565f250ce8(OUT_RST_ACTIVE="LOW",CYCLE=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_sub_6407b0f71fba4e5b90898b565f250ce8(OUT_RST_ACTIVE="LOW",CYCLE=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_ctrl_6407b0f71fba4e5b90898b565f250ce8(NUM_RST=4,CYCLE=4,IN_RST_ACTIVE=4'b0,OUT_RST_ACTIVE=4'b0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_ctrl_6407b0f71fba4e5b90898b565f250ce8(NUM_RST=4,CYCLE=4,IN_RST_ACTIVE=4'b0,OUT_RST_ACTIVE=4'b0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_ctrl_6407b0f71fba4e5b90898b565f250ce8(CYCLE=4,IN_RST_ACTIVE=4'b0,OUT_RST_ACTIVE=4'b0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_ctrl_6407b0f71fba4e5b90898b565f250ce8(CYCLE=4,IN_RST_ACTIVE=4'b0,OUT_RST_ACTIVE=4'b0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "buffercc_6407b0f71fba4e5b90898b565f250ce8" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "buffercc_6407b0f71fba4e5b90898b565f250ce8" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "buffercc_1_6407b0f71fba4e5b90898b565f250ce8" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "buffercc_1_6407b0f71fba4e5b90898b565f250ce8" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_6407b0f71fba4e5b90898b565f250ce8(DATA_WIDTH=32)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_6407b0f71fba4e5b90898b565f250ce8(DATA_WIDTH=32)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_6407b0f71fba4e5b90898b565f250ce8(DATA_WIDTH=144)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_6407b0f71fba4e5b90898b565f250ce8(DATA_WIDTH=144)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_6407b0f71fba4e5b90898b565f250ce8(DATA_WIDTH=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_6407b0f71fba4e5b90898b565f250ce8(DATA_WIDTH=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_6407b0f71fba4e5b90898b565f250ce8(DATA_WIDTH=128)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_6407b0f71fba4e5b90898b565f250ce8(DATA_WIDTH=128)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_6407b0f71fba4e5b90898b565f250ce8(DATA_WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_6407b0f71fba4e5b90898b565f250ce8(DATA_WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_6407b0f71fba4e5b90898b565f250ce8(DATA_WIDTH=52)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_6407b0f71fba4e5b90898b565f250ce8(DATA_WIDTH=52)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "user_dual_port_ram_6407b0f71fba4e5b90898b565f250ce8(DATA_WIDTH=72,OUTPUT_REG="FALSE",RAM_INIT_FILE="ddr3_controller.bin")" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "user_dual_port_ram_6407b0f71fba4e5b90898b565f250ce8(DATA_WIDTH=72,OUTPUT_REG="FALSE",RAM_INIT_FILE="ddr3_controller.bin")" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddr_3_controller_6407b0f71fba4e5b90898b565f250ce8" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddr_3_controller_6407b0f71fba4e5b90898b565f250ce8" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "controller_top_6407b0f71fba4e5b90898b565f250ce8" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "controller_top_6407b0f71fba4e5b90898b565f250ce8" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_sub_6407b0f71fba4e5b90898b565f250ce8(OUT_RST_ACTIVE="LOW",CYCLE=5)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_sub_6407b0f71fba4e5b90898b565f250ce8(OUT_RST_ACTIVE="LOW",CYCLE=5)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_ctrl_6407b0f71fba4e5b90898b565f250ce8(NUM_RST=2,CYCLE=5,IN_RST_ACTIVE=2'b0,OUT_RST_ACTIVE=2'b0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_ctrl_6407b0f71fba4e5b90898b565f250ce8(NUM_RST=2,CYCLE=5,IN_RST_ACTIVE=2'b0,OUT_RST_ACTIVE=2'b0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "phase_shift_6407b0f71fba4e5b90898b565f250ce8" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "phase_shift_6407b0f71fba4e5b90898b565f250ce8" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_ddr3_soft_controller_6407b0f71fba4e5b90898b565f250ce8" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_ddr3_soft_controller_6407b0f71fba4e5b90898b565f250ce8" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_ddr3_soft_controller" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_ddr3_soft_controller" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_ddr3_axi" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_ddr3_axi" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Axi4FullDeplex(AXI_DATA_WIDTH=128)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Axi4FullDeplex(AXI_DATA_WIDTH=128)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "example_top" begin
+[EFX-0657 WARNING] Mapping into logic memory block 'bicubic_inst/u_tag_fifo/mem' (176 bits) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_v5_1\efinity_project\source\interpolation_algo\Bicubic_interpolation\asyn_fifo.v:37) because read port is not synchronous.
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 1315 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "example_top" end (Real time : 6s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 1s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network hdmi_tx_slow_clk with 6668 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network sys_clk with 1567 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network hdmi_rx_slow_clk with 795 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network core_clk with 715 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network hdmi_tx_4x_clk with 696 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network twd_clk with 383 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network tac_clk with 253 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network osc_clk with 118 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network tdqss_clk with 91 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 4843 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 85s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 1s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 11126, ed: 33042, lv: 8, pw: 35955.74
+[EFX-0000 INFO] ... LUT mapping end (Real time : 24s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n20 with 6483 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network n13 with 1436 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network n18 with 783 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network n60 with 706 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network n21 with 485 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network n61 with 383 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network n63 with 253 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network n14 with 112 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network n62 with 89 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 7 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 2s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 1s)
+INFO: ***** Beginning VDB Netlist Checker ... *****
+WARNING: Input/Inout Port jtag_inst1_CAPTURE is unconnected and will be removed
+WARNING: Input/Inout Port jtag_inst1_DRCK is unconnected and will be removed
+WARNING: Input/Inout Port jtag_inst1_RESET is unconnected and will be removed
+WARNING: Input/Inout Port jtag_inst1_RUNTEST is unconnected and will be removed
+WARNING: Input/Inout Port jtag_inst1_SEL is unconnected and will be removed
+WARNING: Input/Inout Port jtag_inst1_SHIFT is unconnected and will be removed
+WARNING: Input/Inout Port jtag_inst1_TCK is unconnected and will be removed
+WARNING: Input/Inout Port jtag_inst1_TDI is unconnected and will be removed
+WARNING: Input/Inout Port jtag_inst1_TMS is unconnected and will be removed
+WARNING: Input/Inout Port jtag_inst1_UPDATE is unconnected and will be removed
+WARNING: Input/Inout Port clk_25m is unconnected and will be removed
+WARNING: Input/Inout Port inf_in is unconnected and will be removed
+WARNING: Input/Inout Port hdmi_rx_fast_clk is unconnected and will be removed
+WARNING: Input/Inout Port hdmi_tx_fast_clk is unconnected and will be removed
+WARNING: Input/Inout Port hdmi_rx_clk_RX_DATA is unconnected and will be removed
+WARNING: Input/Inout Port i_dqs_n_hi[1] is unconnected and will be removed
+WARNING: Input/Inout Port i_dqs_n_hi[0] is unconnected and will be removed
+WARNING: Input/Inout Port i_dqs_n_lo[1] is unconnected and will be removed
+WARNING: Input/Inout Port i_dqs_n_lo[0] is unconnected and will be removed
+WARNING: Input/Inout Port clk_10m is unconnected and will be removed
+WARNING: Input/Inout Port uart_rx is unconnected and will be removed
+WARNING: CE port of EFX_DSP24 instance i37/inst1/mult_6 is permanently disabled
+WARNING: CE port of EFX_DSP24 instance i37/inst1/mult_12 is permanently disabled
+WARNING: CE port of EFX_DSP24 instance i37/inst1/mult_11 is permanently disabled
+WARNING: CE port of EFX_DSP24 instance i37/inst1/mult_13 is permanently disabled
+WARNING: CE port of EFX_DSP24 instance i37/inst1/mult_18 is permanently disabled
+WARNING: CE port of EFX_DSP24 instance i37/inst1/mult_5 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_633 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_634 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_635 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_636 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_637 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_638 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_639 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_640 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_641 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_642 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_643 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_644 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_645 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_646 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_647 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_648 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_649 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_650 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_651 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_652 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_653 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_654 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_655 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_656 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_657 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_658 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_659 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_660 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_661 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_662 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_663 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_664 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_665 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_666 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_667 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_668 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_669 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_670 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_671 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_672 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_673 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_674 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_675 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_676 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_677 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_678 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_679 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/mult_680 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_y3_inst/mul_4_y3_inst/mult_6 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_y3_inst/mul_4_y3_inst/mult_11 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_y3_inst/mul_3_y3_inst/mult_6 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_y3_inst/mul_3_y3_inst/n115_pp_0x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_y3_inst/mul_2_y3_inst/mult_6 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_y2_inst/mul_4_y2_inst/mult_6 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_y2_inst/mul_4_y2_inst/mult_11 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_y2_inst/mul_3_y2_inst/mult_6 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_y2_inst/mul_3_y2_inst/n115_pp_0x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_y1_inst/mul_4_y1_inst/mult_6 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_y1_inst/mul_4_y1_inst/mult_11 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_y1_inst/mul_3_y1_inst/mult_6 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_y1_inst/mul_3_y1_inst/n115_pp_0x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_y0_inst/mul_4_y0_inst/mult_6 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_y0_inst/mul_4_y0_inst/mult_11 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_y0_inst/mul_3_y0_inst/mult_6 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_y0_inst/mul_3_y0_inst/n115_pp_0x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_y0_inst/mul_2_y0_inst/mult_6 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_x3_inst/mul_4_x3_inst/mult_6 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_x3_inst/mul_4_x3_inst/mult_11 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_x3_inst/mul_3_x3_inst/mult_6 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_x3_inst/mul_3_x3_inst/n115_pp_0x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_x3_inst/mul_2_x3_inst/mult_6 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_x2_inst/mul_4_x2_inst/mult_6 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_x2_inst/mul_4_x2_inst/mult_11 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_x2_inst/mul_3_x2_inst/mult_6 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_x2_inst/mul_3_x2_inst/n115_pp_0x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_x1_inst/mul_4_x1_inst/mult_6 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_x1_inst/mul_4_x1_inst/mult_11 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_x1_inst/mul_3_x1_inst/mult_6 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_x1_inst/mul_3_x1_inst/n115_pp_0x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_x0_inst/mul_4_x0_inst/mult_6 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_x0_inst/mul_4_x0_inst/mult_11 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_x0_inst/mul_3_x0_inst/mult_6 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_x0_inst/mul_3_x0_inst/n115_pp_0x0 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/BiCubic_inst/BiCubic_x0_inst/mul_2_x0_inst/mult_6 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/coefficient_inst/mult_55 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/coefficient_inst/mult_56 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/coefficient_inst/mult_57 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/coefficient_inst/mult_58 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/coefficient_inst/mult_59 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/coefficient_inst/mult_60 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/coefficient_inst/mult_61 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/coefficient_inst/mult_62 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/coefficient_inst/mult_63 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/coefficient_inst/mult_64 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/coefficient_inst/mult_65 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/coefficient_inst/mult_66 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/coefficient_inst/mult_67 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/coefficient_inst/mult_68 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/coefficient_inst/mult_69 is permanently disabled
+WARNING: CE port of EFX_DSP48 instance bicubic_inst/coefficient_inst/mult_70 is permanently disabled
+WARNING: CE port of EFX_DSP24 instance i37/inst1/mult_4 is permanently disabled
+INFO: Found 128 warnings in the post-synthesis netlist.
+INFO: VDB Netlist Checker took 0.324741 seconds.
+INFO: 	VDB Netlist Checker took 0.046875 seconds (approximately) in total CPU time.
+INFO: VDB Netlist Checker virtual memory usage: begin = 325.56 MB, end = 325.56 MB, delta = 0 MB
+INFO: 	VDB Netlist Checker peak virtual memory usage = 382.372 MB
+INFO: VDB Netlist Checker resident set memory usage: begin = 326.716 MB, end = 326.784 MB, delta = 0.068 MB
+INFO: 	VDB Netlist Checker peak resident set memory usage = 380.076 MB
+INFO: ***** Ending VDB Netlist Checker ... *****
+-- Writing netlist 'example_top' to Verilog file 'F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_v5_1/efinity_project/outflow/DDR3_MC.map.v' (VDB-1030)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	4353
+[EFX-0000 INFO] EFX_LUT4        : 	12743
+[EFX-0000 INFO] EFX_DSP48       : 	113
+[EFX-0000 INFO] EFX_DSP24       : 	9
+[EFX-0000 INFO] EFX_FF          : 	10189
+[EFX-0000 INFO] EFX_SRL8        : 	1346
+[EFX-0000 INFO] EFX_RAM10       : 	137
+[EFX-0000 INFO] =============================== 

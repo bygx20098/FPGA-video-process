@@ -1,0 +1,48 @@
+{
+    "args": [
+        "-o",
+        "radio_calculator",
+        "--base_path",
+        "F:\\FPGA_PRJ\\YLS\\Nearest_900p_108MHZ\\efinity_project\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "arithmetic",
+            "name": "efx_divider",
+            "version": "5.0"
+        }
+    ],
+    "conf": {
+        "NREPRESENTATION": "\"UNSIGNED\"",
+        "WIDTHN": "27",
+        "WIDTHD": "11",
+        "DREPRESENTATION": "\"UNSIGNED\"",
+        "PIPELINE": "1'b1",
+        "LATENCY": "7"
+    },
+    "output": {
+        "external_source_source": [
+            "F:\\FPGA_PRJ\\YLS\\Nearest_900p_108MHZ\\efinity_project\\ip\\radio_calculator\\radio_calculator.v",
+            "F:\\FPGA_PRJ\\YLS\\Nearest_900p_108MHZ\\efinity_project\\ip\\radio_calculator\\radio_calculator_tmpl.vhd",
+            "F:\\FPGA_PRJ\\YLS\\Nearest_900p_108MHZ\\efinity_project\\ip\\radio_calculator\\radio_calculator_define.vh",
+            "F:\\FPGA_PRJ\\YLS\\Nearest_900p_108MHZ\\efinity_project\\ip\\radio_calculator\\radio_calculator_tmpl.v"
+        ],
+        "external_example_2": [
+            "F:\\FPGA_PRJ\\YLS\\Nearest_900p_108MHZ\\efinity_project\\ip\\radio_calculator\\Ti60F225_devkit\\demo_divider.v",
+            "F:\\FPGA_PRJ\\YLS\\Nearest_900p_108MHZ\\efinity_project\\ip\\radio_calculator\\Ti60F225_devkit\\divider.peri.xml",
+            "F:\\FPGA_PRJ\\YLS\\Nearest_900p_108MHZ\\efinity_project\\ip\\radio_calculator\\Ti60F225_devkit\\divider.xml",
+            "F:\\FPGA_PRJ\\YLS\\Nearest_900p_108MHZ\\efinity_project\\ip\\radio_calculator\\Ti60F225_devkit\\example_divider_Ti60.sdc",
+            "F:\\FPGA_PRJ\\YLS\\Nearest_900p_108MHZ\\efinity_project\\ip\\radio_calculator\\Ti60F225_devkit\\radio_calculator.v",
+            "F:\\FPGA_PRJ\\YLS\\Nearest_900p_108MHZ\\efinity_project\\ip\\radio_calculator\\Ti60F225_devkit\\radio_calculator_define.vh"
+        ],
+        "external_testbench_testbench": [
+            "F:\\FPGA_PRJ\\YLS\\Nearest_900p_108MHZ\\efinity_project\\ip\\radio_calculator\\Testbench\\tb_divider.v",
+            "F:\\FPGA_PRJ\\YLS\\Nearest_900p_108MHZ\\efinity_project\\ip\\radio_calculator\\Testbench\\demo_divider.v",
+            "F:\\FPGA_PRJ\\YLS\\Nearest_900p_108MHZ\\efinity_project\\ip\\radio_calculator\\Testbench\\modelsim.do",
+            "F:\\FPGA_PRJ\\YLS\\Nearest_900p_108MHZ\\efinity_project\\ip\\radio_calculator\\Testbench\\radio_calculator.v",
+            "F:\\FPGA_PRJ\\YLS\\Nearest_900p_108MHZ\\efinity_project\\ip\\radio_calculator\\Testbench\\radio_calculator_define.vh"
+        ]
+    },
+    "sw_version": "2023.1.150",
+    "generated_date": "2023-10-27T14:06:11.607834"
+}

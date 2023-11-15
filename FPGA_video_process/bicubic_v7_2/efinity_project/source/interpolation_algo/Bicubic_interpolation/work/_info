@@ -1,0 +1,430 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dF:/FPGA_PRJ/YLS/edge_detector_v6_3/efinity_project/source/Nearest_Interpolation
+T_opt
+!s110 1699887573
+VnGh][3a:`Hn^kTj]b]NUA0
+04 9 4 work testbench fast 0
+=4-90e868055339-655239d5-30b-5640
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OL;O;10.4;61
+vasyn_fifo
+Z0 !s110 1699887558
+!i10b 1
+!s100 me^c7ZUT8L?gff3Wdl?gJ2
+IC2S5:Nj=N<KNbA7_MohnI0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dF:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation
+w1697547616
+8F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/asyn_fifo.v
+FF:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/asyn_fifo.v
+L0 17
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1699887558.549000
+!s107 F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/asyn_fifo.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/asyn_fifo.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vBiCubic
+Z5 !s110 1699887559
+!i10b 1
+!s100 n<ULLPZH_E`k>6n^[5k8U0
+I1d_ThXaUDMiPiN[Sab:kW0
+R1
+R2
+Z6 w1547432396
+8F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic.v
+FF:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1699887559.073000
+!s107 F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic.v|
+!i113 0
+R4
+n@bi@cubic
+vbicubic_interpolation
+R0
+!i10b 1
+!s100 IIeBS0fb_`S;==QT38Y9S0
+I>0O9Z>?We_TbcVM^9j0JV0
+R1
+R2
+w1699869423
+8F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/bicubic_interpolation.v
+FF:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/bicubic_interpolation.v
+L0 19
+R3
+r1
+!s85 0
+31
+!s108 1699887558.632000
+!s107 F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/bicubic_interpolation.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/bicubic_interpolation.v|
+!i113 0
+R4
+vBiCubic_x0
+R5
+!i10b 1
+!s100 =MM=_KRVk>3HURfVj:5CS0
+IR7_]>Z3cG5]L^7RVHMgko2
+R1
+R2
+R6
+8F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_x0.v
+FF:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_x0.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1699887559.158000
+!s107 F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_x0.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_x0.v|
+!i113 0
+R4
+n@bi@cubic_x0
+vBiCubic_x1
+R5
+!i10b 1
+!s100 me:Y];BJ;kZ]JPjid]4gA1
+I^cci6>eBgUJij1WhWW24J0
+R1
+R2
+R6
+8F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_x1.v
+FF:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_x1.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1699887559.243000
+!s107 F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_x1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_x1.v|
+!i113 0
+R4
+n@bi@cubic_x1
+vBiCubic_x2
+R5
+!i10b 1
+!s100 K=n@8PLI`1BTI0SMn=@H91
+IfZlL1Z05i3Q10Klm56eR;3
+R1
+R2
+R6
+8F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_x2.v
+FF:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_x2.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1699887559.328000
+!s107 F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_x2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_x2.v|
+!i113 0
+R4
+n@bi@cubic_x2
+vBiCubic_x3
+R5
+!i10b 1
+!s100 bWcNcfg3N>EaX@n6z;<<73
+Ic@a@iR`L?kN1<K2mlmbLd1
+R1
+R2
+R6
+8F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_x3.v
+FF:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_x3.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1699887559.413000
+!s107 F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_x3.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_x3.v|
+!i113 0
+R4
+n@bi@cubic_x3
+vBiCubic_y0
+R5
+!i10b 1
+!s100 ;oocNZBIm;k7XG<AQSHZb1
+Ida7j;c:4`>hmXAmLa3H@k1
+R1
+R2
+R6
+8F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_y0.v
+FF:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_y0.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1699887559.498000
+!s107 F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_y0.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_y0.v|
+!i113 0
+R4
+n@bi@cubic_y0
+vBiCubic_y1
+R5
+!i10b 1
+!s100 BJhQi]ddSNdIDIBd?bHHf1
+IM=R_=TJLelAI1kb<YLl@V2
+R1
+R2
+R6
+8F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_y1.v
+FF:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_y1.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1699887559.583000
+!s107 F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_y1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_y1.v|
+!i113 0
+R4
+n@bi@cubic_y1
+vBiCubic_y2
+R5
+!i10b 1
+!s100 7R78NTQ1k4hN:hNE2RWA80
+Ik@Rj?ebV4>Gh:CN0D@iD;2
+R1
+R2
+R6
+8F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_y2.v
+FF:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_y2.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1699887559.670000
+!s107 F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_y2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_y2.v|
+!i113 0
+R4
+n@bi@cubic_y2
+vBiCubic_y3
+R5
+!i10b 1
+!s100 O^;S@dH;]dUQJaa?Xfi9I0
+I2H0CJFDcofT[U2>WT6=o53
+R1
+R2
+R6
+8F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_y3.v
+FF:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_y3.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1699887559.756000
+!s107 F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_y3.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/BiCubic_y3.v|
+!i113 0
+R4
+n@bi@cubic_y3
+vbram_asymmetric_r2_w1_port
+R0
+!i10b 1
+!s100 PDk4n^[haU7cTi=Q13XhZ3
+IQ^EQW0UPmhCTF8eaU:hfK2
+R1
+R2
+w1698494840
+8F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/bram_asymmetric_r2_w1_port.v
+FF:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/bram_asymmetric_r2_w1_port.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1699887558.730000
+!s107 F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/bram_asymmetric_r2_w1_port.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/bram_asymmetric_r2_w1_port.v|
+!i113 0
+R4
+vcoefficient
+R5
+!i10b 1
+!s100 SXMfB`E@iDizaZ=`B5PXC3
+IAbKH<l>lhDDL:`YkDZD<[3
+R1
+R2
+R6
+8F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/coefficient.v
+FF:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/coefficient.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1699887559.841000
+!s107 F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/coefficient.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/coefficient.v|
+!i113 0
+R4
+vhigh_speed_ram_controller
+R0
+!i10b 1
+!s100 o>VGFRk67HYA:O:^M3Q;O3
+IT]zmNMBhl3SK9GXh4]>0n0
+R1
+R2
+w1699866052
+8F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/high_speed_ram_controller.v
+FF:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/high_speed_ram_controller.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1699887558.815000
+!s107 F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/high_speed_ram_controller.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/high_speed_ram_controller.v|
+!i113 0
+R4
+vmul_2
+R5
+!i10b 1
+!s100 <E7;ah1I^[^K=CDL27JGA1
+IeINkAHP>=[N2Lem9fo]UH2
+R1
+R2
+R6
+8F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/mul_2.v
+FF:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/mul_2.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1699887559.928000
+!s107 F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/mul_2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/mul_2.v|
+!i113 0
+R4
+vmul_3
+Z7 !s110 1699887560
+!i10b 1
+!s100 ^Y:g>z=_o8=4B`<=Hn=XI0
+IE524hRFP;j7WZk<nI5UB;1
+R1
+R2
+R6
+8F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/mul_3.v
+FF:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/mul_3.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1699887560.013000
+!s107 F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/mul_3.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/mul_3.v|
+!i113 0
+R4
+vmul_4
+R7
+!i10b 1
+!s100 2mLAAOmNcoF<?W5=blGQm1
+I[n;1^3mgIOBX[AP1XO]P:0
+R1
+R2
+R6
+8F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/mul_4.v
+FF:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/mul_4.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1699887560.098000
+!s107 F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/mul_4.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/mul_4.v|
+!i113 0
+R4
+vmul_add_1
+R7
+!i10b 1
+!s100 8DY23:6]bK93J>A^47U[X3
+Ie=IUF4^5T]cMRODgc4Z8F2
+R1
+R2
+R6
+8F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/mul_add_1.v
+FF:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/mul_add_1.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1699887560.186000
+!s107 F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/mul_add_1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/mul_add_1.v|
+!i113 0
+R4
+vmul_add_2
+R0
+!i10b 1
+!s100 hh^iGMz7BiIKYLj^PG<3f3
+I_Q`:Aemoc8LM7c`NLB2f91
+R1
+R2
+R6
+8F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/mul_add_2.v
+FF:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/mul_add_2.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1699887558.989000
+!s107 F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/mul_add_2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/quanzhong/mul_add_2.v|
+!i113 0
+R4
+vtestbench
+DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+R0
+!i10b 1
+!s100 m[_Z1^?P3k7UQF`8XeB8M1
+ImebJ:9Z@>n;C=aHOLIZPR2
+R1
+!s105 testbench_sv_unit
+S1
+R2
+w1699887550
+8F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/testbench.sv
+FF:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/testbench.sv
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1699887558.901000
+!s107 F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/testbench.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|F:/FPGA_PRJ/YLS/bicubic_v7_2/efinity_project/source/interpolation_algo/Bicubic_interpolation/testbench.sv|
+!i113 0
+o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact

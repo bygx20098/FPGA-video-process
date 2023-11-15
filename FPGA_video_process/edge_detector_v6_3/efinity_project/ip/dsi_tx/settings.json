@@ -1,0 +1,76 @@
+{
+    "args": [
+        "-o",
+        "dsi_tx",
+        "--base_path",
+        "D:\\FPGA_Prj\\03_Ti60F225_DemoBoard\\Prj_demo\\05_Ti60F225_mipi_demo\\Ti60F225_mipi_dsi_demo_J2_1Gpsb_2k\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "mipi",
+            "name": "efx_dsi_tx",
+            "version": "5.0"
+        }
+    ],
+    "conf": {
+        "tLPX_NS": "60",
+        "tINIT_NS": "100000",
+        "NUM_DATA_LANE": "4",
+        "HS_BYTECLK_MHZ": "125",
+        "CLOCK_FREQ_MHZ": "100",
+        "DPHY_CLOCK_MODE": "\"Continuous\"",
+        "PIXEL_FIFO_DEPTH": "8192",
+        "tLP_EXIT_NS": "100",
+        "tCLK_ZERO_NS": "280",
+        "tCLK_TRAIL_NS": "100",
+        "tCLK_PRE_NS": "10",
+        "tCLK_POST_NS": "100",
+        "tCLK_PREPARE_NS": "50",
+        "tWAKEUP_NS": "1000",
+        "tHS_ZERO_NS": "200",
+        "tHS_TRAIL_NS": "65",
+        "tHS_EXIT_NS": "120",
+        "Pack_48": "1'b1",
+        "Pack_64": "1'b0",
+        "tHS_PREPARE_NS": "50",
+        "BTA_TIMEOUT_NS": "100000",
+        "tD_TERM_EN_NS": "35",
+        "tHS_PREPARE_ZERO_NS": "145",
+        "ENABLE_V_LPM_BTA": "1'b0",
+        "PACKET_SEQUENCES": "1",
+        "HS_CMD_WDATAFIFO_DEPTH": "512",
+        "LP_CMD_WDATAFIFO_DEPTH": "512",
+        "LP_CMD_RDATAFIFO_DEPTH": "2048",
+        "MAX_HRES": "1920",
+        "ENABLE_BIDIR": "1'b1",
+        "ENABLE_EOTP": "1'b0"
+    },
+    "output": {
+        "external_source_source": [
+            "D:\\FPGA_Prj\\03_Ti60F225_DemoBoard\\Prj_demo\\05_Ti60F225_mipi_demo\\Ti60F225_mipi_dsi_demo_J2_1Gpsb_2k\\ip\\dsi_tx\\dsi_tx_tmpl.v",
+            "D:\\FPGA_Prj\\03_Ti60F225_DemoBoard\\Prj_demo\\05_Ti60F225_mipi_demo\\Ti60F225_mipi_dsi_demo_J2_1Gpsb_2k\\ip\\dsi_tx\\dsi_tx_tmpl.vhd",
+            "D:\\FPGA_Prj\\03_Ti60F225_DemoBoard\\Prj_demo\\05_Ti60F225_mipi_demo\\Ti60F225_mipi_dsi_demo_J2_1Gpsb_2k\\ip\\dsi_tx\\dsi_tx_define.vh",
+            "D:\\FPGA_Prj\\03_Ti60F225_DemoBoard\\Prj_demo\\05_Ti60F225_mipi_demo\\Ti60F225_mipi_dsi_demo_J2_1Gpsb_2k\\ip\\dsi_tx\\dsi_tx.sv"
+        ],
+        "external_testbench_modelsim": [
+            "D:\\FPGA_Prj\\03_Ti60F225_DemoBoard\\Prj_demo\\05_Ti60F225_mipi_demo\\Ti60F225_mipi_dsi_demo_J2_1Gpsb_2k\\ip\\dsi_tx\\Testbench\\modelsim\\dsi_tx.sv"
+        ],
+        "external_testbench_testbench": [
+            "D:\\FPGA_Prj\\03_Ti60F225_DemoBoard\\Prj_demo\\05_Ti60F225_mipi_demo\\Ti60F225_mipi_dsi_demo_J2_1Gpsb_2k\\ip\\dsi_tx\\Testbench\\data_pack.v",
+            "D:\\FPGA_Prj\\03_Ti60F225_DemoBoard\\Prj_demo\\05_Ti60F225_mipi_demo\\Ti60F225_mipi_dsi_demo_J2_1Gpsb_2k\\ip\\dsi_tx\\Testbench\\dual_clock_fifo.v",
+            "D:\\FPGA_Prj\\03_Ti60F225_DemoBoard\\Prj_demo\\05_Ti60F225_mipi_demo\\Ti60F225_mipi_dsi_demo_J2_1Gpsb_2k\\ip\\dsi_tx\\Testbench\\panel_config.v",
+            "D:\\FPGA_Prj\\03_Ti60F225_DemoBoard\\Prj_demo\\05_Ti60F225_mipi_demo\\Ti60F225_mipi_dsi_demo_J2_1Gpsb_2k\\ip\\dsi_tx\\Testbench\\shift_reg.v",
+            "D:\\FPGA_Prj\\03_Ti60F225_DemoBoard\\Prj_demo\\05_Ti60F225_mipi_demo\\Ti60F225_mipi_dsi_demo_J2_1Gpsb_2k\\ip\\dsi_tx\\Testbench\\simple_dual_port_ram.v",
+            "D:\\FPGA_Prj\\03_Ti60F225_DemoBoard\\Prj_demo\\05_Ti60F225_mipi_demo\\Ti60F225_mipi_dsi_demo_J2_1Gpsb_2k\\ip\\dsi_tx\\Testbench\\true_dual_port_ram.v",
+            "D:\\FPGA_Prj\\03_Ti60F225_DemoBoard\\Prj_demo\\05_Ti60F225_mipi_demo\\Ti60F225_mipi_dsi_demo_J2_1Gpsb_2k\\ip\\dsi_tx\\Testbench\\vga_gen.v",
+            "D:\\FPGA_Prj\\03_Ti60F225_DemoBoard\\Prj_demo\\05_Ti60F225_mipi_demo\\Ti60F225_mipi_dsi_demo_J2_1Gpsb_2k\\ip\\dsi_tx\\Testbench\\dsi_hs_cmd_tb.mem",
+            "D:\\FPGA_Prj\\03_Ti60F225_DemoBoard\\Prj_demo\\05_Ti60F225_mipi_demo\\Ti60F225_mipi_dsi_demo_J2_1Gpsb_2k\\ip\\dsi_tx\\Testbench\\dsi_tb.mem",
+            "D:\\FPGA_Prj\\03_Ti60F225_DemoBoard\\Prj_demo\\05_Ti60F225_mipi_demo\\Ti60F225_mipi_dsi_demo_J2_1Gpsb_2k\\ip\\dsi_tx\\Testbench\\TI60F225_MIPI_dsi_tb.v",
+            "D:\\FPGA_Prj\\03_Ti60F225_DemoBoard\\Prj_demo\\05_Ti60F225_mipi_demo\\Ti60F225_mipi_dsi_demo_J2_1Gpsb_2k\\ip\\dsi_tx\\Testbench\\modelsim.do",
+            "D:\\FPGA_Prj\\03_Ti60F225_DemoBoard\\Prj_demo\\05_Ti60F225_mipi_demo\\Ti60F225_mipi_dsi_demo_J2_1Gpsb_2k\\ip\\dsi_tx\\Testbench\\dsi_tx.sv",
+            "D:\\FPGA_Prj\\03_Ti60F225_DemoBoard\\Prj_demo\\05_Ti60F225_mipi_demo\\Ti60F225_mipi_dsi_demo_J2_1Gpsb_2k\\ip\\dsi_tx\\Testbench\\dsi_tx_define.vh"
+        ]
+    },
+    "sw_version": "2023.1.150",
+    "generated_date": "2023-07-21T12:38:57.210541"
+}

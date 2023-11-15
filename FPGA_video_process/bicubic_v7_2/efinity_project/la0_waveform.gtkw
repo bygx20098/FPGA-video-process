@@ -1,0 +1,17 @@
+[dumpfile] "D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60F225_demo_v5_1\efinity_project\la0_waveform.vcd"
+[dumpfile_mtime] "Sat Jul 22 11:45:38 2023"
+[dumpfile_size] 35273
+[savefile] "D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60F225_demo_v5_1\efinity_project\la0_waveform.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*0.000000 c 2048 6144 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[signals_width] 126
+[sst_expanded] 1
+@22
+top.rdata_in[7:0]
+top.gdata_in[7:0]
+top.bdata_in[7:0]
+top.rx_vsync
+top.rx_de
+top.rx_hsync

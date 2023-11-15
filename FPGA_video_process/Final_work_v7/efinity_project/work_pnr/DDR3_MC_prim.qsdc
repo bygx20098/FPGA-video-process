@@ -1,0 +1,529 @@
+clock {
+  name: "sys_clk"
+  period: 9260
+  target_pin {
+    cell: "sys_clk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 110
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "tdqss_clk"
+  period: 2500
+  target_pin {
+    cell: "tdqss_clk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 110
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "core_clk"
+  period: 5000
+  target_pin {
+    cell: "core_clk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 110
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "tac_clk"
+  period: 2500
+  target_pin {
+    cell: "tac_clk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 110
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "twd_clk"
+  period: 2500
+  rising_edge: 625
+  falling_edge: 1875
+  target_pin {
+    cell: "twd_clk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 110
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "hdmi_rx_fast_clk"
+  period: 1347
+  rising_edge: 337
+  falling_edge: 1010
+  target_pin {
+    cell: "hdmi_rx_fast_clk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 110
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "hdmi_tx_fast_clk"
+  period: 1347
+  target_pin {
+    cell: "hdmi_tx_fast_clk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 110
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "hdmi_rx_slow_clk"
+  period: 6734
+  target_pin {
+    cell: "hdmi_rx_slow_clk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 110
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "jtag_inst1_TCK"
+  period: 100000
+  target_pin {
+    cell: "jtag_inst1_TCK"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 110
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+  input_delay {
+    pin {
+      cell: "jtag_inst1_SEL"
+      port: "INPAD"
+    }
+    arrival: 243
+    analysis: MAX
+    ref_clock_edge: FALLING
+  }
+  input_delay {
+    pin {
+      cell: "jtag_inst1_SEL"
+      port: "INPAD"
+    }
+    arrival: 162
+    analysis: MIN
+    ref_clock_edge: FALLING
+  }
+  input_delay {
+    pin {
+      cell: "jtag_inst1_CAPTURE"
+      port: "INPAD"
+    }
+    arrival: 280
+    analysis: MAX
+    ref_clock_edge: FALLING
+  }
+  input_delay {
+    pin {
+      cell: "jtag_inst1_CAPTURE"
+      port: "INPAD"
+    }
+    arrival: 187
+    analysis: MIN
+    ref_clock_edge: FALLING
+  }
+  input_delay {
+    pin {
+      cell: "jtag_inst1_SHIFT"
+      port: "INPAD"
+    }
+    arrival: 337
+    analysis: MAX
+    ref_clock_edge: FALLING
+  }
+  input_delay {
+    pin {
+      cell: "jtag_inst1_SHIFT"
+      port: "INPAD"
+    }
+    arrival: 225
+    analysis: MIN
+    ref_clock_edge: FALLING
+  }
+  output_delay {
+    pin {
+      cell: "jtag_inst1_TDO"
+      port: "OUTPAD"
+    }
+    setup: 117
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "jtag_inst1_TDO"
+      port: "OUTPAD"
+    }
+    setup: 75
+    analysis: MIN
+    ref_clock_edge: RISING
+  }
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "twd_clk"
+  }
+  to {
+    clock: "sys_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "twd_clk"
+  }
+  to {
+    clock: "tac_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "twd_clk"
+  }
+  to {
+    clock: "tdqss_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "twd_clk"
+  }
+  to {
+    clock: "core_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "twd_clk"
+  }
+  to {
+    clock: "hdmi_rx_slow_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "sys_clk"
+  }
+  to {
+    clock: "twd_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "sys_clk"
+  }
+  to {
+    clock: "tac_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "sys_clk"
+  }
+  to {
+    clock: "tdqss_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "sys_clk"
+  }
+  to {
+    clock: "core_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "sys_clk"
+  }
+  to {
+    clock: "hdmi_rx_slow_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "tac_clk"
+  }
+  to {
+    clock: "twd_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "tac_clk"
+  }
+  to {
+    clock: "sys_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "tac_clk"
+  }
+  to {
+    clock: "tdqss_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "tac_clk"
+  }
+  to {
+    clock: "core_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "tac_clk"
+  }
+  to {
+    clock: "hdmi_rx_slow_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "tdqss_clk"
+  }
+  to {
+    clock: "twd_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "tdqss_clk"
+  }
+  to {
+    clock: "sys_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "tdqss_clk"
+  }
+  to {
+    clock: "tac_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "tdqss_clk"
+  }
+  to {
+    clock: "core_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "tdqss_clk"
+  }
+  to {
+    clock: "hdmi_rx_slow_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "core_clk"
+  }
+  to {
+    clock: "twd_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "core_clk"
+  }
+  to {
+    clock: "sys_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "core_clk"
+  }
+  to {
+    clock: "tac_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "core_clk"
+  }
+  to {
+    clock: "tdqss_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "core_clk"
+  }
+  to {
+    clock: "hdmi_rx_slow_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "hdmi_rx_slow_clk"
+  }
+  to {
+    clock: "twd_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "hdmi_rx_slow_clk"
+  }
+  to {
+    clock: "sys_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "hdmi_rx_slow_clk"
+  }
+  to {
+    clock: "tac_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "hdmi_rx_slow_clk"
+  }
+  to {
+    clock: "tdqss_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "hdmi_rx_slow_clk"
+  }
+  to {
+    clock: "core_clk"
+  }
+  analysis: BOTH
+}

@@ -1,0 +1,60 @@
+# Compile of led_ctrl.v was successful.
+# Compile of edge_gen.v was successful.
+# Compile of inf_control.v was successful.
+# Compile of inf_rev.v was successful.
+# Compile of tb_inf.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.inf_control
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Note: (vopt-143) Recognized 1 FSM in module "inf_rev(fast)".
+# 
+# ** Note: (vopt-143) Recognized 1 FSM in module "inf_control(fast)".
+# 
+# ** Warning: F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/led_ctrl.v(27): (vopt-2685) [TFMPC] - Too few port connections for 'edge_gen_inst1'.  Expected 5, found 4.
+# 
+# ** Warning: F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/led_ctrl.v(27): (vopt-2718) [TFMPC] - Missing connection for port 'fall_flag'.
+# 
+# Loading work.inf_control(fast)
+# Loading work.led_ctrl(fast)
+# Loading work.edge_gen(fast)
+# Loading work.inf_rev(fast)
+vsim -voptargs=+acc work.tb_inf
+# vsim 
+# Start time: 00:35:14 on Oct 29,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Note: (vopt-143) Recognized 1 FSM in module "inf_rev(fast)".
+# 
+# ** Note: (vopt-143) Recognized 1 FSM in module "inf_control(fast)".
+# 
+# ** Warning: F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/led_ctrl.v(27): (vopt-2685) [TFMPC] - Too few port connections for 'edge_gen_inst1'.  Expected 5, found 4.
+# 
+# ** Warning: F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/led_ctrl.v(27): (vopt-2718) [TFMPC] - Missing connection for port 'fall_flag'.
+# 
+# Loading work.tb_inf(fast)
+# Loading work.inf_control(fast)
+# Loading work.led_ctrl(fast)
+# Loading work.edge_gen(fast)
+# Loading work.inf_rev(fast)
+add wave -position insertpoint sim:/tb_inf/inst1/*
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# 
+# Loading work.tb_inf(fast)
+# Loading work.inf_control(fast)
+# Loading work.led_ctrl(fast)
+# Loading work.edge_gen(fast)
+# Loading work.inf_rev(fast)
+run
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# 
+# Loading work.tb_inf(fast)
+# Loading work.inf_control(fast)
+# Loading work.led_ctrl(fast)
+# Loading work.edge_gen(fast)
+# Loading work.inf_rev(fast)
+run
+# End time: 00:37:28 on Oct 29,2023, Elapsed time: 0:02:14
+# Errors: 0, Warnings: 6

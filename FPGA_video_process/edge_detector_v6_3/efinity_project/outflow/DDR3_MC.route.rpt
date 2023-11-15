@@ -1,0 +1,12 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.1.150.1.5 
+Date: Mon Nov 13 13:33:54 2023
+
+Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+ 
+Family: Titanium 
+Device: Ti60F225
+Top-level Entity Name: DDR3_MC
+Elapsed time for routing: 0 hours 0 minutes 24 seconds
+Elapsed time for entire flow: 0 hours 3 minutes 0 seconds

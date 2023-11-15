@@ -1,0 +1,4 @@
+Instance Name,Instance Type,Severity,Rule,Description
+hdmi_rx_d0,lvds_rx,warning,lvds_rule_rx_distance,"These HSIO GPIO must be placed at least 1 pair away from LVDS hdmi_rx_d0 in order to avoid noise coupling from GPIO to LVDS: GPIOR_N_15,GPIOR_P_15"
+tmds_tx_clk,lvds_tx,warning,lvds_rule_tx_distance,These HSIO GPIO must be placed at least 1 pair away from LVDS tmds_tx_clk in order to avoid noise coupling from GPIO to LVDS: GPIOR_P_09
+tmds_tx_data0,lvds_tx,warning,lvds_rule_tx_distance,"These HSIO GPIO must be placed at least 1 pair away from LVDS tmds_tx_data0 in order to avoid noise coupling from GPIO to LVDS: GPIOR_N_14,GPIOR_P_14"

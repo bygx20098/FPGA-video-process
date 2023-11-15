@@ -1,0 +1,19 @@
+!SESSION 2023-11-05 17:20:49.711 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=18.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -clearPersistedState
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clearPersistedState
+
+!ENTRY org.eclipse.ui 4 4 2023-11-05 17:22:03.826
+!MESSAGE MenuAdditionCacheEntry.mergeIntoModel: Invalid menu URI: com.ashling.riscfree.efinix.newproject.wizard.CreateNewEfinixProject
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-11-05 17:22:48.893
+!MESSAGE Indexed 'gpioDemo' (1 sources, 44 headers) in 1.56 sec: 1,470 declarations; 2,113 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-11-05 17:22:49.408
+!MESSAGE Indexed 'bootloader' (1 sources, 46 headers) in 0.51 sec: 1,529 declarations; 2,331 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-11-05 17:36:20.751
+!MESSAGE Indexed 'axi4Demo' (1 sources, 43 headers) in 0.183 sec: 1,448 declarations; 2,016 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)

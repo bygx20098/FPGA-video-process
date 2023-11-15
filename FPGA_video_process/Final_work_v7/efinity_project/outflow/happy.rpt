@@ -1,0 +1,8 @@
+**** Efinity Programming Tool Generation Report *****
+Time: 2023-11-11 14:33
+
+Generated FPGA Soc Image output file: F:\FPGA_PRJ\YLS\inf_riscv_interconnect_v6_2_test\efinity_project\outflow\happy.hex
+Flash Address  Length      Input Image File
+0x00000000     0x000da327  F:/FPGA_PRJ/YLS/inf_riscv_interconnect_v6_2_test/efinity_project/outflow/DDR3_MC.hex
+0x00380000     0x000034da  C:/Users/asus/Desktop/办公/易灵思ti60f225相关资料/fpuDemo.bin
+

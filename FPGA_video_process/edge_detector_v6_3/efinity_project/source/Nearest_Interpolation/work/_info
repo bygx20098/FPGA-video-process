@@ -1,0 +1,101 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dF:/FPGA_PRJ/YLS/easy_version_v1/easy_version/efinity_project/ip/SQRT/Testbench
+T_opt
+!s110 1699883149
+V:G;A?neAP;7deB;kf<BV41
+04 9 4 work testbench fast 0
+=6-90e868055339-6552288d-30b-1844
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OL;O;10.4;61
+vadvanced_edge_interpolation
+Z0 !s110 1699883129
+!i10b 1
+!s100 1g26WmoQVJ3[TEYEC`jKQ0
+IW>1FV7nhbPnP7cOmN]aAa2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dF:/FPGA_PRJ/YLS/edge_detector_v6_3/efinity_project/source/Nearest_Interpolation
+w1699883124
+8F:/FPGA_PRJ/YLS/edge_detector_v6_3/efinity_project/source/Nearest_Interpolation/src/advanced_edge_interpolation.v
+FF:/FPGA_PRJ/YLS/edge_detector_v6_3/efinity_project/source/Nearest_Interpolation/src/advanced_edge_interpolation.v
+Z3 L0 17
+Z4 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1699883129.315000
+!s107 F:/FPGA_PRJ/YLS/edge_detector_v6_3/efinity_project/source/Nearest_Interpolation/src/advanced_edge_interpolation.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA_PRJ/YLS/edge_detector_v6_3/efinity_project/source/Nearest_Interpolation/src/advanced_edge_interpolation.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vasyn_fifo
+R0
+!i10b 1
+!s100 me^c7ZUT8L?gff3Wdl?gJ2
+I]EiWKQgF]U@G;H5PeOOJH0
+R1
+R2
+w1696406350
+8F:/FPGA_PRJ/YLS/edge_detector_v6_3/efinity_project/source/Nearest_Interpolation/src/asyn_fifo.v
+FF:/FPGA_PRJ/YLS/edge_detector_v6_3/efinity_project/source/Nearest_Interpolation/src/asyn_fifo.v
+R3
+R4
+r1
+!s85 0
+31
+!s108 1699883129.407000
+!s107 F:/FPGA_PRJ/YLS/edge_detector_v6_3/efinity_project/source/Nearest_Interpolation/src/asyn_fifo.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA_PRJ/YLS/edge_detector_v6_3/efinity_project/source/Nearest_Interpolation/src/asyn_fifo.v|
+!i113 0
+R5
+vbram_asymmetric_r2_w1_port
+R0
+!i10b 1
+!s100 PDk4n^[haU7cTi=Q13XhZ3
+I_fCOz4?@2mG;Z<_a>:bBm2
+R1
+R2
+w1698494840
+8F:/FPGA_PRJ/YLS/edge_detector_v6_3/efinity_project/source/Nearest_Interpolation/src/bram_asymmetric_r2_w1_port.v
+FF:/FPGA_PRJ/YLS/edge_detector_v6_3/efinity_project/source/Nearest_Interpolation/src/bram_asymmetric_r2_w1_port.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1699883129.230000
+!s107 F:/FPGA_PRJ/YLS/edge_detector_v6_3/efinity_project/source/Nearest_Interpolation/src/bram_asymmetric_r2_w1_port.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA_PRJ/YLS/edge_detector_v6_3/efinity_project/source/Nearest_Interpolation/src/bram_asymmetric_r2_w1_port.v|
+!i113 0
+R5
+vtestbench
+DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+R0
+!i10b 1
+!s100 TVaAZ<VN8SLQmUbhVGhEC1
+IRkKnZKY2?i?A6^Q<i0=eY1
+R1
+!s105 testbench_sv_unit
+S1
+R2
+w1699880680
+8F:/FPGA_PRJ/YLS/edge_detector_v6_3/efinity_project/source/Nearest_Interpolation/sim/testbench.sv
+FF:/FPGA_PRJ/YLS/edge_detector_v6_3/efinity_project/source/Nearest_Interpolation/sim/testbench.sv
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1699883129.142000
+!s107 F:/FPGA_PRJ/YLS/edge_detector_v6_3/efinity_project/source/Nearest_Interpolation/sim/testbench.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|F:/FPGA_PRJ/YLS/edge_detector_v6_3/efinity_project/source/Nearest_Interpolation/sim/testbench.sv|
+!i113 0
+o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact

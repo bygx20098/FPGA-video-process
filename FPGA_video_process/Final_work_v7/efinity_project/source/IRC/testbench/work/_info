@@ -1,0 +1,128 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/asus/Desktop/7.2_Bilinear_Interpolation/tb
+T_opt
+!s110 1698510871
+Vaf1>GE04DVRNzl;;3:CMA0
+04 11 4 work inf_control fast 0
+=2-90e868055339-653d3817-1e-38ac
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+Z2 OL;O;10.4;61
+R0
+T_opt1
+!s110 1698513445
+VeY9`=JD:3P:DFl@BGE9C@2
+04 6 4 work tb_inf fast 0
+=8-90e868055339-653d4225-1d6-32c4
+R1
+n@_opt1
+R2
+R0
+vedge_gen
+Z3 !s110 1698513551
+!i10b 1
+!s100 0hdASCkI08V2FDU>4E_i>1
+IiJf;LBL12M6K?JBW<jQjJ0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 dF:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/testbench
+w1693240607
+8F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/edge_gen.v
+FF:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/edge_gen.v
+L0 1
+Z6 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1698513551.701000
+!s107 F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/edge_gen.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/edge_gen.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vinf_control
+R3
+!i10b 1
+!s100 h9m6PJ<ak1UW@[iGQCAXm0
+I^7De<3504iaPBn^=EUmBF2
+R4
+R5
+w1698513549
+8F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/inf_control.v
+FF:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/inf_control.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1698513551.784000
+!s107 F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/inf_control.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/inf_control.v|
+!i113 0
+R7
+vinf_rev
+R3
+!i10b 1
+!s100 5J;^M]KMbMfhE[D4TAoC`2
+I670Y;KhjoBR:ajQ4`T^2Z2
+R4
+R5
+w1698490421
+8F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/inf_rev.v
+FF:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/inf_rev.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1698513551.868000
+!s107 F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/inf_rev.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/inf_rev.v|
+!i113 0
+R7
+vled_ctrl
+R3
+!i10b 1
+!s100 N5]:jbO_:CFcTBbTj8D7A0
+IoEb<oC^0D:2;Ob@lBlEA=2
+R4
+R5
+w1698490454
+8F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/led_ctrl.v
+FF:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/led_ctrl.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1698513551.616000
+!s107 F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/led_ctrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/led_ctrl.v|
+!i113 0
+R7
+vtb_inf
+R3
+!i10b 1
+!s100 Z=[9@f@OYejQ9OZU:=hVF2
+IBzC3NgGRLfR2Ya1f3`k@J2
+R4
+R5
+w1698511375
+8F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/testbench/tb_inf.v
+FF:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/testbench/tb_inf.v
+L0 20
+R6
+r1
+!s85 0
+31
+!s108 1698513551.952000
+!s107 F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/testbench/tb_inf.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf/efinity_project/source/IRC/testbench/tb_inf.v|
+!i113 0
+R7

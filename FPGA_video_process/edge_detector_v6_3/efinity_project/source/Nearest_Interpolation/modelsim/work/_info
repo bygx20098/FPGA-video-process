@@ -1,0 +1,101 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dF:/ModelSim10_4/examples
+T_opt
+!s110 1696581242
+VK@>QHVSTbQY0h=o3>^>OR1
+04 9 4 work testbench fast 0
+=1-90e868055339-651fc677-266-45e0
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OL;O;10.4;61
+vasyn_fifo
+Z0 !s110 1696581225
+!i10b 1
+!s100 me^c7ZUT8L?gff3Wdl?gJ2
+IkKCi<ilA?2P3aMdF>m;EU0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/asus/Desktop/7.1_Nearest_Interpolation/modelsim
+Z3 w1696406349
+8C:/Users/asus/Desktop/7.1_Nearest_Interpolation/src/asyn_fifo.v
+FC:/Users/asus/Desktop/7.1_Nearest_Interpolation/src/asyn_fifo.v
+Z4 L0 17
+Z5 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1696581225.394000
+!s107 C:/Users/asus/Desktop/7.1_Nearest_Interpolation/src/asyn_fifo.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/asus/Desktop/7.1_Nearest_Interpolation/src/asyn_fifo.v|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vbram_ture_dual_port
+R0
+!i10b 1
+!s100 bccUQ49Jg4V?eNnkbc3J83
+IhL=RnZ0mCDkg79mRl]]k03
+R1
+R2
+R3
+8C:/Users/asus/Desktop/7.1_Nearest_Interpolation/src/bram_ture_dual_port.v
+FC:/Users/asus/Desktop/7.1_Nearest_Interpolation/src/bram_ture_dual_port.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1696581225.182000
+!s107 C:/Users/asus/Desktop/7.1_Nearest_Interpolation/src/bram_ture_dual_port.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/asus/Desktop/7.1_Nearest_Interpolation/src/bram_ture_dual_port.v|
+!i113 0
+R6
+vnearest_interpolation
+R0
+!i10b 1
+!s100 hWN>>3TYdcWOjdKaPbYdF0
+I]3XDR_1>_;31I04o32`3[0
+R1
+R2
+R3
+8C:/Users/asus/Desktop/7.1_Nearest_Interpolation/src/nearest_interpolation.v
+FC:/Users/asus/Desktop/7.1_Nearest_Interpolation/src/nearest_interpolation.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1696581225.289000
+!s107 C:/Users/asus/Desktop/7.1_Nearest_Interpolation/src/nearest_interpolation.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/asus/Desktop/7.1_Nearest_Interpolation/src/nearest_interpolation.v|
+!i113 0
+R6
+vtestbench
+DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+R0
+!i10b 1
+!s100 UoHWZ?2<nZnEK^BH5Q3lR0
+Ibh^6VAc0U`99BGH`:?iP21
+R1
+!s105 testbench_sv_unit
+S1
+R2
+w1696406348
+8C:/Users/asus/Desktop/7.1_Nearest_Interpolation/sim/testbench.sv
+FC:/Users/asus/Desktop/7.1_Nearest_Interpolation/sim/testbench.sv
+L0 2
+R5
+r1
+!s85 0
+31
+!s108 1696581225.502000
+!s107 C:/Users/asus/Desktop/7.1_Nearest_Interpolation/sim/testbench.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/asus/Desktop/7.1_Nearest_Interpolation/sim/testbench.sv|
+!i113 0
+o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact

@@ -1,0 +1,1734 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 07, 2022 12:39:29
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 19, 2023 21:29:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 19, 2023 22:30:02
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 19, 2023 23:42:46
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 20, 2023 00:49:38
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 20, 2023 01:34:03
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'memory_checker_axi' (VERI-1063) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\01_Ti60_Soft_DDR3_Axi_demo_v6\efinity_project\source\top_module\example_top.v:510)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 20, 2023 01:35:27
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 20, 2023 02:11:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 20, 2023 02:37:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 20, 2023 02:46:34
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 12, 2023 17:26:02
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot open Verilog file 'D:/FPGA_Prj/03_Ti60F225_DemoBoard/Prj_demo/01_Ti60_Soft_DDR3_Axi_demo_v6/efinity_project\ip/ddr3_soft_controller\ddr3_soft_controller.v' (SORT-1002) 
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 12, 2023 17:28:34
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 07, 2023 17:31:23
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'color_bar' (VERI-1063) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\02_Ti60F225_SoftDdr3_demo\01_Ti60_Soft_DDR3_Axi_demo_v6_v3\efinity_project\source\top_module\example_top.v:357)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 07, 2023 17:32:33
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot open file './ram_init_file.inithex' (VERI-1012) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\02_Ti60F225_SoftDdr3_demo\01_Ti60_Soft_DDR3_Axi_demo_v6_v3\efinity_project\source\hdmi_src\dvi_rx\simple_dual_port_ram.v:41)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 07, 2023 17:35:54
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'channelbond' (VERI-1063) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\02_Ti60F225_SoftDdr3_demo\01_Ti60_Soft_DDR3_Axi_demo_v6_v3\efinity_project\source\hdmi_in\tmds_decoder.v:121)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 07, 2023 17:36:34
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot open file 'ram_init_file.inithex' (VERI-1012) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\02_Ti60F225_SoftDdr3_demo\01_Ti60_Soft_DDR3_Axi_demo_v6_v3\efinity_project\source\hdmi_src\dvi_rx\simple_dual_port_ram.v:41)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 07, 2023 17:41:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 07, 2023 17:50:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 07, 2023 18:03:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 07, 2023 23:07:21
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 08:38:09
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 09:38:05
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 11:13:16
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'wire' (VERI-1137) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:159)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'wire' used in incorrect context (VERI-2344) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:159)
+[EFX-0010 VERI-ERROR] ANSI port 'b_led' cannot be redeclared (VERI-2285) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:190)
+[EFX-0010 VERI-ERROR] syntax error near 'assign' (VERI-1137) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:191)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'assign' used in incorrect context (VERI-2344) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:191)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:465)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 11:14:01
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'wire' (VERI-1137) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:159)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'wire' used in incorrect context (VERI-2344) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:159)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:464)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 11:14:31
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 12:11:59
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'S_COUNT' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:161)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:161)
+[EFX-0010 VERI-ERROR] 'S_COUNT' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:162)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:162)
+[EFX-0010 VERI-ERROR] 'S_COUNT' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:163)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:163)
+[EFX-0010 VERI-ERROR] 'S_COUNT' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:164)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:164)
+[EFX-0010 VERI-ERROR] 'S_COUNT' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:165)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:165)
+[EFX-0010 VERI-ERROR] 'S_COUNT' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:166)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:166)
+[EFX-0010 VERI-ERROR] 'S_COUNT' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:167)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:167)
+[EFX-0010 VERI-ERROR] 'S_COUNT' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:168)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:168)
+[EFX-0010 VERI-ERROR] 'S_COUNT' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:169)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:169)
+[EFX-0010 VERI-ERROR] 'S_COUNT' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:170)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 12:16:52
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'AXI_ID_WIDTH' is already declared (VERI-1116) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:157)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:675)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 12:17:53
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'Axi4FullDeplex' (VERI-1206) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\Axi4FullDeplex.v:269)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 12:23:45
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'Ddr_Ctrl_Sc_Fifo' (VERI-1063) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\soft_ddr3\efx_ddr3_axi.v:457)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 12:24:25
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'frame_buffer' (VERI-1063) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:588)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 12:25:18
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'rst_n_piple' (VERI-1063) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\frame_buffer.v:100)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 12:26:13
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'vid_rx_align' (VERI-1063) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\ddr_rx_buffer.v:102)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 13:20:29
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'vid_rx_align' (VERI-1063) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\ddr_rx_buffer.v:102)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 13:21:28
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] index 239 is out of range [127:0] for 'wr_data' (VERI-1216) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\vid_rx_align.v:92)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 13:26:36
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'frame_info_det' (VERI-1063) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\vid_rx_align.v:124)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 13:27:29
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'DC_FIFO' (VERI-1063) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\ddr_rx_buffer.v:129)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 13:28:12
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'data_tx' (VERI-1063) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\ddr_tx_buffer.v:583)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 13:28:55
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'bank_switch' (VERI-1063) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\frame_buffer.v:243)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 13:29:38
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'm_aid_0[7]' is constantly driven from multiple places (VDB-1000) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:405)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:595)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 13:35:07
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'm_aid_0[7]' is constantly driven from multiple places (VDB-1000) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:405)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:595)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 13:36:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 13:58:21
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 14:18:04
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 14:46:44
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] unexpected non-printable character with the hex value '0xef' (VERI-2607) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\frame_buffer.v:123)
+[EFX-0010 VERI-ERROR] syntax error near '.' (VERI-1137) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\frame_buffer.v:124)
+[EFX-0010 VERI-ERROR] 'ddr_rx_buffer' is an unknown type (VERI-1556) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\frame_buffer.v:160)
+[EFX-0010 VERI-ERROR] module 'frame_buffer' is ignored due to previous errors (VERI-1072) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\frame_buffer.v:250)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 14:47:30
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'localparameter' is an unknown type (VERI-1556) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\vid_rx_align.v:22)
+[EFX-0010 VERI-ERROR] 'SHIFT_WIDTH' is not a constant (VERI-1188) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\vid_rx_align.v:24)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\vid_rx_align.v:24)
+[EFX-0010 VERI-ERROR] 'SHIFT_WIDTH' is not a constant (VERI-1188) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\vid_rx_align.v:57)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\vid_rx_align.v:57)
+[EFX-0010 VERI-ERROR] module 'vid_rx_align' is ignored due to previous errors (VERI-1072) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\vid_rx_align.v:176)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 14:48:06
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 15:22:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 18:21:57
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'AXI_DATA_SIZE' is already declared (VERI-1116) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\ddr_rx_buffer.v:54)
+[EFX-0010 VERI-ERROR] syntax error near 'wire' (VERI-1137) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\ddr_rx_buffer.v:57)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'wire' used in incorrect context (VERI-2344) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\ddr_rx_buffer.v:57)
+[EFX-0010 VERI-ERROR] module 'ddr_rx_buffer' is ignored due to previous errors (VERI-1072) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\ddr_rx_buffer.v:342)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 18:24:17
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'wire' (VERI-1137) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\ddr_rx_buffer.v:57)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'wire' used in incorrect context (VERI-2344) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\ddr_rx_buffer.v:57)
+[EFX-0010 VERI-ERROR] module 'ddr_rx_buffer' is ignored due to previous errors (VERI-1072) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\ddr_rx_buffer.v:342)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 18:25:58
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\vid_rx_align.v:7)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 18:26:55
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'reg' (VERI-1137) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\vid_rx_align.v:25)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'reg' used in incorrect context (VERI-2344) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\vid_rx_align.v:25)
+[EFX-0010 VERI-ERROR] module 'vid_rx_align' is ignored due to previous errors (VERI-1072) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\frame_buffer\vid_rx_align.v:179)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 18:27:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 18:44:40
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 18:49:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 20:19:37
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 20:36:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 21:55:27
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 23:04:27
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 23:33:58
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 23:40:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 08, 2023 23:55:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2023 00:14:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2023 09:20:15
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '.' (VERI-1137) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:548)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\top_module\example_top.v:765)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2023 09:20:54
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'ycbcr_to_rgb' (VERI-1206) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\yuv_2rgb\rgb2yuv_yuv2rgb_v1.0\ycbcr_to_rgb.v:190)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2023 09:22:11
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'yuv422_2_ycbcr444' (VERI-1206) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60_Soft_DDR3_Axi_demo_v3\efinity_project\source\yuv_2rgb\rgb2yuv_yuv2rgb_v1.0\yuv422_2_ycbcr444.v:109)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2023 09:23:57
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2023 09:55:36
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2023 23:54:59
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] port connections cannot be mixed ordered and named (VERI-1162) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60F225_demo_v4\efinity_project\source\frame_buffer\vid_rx_align.v:129)
+[EFX-0010 VERI-ERROR] 'negtive_sync' is not a function (VERI-1120) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60F225_demo_v4\efinity_project\source\frame_buffer\vid_rx_align.v:128)
+[EFX-0010 VERI-ERROR] module 'vid_rx_align' is ignored due to previous errors (VERI-1072) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60F225_demo_v4\efinity_project\source\frame_buffer\vid_rx_align.v:180)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2023 23:55:47
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60F225_demo_v4\efinity_project\source\frame_buffer\frame_info_det.v:95)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60F225_demo_v4\efinity_project\source\frame_buffer\frame_info_det.v:95)
+[EFX-0010 VERI-ERROR] syntax error near 'endmodule' (VERI-1137) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60F225_demo_v4\efinity_project\source\frame_buffer\frame_info_det.v:114)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'endmodule' used in incorrect context (VERI-2344) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60F225_demo_v4\efinity_project\source\frame_buffer\frame_info_det.v:114)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2023 23:56:38
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'endmodule' (VERI-1137) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60F225_demo_v4\efinity_project\source\frame_buffer\frame_info_det.v:114)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'endmodule' used in incorrect context (VERI-2344) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60F225_demo_v4\efinity_project\source\frame_buffer\frame_info_det.v:114)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2023 23:57:16
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] if-condition does not match any sensitivity list edge (VERI-1167) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60F225_demo_v4\efinity_project\source\frame_buffer\frame_info_det.v:50)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 09, 2023 23:57:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2023 11:10:15
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60F225_demo_v5\efinity_project\source\top_module\example_top.v:120)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2023 11:11:01
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] module instantiations in compilation scope are not allowed (VERI-1413) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60F225_demo_v5\efinity_project\source\uart\fifo_w8_inst.v:12)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 10, 2023 11:17:06
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 22, 2023 16:31:16
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 22, 2023 16:41:38
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 22, 2023 17:58:18
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 22, 2023 18:31:01
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 22, 2023 19:07:40
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'rst_n_piple_inst' is already declared (VERI-1116) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60F225_demo_v5_1\efinity_project\source\top_module\example_top.v:319)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60F225_demo_v5_1\efinity_project\source\top_module\example_top.v:833)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 22, 2023 19:10:30
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'rst_n_piple' (VERI-1206) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60F225_demo_v5_1\Source\rst_n_piple.v:33)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 22, 2023 19:18:13
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 22, 2023 19:49:00
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 22, 2023 20:26:58
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 22, 2023 20:49:55
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'dsi_tx' (VERI-1063) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60F225_demo_v5_2\efinity_project\source\top_module\example_top.v:1097)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 22, 2023 21:39:42
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 22, 2023 23:56:44
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'tmds_data0' on this module (VERI-1010) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60F225_demo_v7\efinity_project\source\top_module\example_top.v:436)
+[EFX-0010 VERI-ERROR] cannot find port 'tmds_data1' on this module (VERI-1010) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60F225_demo_v7\efinity_project\source\top_module\example_top.v:437)
+[EFX-0010 VERI-ERROR] cannot find port 'tmds_data2' on this module (VERI-1010) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60F225_demo_v7\efinity_project\source\top_module\example_top.v:438)
+[EFX-0010 VERI-ERROR] cannot find port 'tmds_clk' on this module (VERI-1010) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\00_demo_total\01_Ti60F225_demo_v7\efinity_project\source\top_module\example_top.v:439)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 22, 2023 23:57:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2023 19:00:01
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2023 19:25:40
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (F:\FPGA_Project\01_Ti60F225_demo_v7\efinity_project\source\top_module\example_top.v:125)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2023 19:27:21
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] unexpected EOF (VERI-1138) (F:\FPGA_Project\01_Ti60F225_demo_v7\efinity_project\source\top_module\example_top.v:772)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2023 19:31:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2023 19:42:06
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2023 19:55:17
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2023 20:18:34
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2023 20:33:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2023 20:42:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2023 20:51:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2023 21:12:21
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2023 21:14:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2023 21:14:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2023 21:26:07
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2023 21:48:51
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'rx_de' is constantly driven from multiple places (VDB-1000) (F:\FPGA_Project\01_Ti60F225_demo_v7\efinity_project\source\top_module\example_top.v:339)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (F:\FPGA_Project\01_Ti60F225_demo_v7\efinity_project\source\top_module\example_top.v:434)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2023 21:51:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2023 22:08:26
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2023 22:15:25
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2023 22:23:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2023 22:32:04
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2023 22:45:17
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2023 22:51:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2023 22:58:40
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2023 23:06:58
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2023 23:22:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2023 23:34:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2023 23:49:07
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot index into non-array type wire for 'Ydata_out' (VERI-1011) (F:\FPGA_Project\01_Ti60F225_demo_v7\efinity_project\source\top_module\example_top.v:435)
+[EFX-0010 VERI-ERROR] cannot index into non-array type wire for 'Ydata_out' (VERI-1011) (F:\FPGA_Project\01_Ti60F225_demo_v7\efinity_project\source\top_module\example_top.v:436)
+[EFX-0010 VERI-ERROR] cannot index into non-array type wire for 'Ydata_out' (VERI-1011) (F:\FPGA_Project\01_Ti60F225_demo_v7\efinity_project\source\top_module\example_top.v:437)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (F:\FPGA_Project\01_Ti60F225_demo_v7\efinity_project\source\top_module\example_top.v:912)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2023 23:51:01
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 01, 2023 00:11:27
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'rgb_to_ycbcr' (VERI-1063) (F:\FPGA_Project\01_Ti60F225_demo_v7\efinity_project\source\top_module\example_top.v:465)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 01, 2023 00:12:09
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'rgb_to_ycbcr' (VERI-1063) (F:\FPGA_Project\01_Ti60F225_demo_v7\efinity_project\source\top_module\example_top.v:465)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 01, 2023 00:12:21
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'rgb_to_ycbcr' (VERI-1063) (F:\FPGA_Project\01_Ti60F225_demo_v7\efinity_project\source\top_module\example_top.v:465)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 01, 2023 00:13:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 01, 2023 00:23:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 01, 2023 01:24:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 01, 2023 01:30:25
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 01, 2023 01:31:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 01, 2023 01:47:25
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 01, 2023 02:00:30
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'cb_444_0' is constantly driven from multiple places (VDB-1000) (F:\FPGA_Project\01_Ti60F225_demo_v7\efinity_project\source\top_module\example_top.v:468)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (F:\FPGA_Project\01_Ti60F225_demo_v7\efinity_project\source\top_module\example_top.v:471)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 01, 2023 02:01:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 01, 2023 02:16:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 01, 2023 02:22:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 04, 2023 14:27:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 04, 2023 14:43:17
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 14, 2023 15:07:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 14, 2023 22:01:50
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'rst_n_piple' (VERI-1137) (F:\FPGA_PRJ\YLS\EVA\efinity_project\source\top_module\example_top.v:320)
+[EFX-0010 VERI-ERROR] syntax error near 'wire' (VERI-1137) (F:\FPGA_PRJ\YLS\EVA\efinity_project\source\top_module\example_top.v:374)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'wire' used in incorrect context (VERI-2344) (F:\FPGA_PRJ\YLS\EVA\efinity_project\source\top_module\example_top.v:374)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (F:\FPGA_PRJ\YLS\EVA\efinity_project\source\top_module\example_top.v:852)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 14, 2023 22:02:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 14, 2023 22:15:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 14, 2023 22:48:22
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 15, 2023 00:05:20
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 15, 2023 12:32:23
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 15, 2023 12:57:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 15, 2023 13:29:52
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 15, 2023 13:42:02
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 15, 2023 14:10:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 15, 2023 14:40:43
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 15, 2023 14:41:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 15, 2023 15:19:21
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 15, 2023 18:02:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 15, 2023 18:20:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 15, 2023 19:08:40
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 15, 2023 19:33:13
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ']' (VERI-1137) (F:\FPGA_PRJ\YLS\EVA_self_osc\efinity_project\source\top_module\example_top.v:463)
+[EFX-0010 VERI-ERROR] 'red_din' is not declared (VERI-1128) (F:\FPGA_PRJ\YLS\EVA_self_osc\efinity_project\source\top_module\example_top.v:395)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (F:\FPGA_PRJ\YLS\EVA_self_osc\efinity_project\source\top_module\example_top.v:878)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 15, 2023 19:35:00
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 15, 2023 19:43:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 15, 2023 20:03:38
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 15, 2023 20:07:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 15, 2023 20:30:06
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 15, 2023 20:44:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 15, 2023 21:12:13
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'fifo_full' is not declared (VERI-1128) (F:\FPGA_PRJ\YLS\EVA_self_osc\efinity_project\source\top_module\example_top.v:236)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (F:\FPGA_PRJ\YLS\EVA_self_osc\efinity_project\source\top_module\example_top.v:909)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 15, 2023 21:12:57
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 15, 2023 21:58:26
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 15:45:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 15:55:02
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 16:10:09
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 16:28:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 17:03:45
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 17:25:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 17:26:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 17:42:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 19:09:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 19:27:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 19:46:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2023 22:01:22
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 27, 2023 16:55:15
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 27, 2023 18:34:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 27, 2023 18:54:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 27, 2023 19:35:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 27, 2023 20:39:42
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 27, 2023 22:25:00
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'C_DST_IMG_WIDTH' is not a constant (VERI-1188) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ\efinity_project\source\top_module\example_top.v:548)
+[EFX-0010 VERI-ERROR] 'C_DST_IMG_WIDTH' is not a constant (VERI-1188) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ\efinity_project\source\top_module\example_top.v:549)
+[EFX-0010 VERI-ERROR] 'C_DST_IMG_HEIGHT' is not a constant (VERI-1188) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ\efinity_project\source\top_module\example_top.v:552)
+[EFX-0010 VERI-ERROR] 'C_DST_IMG_HEIGHT' is not a constant (VERI-1188) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ\efinity_project\source\top_module\example_top.v:553)
+[EFX-0010 VERI-ERROR] 'C_DST_IMG_WIDTH' is not a constant (VERI-1188) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ\efinity_project\source\top_module\example_top.v:566)
+[EFX-0010 VERI-ERROR] 'C_DST_IMG_HEIGHT' is not a constant (VERI-1188) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ\efinity_project\source\top_module\example_top.v:567)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ\efinity_project\source\top_module\example_top.v:850)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 27, 2023 22:39:58
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'C_DST_IMG_WIDTH' is not a constant (VERI-1188) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ\efinity_project\source\top_module\example_top.v:548)
+[EFX-0010 VERI-ERROR] 'C_DST_IMG_WIDTH' is not a constant (VERI-1188) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ\efinity_project\source\top_module\example_top.v:549)
+[EFX-0010 VERI-ERROR] 'C_DST_IMG_HEIGHT' is not a constant (VERI-1188) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ\efinity_project\source\top_module\example_top.v:552)
+[EFX-0010 VERI-ERROR] 'C_DST_IMG_HEIGHT' is not a constant (VERI-1188) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ\efinity_project\source\top_module\example_top.v:553)
+[EFX-0010 VERI-ERROR] 'C_DST_IMG_WIDTH' is not a constant (VERI-1188) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ\efinity_project\source\top_module\example_top.v:566)
+[EFX-0010 VERI-ERROR] 'C_DST_IMG_HEIGHT' is not a constant (VERI-1188) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ\efinity_project\source\top_module\example_top.v:567)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ\efinity_project\source\top_module\example_top.v:850)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 27, 2023 22:42:35
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'C_DST_IMG_WIDTH' is not a constant (VERI-1188) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ\efinity_project\source\top_module\example_top.v:562)
+[EFX-0010 VERI-ERROR] 'C_DST_IMG_HEIGHT' is not a constant (VERI-1188) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ\efinity_project\source\top_module\example_top.v:563)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ\efinity_project\source\top_module\example_top.v:846)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 27, 2023 22:50:14
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'MAX_VID_WIDTH' is not a constant (VERI-1188) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ\efinity_project\source\frame_buffer\bank_switch.v:32)
+[EFX-0010 VERI-ERROR] module 'bank_switch' is ignored due to previous errors (VERI-1072) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ\efinity_project\source\frame_buffer\bank_switch.v:163)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 27, 2023 22:54:32
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'C_X_RATIO' is not permitted (VERI-1195) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ\efinity_project\source\top_module\example_top.v:415)
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'C_Y_RATIO' is not permitted (VERI-1195) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ\efinity_project\source\top_module\example_top.v:425)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 27, 2023 22:55:22
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'C_X_RATIO[26]' is constantly driven from multiple places (VDB-1000) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ\efinity_project\source\top_module\example_top.v:382)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ\efinity_project\source\top_module\example_top.v:409)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 27, 2023 22:57:21
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 28, 2023 11:53:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 28, 2023 13:04:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 28, 2023 13:40:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 28, 2023 17:46:55
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] ANSI port 'clk_50m' cannot be redeclared (VERI-2285) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf\efinity_project\source\top_module\example_top.v:26)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf\efinity_project\source\top_module\example_top.v:871)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 28, 2023 17:47:24
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'c_src_img_width' on this module (VERI-1010) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf\efinity_project\source\top_module\example_top.v:455)
+[EFX-0010 VERI-ERROR] cannot find port 'c_src_img_height' on this module (VERI-1010) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf\efinity_project\source\top_module\example_top.v:456)
+[EFX-0010 VERI-ERROR] cannot find port 'c_x_radio' on this module (VERI-1010) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf\efinity_project\source\top_module\example_top.v:459)
+[EFX-0010 VERI-ERROR] cannot find port 'c_y_radio' on this module (VERI-1010) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf\efinity_project\source\top_module\example_top.v:460)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 28, 2023 17:50:21
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'c_src_img_width' on this module (VERI-1010) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf\efinity_project\source\top_module\example_top.v:455)
+[EFX-0010 VERI-ERROR] cannot find port 'c_src_img_height' on this module (VERI-1010) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf\efinity_project\source\top_module\example_top.v:456)
+[EFX-0010 VERI-ERROR] cannot find port 'c_x_radio' on this module (VERI-1010) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf\efinity_project\source\top_module\example_top.v:459)
+[EFX-0010 VERI-ERROR] cannot find port 'c_y_radio' on this module (VERI-1010) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf\efinity_project\source\top_module\example_top.v:460)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 28, 2023 17:54:29
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'repeat_led' is not permitted (VERI-1195) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf\efinity_project\source\IRC\inf_control.v:54)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 28, 2023 17:55:26
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 28, 2023 18:15:40
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 28, 2023 18:26:13
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 28, 2023 18:54:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 28, 2023 20:18:45
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'rst_n' is not a function (VERI-1120) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf\efinity_project\source\top_module\example_top.v:464)
+[EFX-0010 VERI-ERROR] 'post_img_vsync' is not a function (VERI-1120) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf\efinity_project\source\top_module\example_top.v:472)
+[EFX-0010 VERI-ERROR] 'post_img_href' is not a function (VERI-1120) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf\efinity_project\source\top_module\example_top.v:473)
+[EFX-0010 VERI-ERROR] 'post_img_gray' is not a function (VERI-1120) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf\efinity_project\source\top_module\example_top.v:474)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf\efinity_project\source\top_module\example_top.v:896)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 28, 2023 20:20:16
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'bram_asymmetric_read_write_port' (VERI-1063) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf\efinity_project\source\interpolation_algo\Bilinear_Interpolation\src\bilinear_interpolation.v:174)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 28, 2023 20:21:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 28, 2023 23:50:57
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'post_img_vsync_nearest' is not a constant (VERI-1188) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf\efinity_project\source\top_module\example_top.v:387)
+[EFX-0010 VERI-ERROR] 'post_img_href_nearest' is not a constant (VERI-1188) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf\efinity_project\source\top_module\example_top.v:388)
+[EFX-0010 VERI-ERROR] 'post_img_gray_nearest' is not a constant (VERI-1188) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf\efinity_project\source\top_module\example_top.v:389)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf\efinity_project\source\top_module\example_top.v:949)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 28, 2023 23:52:48
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'cnr' is not declared (VERI-1128) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf\efinity_project\source\IRC\inf_control.v:66)
+[EFX-0010 VERI-ERROR] module 'inf_control' is ignored due to previous errors (VERI-1072) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf\efinity_project\source\IRC\inf_control.v:169)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 28, 2023 23:53:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 29, 2023 01:26:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 29, 2023 01:29:25
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 29, 2023 11:21:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 29, 2023 18:32:09
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'wire' (VERI-1137) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf\efinity_project\source\RGB_YCbCr_YC\my_rgb_to_yuv422.v:18)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'wire' used in incorrect context (VERI-2344) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf\efinity_project\source\RGB_YCbCr_YC\my_rgb_to_yuv422.v:18)
+[EFX-0010 VERI-ERROR] module 'my_rgb_to_yuv422' is ignored due to previous errors (VERI-1072) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf\efinity_project\source\RGB_YCbCr_YC\my_rgb_to_yuv422.v:80)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 29, 2023 18:33:16
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] assignment to input 'i_v_sync' (VERI-1214) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf\efinity_project\source\RGB_YCbCr_YC\my_yuv422_to_rgb.v:34)
+[EFX-0010 VERI-ERROR] assignment to input 'i_h_sync' (VERI-1214) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf\efinity_project\source\RGB_YCbCr_YC\my_yuv422_to_rgb.v:35)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 29, 2023 18:35:13
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 30, 2023 22:44:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 00:58:41
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'nearest_interpolation_rgb' (VERI-1063) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:569)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 00:59:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 20:41:17
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'bilinear_interpolation_rgb' (VERI-1063) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:610)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 20:41:57
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'per_img_href' is not declared (VERI-1128) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\interpolation_algo\Bilinear_Interpolation\bilinear_interpolation_rgb.v:52)
+[EFX-0010 VERI-ERROR] 'per_img_href' is not declared (VERI-1128) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\interpolation_algo\Bilinear_Interpolation\bilinear_interpolation_rgb.v:57)
+[EFX-0010 VERI-ERROR] 'per_img_href' is not declared (VERI-1128) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\interpolation_algo\Bilinear_Interpolation\bilinear_interpolation_rgb.v:87)
+[EFX-0010 VERI-ERROR] 'per_img_href' is not declared (VERI-1128) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\interpolation_algo\Bilinear_Interpolation\bilinear_interpolation_rgb.v:120)
+[EFX-0010 VERI-ERROR] 'per_img_href' is not declared (VERI-1128) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\interpolation_algo\Bilinear_Interpolation\bilinear_interpolation_rgb.v:130)
+[EFX-0010 VERI-ERROR] 'per_img_href' is not declared (VERI-1128) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\interpolation_algo\Bilinear_Interpolation\bilinear_interpolation_rgb.v:148)
+[EFX-0010 VERI-ERROR] 'post_img_href' is not declared (VERI-1128) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\interpolation_algo\Bilinear_Interpolation\bilinear_interpolation_rgb.v:970)
+[EFX-0010 VERI-ERROR] 'post_img_href' is not declared (VERI-1128) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\interpolation_algo\Bilinear_Interpolation\bilinear_interpolation_rgb.v:975)
+[EFX-0010 VERI-ERROR] module 'bilinear_interpolation_rgb' is ignored due to previous errors (VERI-1072) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\interpolation_algo\Bilinear_Interpolation\bilinear_interpolation_rgb.v:1003)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 20:47:38
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 22:25:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2023 12:54:11
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'end' (VERI-1137) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\interpolation_algo\Nearest_Interpolation\nearest_interpolation_rgb_v3.v:837)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'end' used in incorrect context (VERI-2344) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\interpolation_algo\Nearest_Interpolation\nearest_interpolation_rgb_v3.v:837)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2023 12:54:42
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'endcase' (VERI-1137) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\interpolation_algo\Nearest_Interpolation\nearest_interpolation_rgb_v3.v:836)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'endcase' used in incorrect context (VERI-2344) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\interpolation_algo\Nearest_Interpolation\nearest_interpolation_rgb_v3.v:836)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2023 12:55:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2023 14:08:41
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'even_bram1_raddr' is not permitted (VERI-1100) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:504)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'odd_bram1_raddr' is not permitted (VERI-1100) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:505)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'even_bram2_raddr' is not permitted (VERI-1100) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:506)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'odd_bram2_raddr' is not permitted (VERI-1100) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:507)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'even_bram1_r_rdata' is not permitted (VERI-1100) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:508)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'odd_bram1_r_rdata' is not permitted (VERI-1100) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:509)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'even_bram2_r_rdata' is not permitted (VERI-1100) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:510)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'odd_bram2_r_rdata' is not permitted (VERI-1100) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:511)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'even_bram1_g_rdata' is not permitted (VERI-1100) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:512)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'odd_bram1_g_rdata' is not permitted (VERI-1100) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:513)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'even_bram2_g_rdata' is not permitted (VERI-1100) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:514)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'odd_bram2_g_rdata' is not permitted (VERI-1100) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:515)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'even_bram1_b_rdata' is not permitted (VERI-1100) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:516)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'odd_bram1_b_rdata' is not permitted (VERI-1100) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:517)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'even_bram2_b_rdata' is not permitted (VERI-1100) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:518)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'odd_bram2_b_rdata' is not permitted (VERI-1100) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:519)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'even_bram1_raddr' is not permitted (VERI-1100) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:523)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'odd_bram1_raddr' is not permitted (VERI-1100) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:524)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'even_bram2_raddr' is not permitted (VERI-1100) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:525)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2023 14:09:39
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'even_bram1_r_rdata' is not permitted (VERI-1195) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:729)
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'odd_bram1_r_rdata' is not permitted (VERI-1195) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:730)
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'even_bram2_r_rdata' is not permitted (VERI-1195) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:731)
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'odd_bram2_r_rdata' is not permitted (VERI-1195) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:732)
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'even_bram1_g_rdata' is not permitted (VERI-1195) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:733)
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'odd_bram1_g_rdata' is not permitted (VERI-1195) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:734)
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'even_bram2_g_rdata' is not permitted (VERI-1195) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:735)
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'odd_bram2_g_rdata' is not permitted (VERI-1195) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:736)
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'even_bram1_b_rdata' is not permitted (VERI-1195) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:737)
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'odd_bram1_b_rdata' is not permitted (VERI-1195) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:738)
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'even_bram2_b_rdata' is not permitted (VERI-1195) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:739)
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'odd_bram2_b_rdata' is not permitted (VERI-1195) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:740)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2023 14:43:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2023 15:04:17
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2023 15:43:01
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2023 17:00:10
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:147)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2023 17:00:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2023 17:13:52
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2023 18:14:42
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2023 18:16:27
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2023 18:50:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2023 19:43:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2023 20:38:27
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:150)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2023 20:40:25
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2023 21:09:27
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '.' (VERI-1137) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:1213)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\source\top_module\example_top.v:1280)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2023 21:09:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2023 21:41:02
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 06, 2023 14:49:18
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 07, 2023 20:20:55
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '.' (VERI-1137) (F:\FPGA_PRJ\YLS\inf_riscv_interconnect\efinity_project\source\top_module\example_top.v:1308)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (F:\FPGA_PRJ\YLS\inf_riscv_interconnect\efinity_project\source\top_module\example_top.v:1376)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 07, 2023 20:21:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 07, 2023 20:35:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 07, 2023 21:37:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 08, 2023 19:36:31
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 08, 2023 20:56:31
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 10, 2023 17:10:23
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '.' (VERI-1137) (F:\FPGA_PRJ\YLS\inf_riscv_interconnect_v6_2_test\efinity_project\source\top_module\example_top.v:1255)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (F:\FPGA_PRJ\YLS\inf_riscv_interconnect_v6_2_test\efinity_project\source\top_module\example_top.v:1415)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 10, 2023 17:11:05
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] index 3 is out of range [0:2] for 'slaveReg' (VERI-1216) (F:\FPGA_PRJ\YLS\inf_riscv_interconnect_v6_2_test\efinity_project\source\IRC\apb3_slave.v:155)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 10, 2023 17:11:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 11, 2023 10:02:39
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'bicubic_interpolated_vs' is constantly driven from multiple places (VDB-1000) (F:\FPGA_PRJ\YLS\inf_riscv_interconnect_v6_2_test\efinity_project\source\top_module\example_top.v:417)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (F:\FPGA_PRJ\YLS\inf_riscv_interconnect_v6_2_test\efinity_project\source\top_module\example_top.v:737)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 11, 2023 10:03:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 11, 2023 14:10:00
+///////////////////////////////////
+

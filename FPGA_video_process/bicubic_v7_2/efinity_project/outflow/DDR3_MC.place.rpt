@@ -1,0 +1,433 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.1.150.1.5 
+Date: Mon Nov 13 18:00:25 2023
+
+Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+ 
+Family: Titanium 
+Device: Ti60F225
+Top-level Entity Name: DDR3_MC
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- Resource Summary (begin) ----------
+Inputs: 92 / 1703 (5.40%)
+Outputs: 279 / 2267 (12.31%)
+Global Clocks (GBUF): 19 / 32 (59.38%)
+Regional Clocks (RBUF): 1 / 32 (3.12%)
+	RBUF: Core: 0 / 16 (0.00%)
+	RBUF: Periphery: 1 / 8 (12.50%)
+	RBUF: Multi-Region: 0 / 8 (0.00%)
+XLRs: 23623 / 60800 (38.85%)
+	XLRs needed for Logic: 9031 / 60800 (14.85%)
+	XLRs needed for Logic + FF: 3714 / 60800 (6.11%)
+	XLRs needed for Adder: 3057 / 60800 (5.03%)
+	XLRs needed for Adder + FF: 1296 / 60800 (2.13%)
+	XLRs needed for FF: 5179 / 60800 (8.52%)
+	XLRs needed for SRL8: 1346 / 14720 (9.14%)
+	XLRs needed for SRL8+FF: 0 / 14720 (0.00%)
+	XLRs needed for Routing: 0 / 60800 (0.00%)
+Memory Blocks: 137 / 256 (53.52%)
+DSP Blocks: 119 / 160 (74.38%)
+---------- Resource Summary (end) ----------
+
+
+---------- DSP Packer Summary (begin) ----------
+
+	DSP48 blocks required to legally pack design: 119
+	DSP48 blocks recoverable by optimizing:
+		-> DSP24/12 control signals & parameters: 0
+	Best case scenario DSP count after optimizing: 119
+
+---------- DSP Packer Summary (end) ----------
+
+
+---------- DSP48 Block Information (begin) ----------
+
++---------------------------------------------------------------------+--------+--------+---------+-------+-------+-------+-------------+
+|                                NAME                                 |  MODE  | SIGNED | SHIFTER | M_SEL | N_SEL | W_SEL | CASCOUT_SEL |
++---------------------------------------------------------------------+--------+--------+---------+-------+-------+-------+-------------+
+|                          i38/inst2/mult_4                           | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                          i38/inst2/mult_12                          | NORMAL | false  |  false  |   P   |   C   |   X   |      P      |
+|                          i38/inst2/mult_16                          | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_633                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_634                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_635                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_636                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_637                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_638                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_639                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_640                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_641                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_642                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_643                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_644                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_645                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_646                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_647                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_648                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_649                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_650                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_651                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_652                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_653                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_654                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_655                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_656                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_657                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_658                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_659                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_660                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_661                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_662                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_663                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_664                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_665                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_666                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_667                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_668                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_669                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_670                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_671                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_672                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_673                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_674                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_675                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_676                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_677                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_678                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_679                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                        bicubic_inst/mult_680                        | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|   bicubic_inst/BiCubic_inst/BiCubic_y3_inst/mul_4_y3_inst/mult_6    | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|   bicubic_inst/BiCubic_inst/BiCubic_y3_inst/mul_4_y3_inst/mult_11   | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+| bicubic_inst/BiCubic_inst/BiCubic_y3_inst/mul_4_y3_inst/n140_pp_0x0 | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|   bicubic_inst/BiCubic_inst/BiCubic_y3_inst/mul_3_y3_inst/mult_6    | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+| bicubic_inst/BiCubic_inst/BiCubic_y3_inst/mul_3_y3_inst/n115_pp_0x0 | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|   bicubic_inst/BiCubic_inst/BiCubic_y3_inst/mul_2_y3_inst/mult_6    | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|   bicubic_inst/BiCubic_inst/BiCubic_y2_inst/mul_4_y2_inst/mult_6    | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|   bicubic_inst/BiCubic_inst/BiCubic_y2_inst/mul_4_y2_inst/mult_11   | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+| bicubic_inst/BiCubic_inst/BiCubic_y2_inst/mul_4_y2_inst/n140_pp_0x0 | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|   bicubic_inst/BiCubic_inst/BiCubic_y2_inst/mul_3_y2_inst/mult_6    | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+| bicubic_inst/BiCubic_inst/BiCubic_y2_inst/mul_3_y2_inst/n115_pp_0x0 | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|   bicubic_inst/BiCubic_inst/BiCubic_y1_inst/mul_4_y1_inst/mult_6    | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|   bicubic_inst/BiCubic_inst/BiCubic_y1_inst/mul_4_y1_inst/mult_11   | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+| bicubic_inst/BiCubic_inst/BiCubic_y1_inst/mul_4_y1_inst/n140_pp_0x0 | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|   bicubic_inst/BiCubic_inst/BiCubic_y1_inst/mul_3_y1_inst/mult_6    | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+| bicubic_inst/BiCubic_inst/BiCubic_y1_inst/mul_3_y1_inst/n115_pp_0x0 | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|   bicubic_inst/BiCubic_inst/BiCubic_y0_inst/mul_4_y0_inst/mult_6    | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|   bicubic_inst/BiCubic_inst/BiCubic_y0_inst/mul_4_y0_inst/mult_11   | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+| bicubic_inst/BiCubic_inst/BiCubic_y0_inst/mul_4_y0_inst/n140_pp_0x0 | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|   bicubic_inst/BiCubic_inst/BiCubic_y0_inst/mul_3_y0_inst/mult_6    | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+| bicubic_inst/BiCubic_inst/BiCubic_y0_inst/mul_3_y0_inst/n115_pp_0x0 | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|   bicubic_inst/BiCubic_inst/BiCubic_y0_inst/mul_2_y0_inst/mult_6    | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|   bicubic_inst/BiCubic_inst/BiCubic_x3_inst/mul_4_x3_inst/mult_6    | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|   bicubic_inst/BiCubic_inst/BiCubic_x3_inst/mul_4_x3_inst/mult_11   | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+| bicubic_inst/BiCubic_inst/BiCubic_x3_inst/mul_4_x3_inst/n140_pp_0x0 | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|   bicubic_inst/BiCubic_inst/BiCubic_x3_inst/mul_3_x3_inst/mult_6    | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+| bicubic_inst/BiCubic_inst/BiCubic_x3_inst/mul_3_x3_inst/n115_pp_0x0 | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|   bicubic_inst/BiCubic_inst/BiCubic_x3_inst/mul_2_x3_inst/mult_6    | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|   bicubic_inst/BiCubic_inst/BiCubic_x2_inst/mul_4_x2_inst/mult_6    | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|   bicubic_inst/BiCubic_inst/BiCubic_x2_inst/mul_4_x2_inst/mult_11   | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+| bicubic_inst/BiCubic_inst/BiCubic_x2_inst/mul_4_x2_inst/n140_pp_0x0 | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|   bicubic_inst/BiCubic_inst/BiCubic_x2_inst/mul_3_x2_inst/mult_6    | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+| bicubic_inst/BiCubic_inst/BiCubic_x2_inst/mul_3_x2_inst/n115_pp_0x0 | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|   bicubic_inst/BiCubic_inst/BiCubic_x1_inst/mul_4_x1_inst/mult_6    | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|   bicubic_inst/BiCubic_inst/BiCubic_x1_inst/mul_4_x1_inst/mult_11   | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+| bicubic_inst/BiCubic_inst/BiCubic_x1_inst/mul_4_x1_inst/n140_pp_0x0 | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|   bicubic_inst/BiCubic_inst/BiCubic_x1_inst/mul_3_x1_inst/mult_6    | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+| bicubic_inst/BiCubic_inst/BiCubic_x1_inst/mul_3_x1_inst/n115_pp_0x0 | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|   bicubic_inst/BiCubic_inst/BiCubic_x0_inst/mul_4_x0_inst/mult_6    | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|   bicubic_inst/BiCubic_inst/BiCubic_x0_inst/mul_4_x0_inst/mult_11   | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+| bicubic_inst/BiCubic_inst/BiCubic_x0_inst/mul_4_x0_inst/n140_pp_0x0 | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|   bicubic_inst/BiCubic_inst/BiCubic_x0_inst/mul_3_x0_inst/mult_6    | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+| bicubic_inst/BiCubic_inst/BiCubic_x0_inst/mul_3_x0_inst/n115_pp_0x0 | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|   bicubic_inst/BiCubic_inst/BiCubic_x0_inst/mul_2_x0_inst/mult_6    | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                bicubic_inst/coefficient_inst/mult_55                | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                bicubic_inst/coefficient_inst/mult_56                | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                bicubic_inst/coefficient_inst/mult_57                | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                bicubic_inst/coefficient_inst/mult_58                | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                bicubic_inst/coefficient_inst/mult_59                | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                bicubic_inst/coefficient_inst/mult_60                | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                bicubic_inst/coefficient_inst/mult_61                | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                bicubic_inst/coefficient_inst/mult_62                | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                bicubic_inst/coefficient_inst/mult_63                | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                bicubic_inst/coefficient_inst/mult_64                | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                bicubic_inst/coefficient_inst/mult_65                | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                bicubic_inst/coefficient_inst/mult_66                | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                bicubic_inst/coefficient_inst/mult_67                | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                bicubic_inst/coefficient_inst/mult_68                | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                bicubic_inst/coefficient_inst/mult_69                | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                bicubic_inst/coefficient_inst/mult_70                | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|             u_frame_buffer_ch0/u_ddr_tx_buffer/mult_32              | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|                 u_frame_buffer_ch0/u_bank_sw/mult_3                 | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
++---------------------------------------------------------------------+--------+--------+---------+-------+-------+-------+-------------+
+
+----------- DSP48 Block Information (end) ----------
+
+
+---------- DSP24 Block Information (begin) ----------
+
++-------------------+--------+---------+-------+--------+-------+-------------+----------------+------------------+
+|       NAME        | SIGNED | SHIFTER | M_SEL | N_SEL  | W_SEL | CASCOUT_SEL | CTL_SIG_SET_ID | PARAMETER_SET_ID |
++-------------------+--------+---------+-------+--------+-------+-------------+----------------+------------------+
+| i37/inst1/mult_6  | false  |  false  |   P   |   C    |   P   |      P      |       0        |        0         |
+| i37/inst1/mult_12 | false  |  false  |   P   |   C    |   P   |      P      |       0        |        1         |
+| i37/inst1/mult_11 | false  |  false  |   P   |   C    |   P   |      P      |       0        |        1         |
+| i37/inst1/mult_13 | false  |  false  |   P   |   C    |   P   |      P      |       0        |        1         |
+| i37/inst1/mult_18 | false  |  false  |   P   |   C    |   P   |      P      |       0        |        0         |
+| i37/inst1/mult_5  | false  |  false  |   P   |   C    |   P   |      P      |       0        |        1         |
+| i38/inst2/mult_11 | false  |  false  |   P   |   C    |   P   |      P      |       1        |        2         |
+| i38/inst2/mult_17 | false  |  false  |   P   |   C    |   P   |      P      |       1        |        2         |
+| i37/inst1/mult_4  | false  |  false  |   P   | CASCIN |   X   |      P      |       0        |        3         |
++-------------------+--------+---------+-------+--------+-------+-------------+----------------+------------------+
+* DSP24/DSP12 that share a CTL_SIG_SET_ID have identical control signals (CE, CLK, etc).
+* DSP24/DSP12 that share a PARAMETER_SET_ID have identical netlist parameters (DSP mode, registers, polarity, etc).
+* If fractured DSP primitives share both CTL_SIG_SET_ID and PARAMETER_SET_ID, they can be legally packed together.
+* See output file dsp_control_sets.csv for detailed breakdown. 
+
+----------- DSP24 Block Information (end) ----------
+
+
+---------- Simple Dual Port RAM Information (begin) ----------
+
++--------------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+|                                               NAME                                               | MODE | READ_WIDTH | WRITE_WIDTH |  WRITE_MODE  | OUTPUT_REG |
++--------------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+|                               u_hdmi_rx/u_simple_dual_port_ram/ram                               | SDP  |     8      |      8      |  READ_FIRST  |   false    |
+|             u_dvi_decoder/u_tmds_decoder_0/u_channelbond/u_simple_dual_port_ram/ram              | SDP  |     10     |     10      |  READ_FIRST  |    true    |
+|             u_dvi_decoder/u_tmds_decoder_1/u_channelbond/u_simple_dual_port_ram/ram              | SDP  |     10     |     10      |  READ_FIRST  |    true    |
+|             u_dvi_decoder/u_tmds_decoder_2/u_channelbond/u_simple_dual_port_ram/ram              | SDP  |     10     |     10      |  READ_FIRST  |    true    |
+|             bicubic_inst/high_speed_ram_controller_inst_green2/bram_inst1/mem_2__D$2             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_green2/bram_inst1/mem_3__D$2             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|            bicubic_inst/high_speed_ram_controller_inst_green2/bram_inst1/mem_2__D$b12            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|            bicubic_inst/high_speed_ram_controller_inst_green2/bram_inst1/mem_2__D$c1             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_green1/bram_inst1/mem_2__D$2             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|              bicubic_inst/high_speed_ram_controller_inst_blue2/bram_inst1/mem__D$2               | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|            bicubic_inst/high_speed_ram_controller_inst_green2/bram_inst1/mem_3__D$c1             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|            bicubic_inst/high_speed_ram_controller_inst_green2/bram_inst1/mem_3__D$b12            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|            bicubic_inst/high_speed_ram_controller_inst_green2/bram_inst1/mem_3__D$12             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|              bicubic_inst/high_speed_ram_controller_inst_red2/bram_inst1/mem__D$c1               | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|              bicubic_inst/high_speed_ram_controller_inst_blue2/bram_inst1/mem__D$c1              | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_green1/bram_inst1/mem_3__D$2             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|            bicubic_inst/high_speed_ram_controller_inst_green1/bram_inst1/mem_2__D$b12            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|            bicubic_inst/high_speed_ram_controller_inst_green1/bram_inst1/mem_2__D$c1             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_red2/bram_inst1/mem_3__D$c1              | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|              bicubic_inst/high_speed_ram_controller_inst_blue1/bram_inst1/mem__D$2               | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|            bicubic_inst/high_speed_ram_controller_inst_green1/bram_inst1/mem_3__D$c1             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|            bicubic_inst/high_speed_ram_controller_inst_green1/bram_inst1/mem_3__D$b12            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|            bicubic_inst/high_speed_ram_controller_inst_green1/bram_inst1/mem_3__D$12             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|              bicubic_inst/high_speed_ram_controller_inst_red1/bram_inst1/mem__D$c1               | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|              bicubic_inst/high_speed_ram_controller_inst_red2/bram_inst1/mem_3__D$2              | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_red2/bram_inst1/mem_3__D$12              | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_red2/bram_inst1/mem_2__D$c1              | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|              bicubic_inst/high_speed_ram_controller_inst_red2/bram_inst1/mem_2__D$2              | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|              bicubic_inst/high_speed_ram_controller_inst_green2/bram_inst1/mem__D$2              | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_red2/bram_inst1/mem_2__D$b12             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_red1/bram_inst1/mem_3__D$b12             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_red2/bram_inst1/mem_2__D$12              | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_red1/bram_inst1/mem_3__D$12              | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|              bicubic_inst/high_speed_ram_controller_inst_red1/bram_inst1/mem_3__D$2              | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_red1/bram_inst1/mem_2__D$b12             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_red1/bram_inst1/mem_2__D$c1              | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|              bicubic_inst/high_speed_ram_controller_inst_red1/bram_inst1/mem_2__D$2              | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|               bicubic_inst/high_speed_ram_controller_inst_red2/bram_inst1/mem__D$2               | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_red1/bram_inst1/mem_3__D$c1              | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|            bicubic_inst/high_speed_ram_controller_inst_blue2/bram_inst1/mem_2__D$b12             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|            bicubic_inst/high_speed_ram_controller_inst_blue2/bram_inst1/mem_3__D$b12             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_green2/bram_inst1/mem__D$c1              | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_blue2/bram_inst1/mem_3__D$2              | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_blue2/bram_inst1/mem_3__D$12             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_blue2/bram_inst1/mem_2__D$c1             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_blue2/bram_inst1/mem_2__D$12             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|              bicubic_inst/high_speed_ram_controller_inst_green1/bram_inst1/mem__D$2              | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_blue2/bram_inst1/mem_3__D$c1             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_blue2/bram_inst1/mem_2__D$2              | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_blue1/bram_inst1/mem_3__D$c1             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_blue1/bram_inst1/mem_2__D$12             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_blue1/bram_inst1/mem_2__D$2              | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_blue1/bram_inst1/mem_3__D$12             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_green1/bram_inst1/mem__D$c1              | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_blue1/bram_inst1/mem_2__D$c1             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|            bicubic_inst/high_speed_ram_controller_inst_blue1/bram_inst1/mem_2__D$b12             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|              bicubic_inst/high_speed_ram_controller_inst_blue1/bram_inst1/mem__D$c1              | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_blue1/bram_inst1/mem__D$b12              | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|            bicubic_inst/high_speed_ram_controller_inst_blue1/bram_inst1/mem_3__D$b12             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|              bicubic_inst/high_speed_ram_controller_inst_blue1/bram_inst1/mem__D$12              | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|            bicubic_inst/high_speed_ram_controller_inst_green1/bram_inst1/mem_2__D$12             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_green1/bram_inst1/mem__D$12              | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_green1/bram_inst1/mem__D$b12             | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_blue1/bram_inst1/mem_3__D$2              | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|              bicubic_inst/high_speed_ram_controller_inst_blue2/bram_inst1/mem__D$12              | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_blue2/bram_inst1/mem__D$b12              | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|            bicubic_inst/high_speed_ram_controller_inst_green2/bram_inst1/mem_2__D$12             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_green2/bram_inst1/mem__D$12              | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_green2/bram_inst1/mem__D$b12             | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_red2/bram_inst1/mem_3__D$b12             | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|              bicubic_inst/high_speed_ram_controller_inst_red2/bram_inst1/mem__D$12               | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|              bicubic_inst/high_speed_ram_controller_inst_red2/bram_inst1/mem__D$b12              | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|             bicubic_inst/high_speed_ram_controller_inst_red1/bram_inst1/mem_2__D$12              | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|              bicubic_inst/high_speed_ram_controller_inst_red1/bram_inst1/mem__D$12               | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|              bicubic_inst/high_speed_ram_controller_inst_red1/bram_inst1/mem__D$b12              | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|               bicubic_inst/high_speed_ram_controller_inst_red1/bram_inst1/mem__D$2               | SDP  |     2      |      2      |  READ_FIRST  |   false    |
+|                   u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$m12                   | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$p12                   | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$o12                   | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$l12                   | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$n12                   | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$12                    | SDP  |     4      |      4      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$b12                   | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$j12                   | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                    u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$2                    | SDP  |     4      |      4      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$i12                   | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$h12                   | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$g12                   | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$f12                   | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$e12                   | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$d12                   | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$c12                   | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$k12                   | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$q12                   | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$r12                   | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$s12                   | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$t12                   | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$u12                   | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$v12                   | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$w12                   | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$x12                   | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_rx_buffer/u_wr_fifo/FifoBuff__D$y1                    | SDP  |     5      |      5      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_tx_buffer/u_wr_fifo/FifoBuff__D$12                    | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_tx_buffer/u_wr_fifo/FifoBuff__D$e12                   | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_tx_buffer/u_wr_fifo/FifoBuff__D$b12                   | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_tx_buffer/u_wr_fifo/FifoBuff__D$f1                    | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_tx_buffer/u_wr_fifo/FifoBuff__D$d12                   | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|                   u_frame_buffer_ch0/u_ddr_tx_buffer/u_wr_fifo/FifoBuff__D$c12                   | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|                    u_frame_buffer_ch0/u_ddr_tx_buffer/u_wr_fifo/FifoBuff__D$2                    | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|                 u_frame_buffer_ch0/u_ddr_tx_buffer/u_data_tx/u_rd_fifo/FifoBuff                  | SDP  |     16     |     16      |  READ_FIRST  |   false    |
+|          inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/ram__D$2          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|          inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/ram__D$2          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|          inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ar/ram__D$1          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|          inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/ram__D$2          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|          inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_aw/ram__D$1          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|         inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/ram__D$12          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|         inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/ram__D$b12         | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|         inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/ram__D$c12         | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|         inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/ram__D$d12         | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|         inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/ram__D$e12         | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|         inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/ram__D$f12         | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|         inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_wr/ram__D$g1          | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|            inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_ack/ram            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|          inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/ram__D$2          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|         inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/ram__D$12          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|         inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/ram__D$b12         | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|         inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/ram__D$c12         | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|         inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/ram__D$d12         | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|         inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/ram__D$e12         | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|         inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/fifo_rd/ram__D$f1          | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|          inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/ram__D$2          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|         inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/ram__D$12          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|         inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/ac_fifo/ram__D$b1          | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+| inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/controller_main/map_ram/ram__D$c1  | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+| inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/controller_main/map_ram/ram__D$b12 | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+| inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/controller_main/map_ram/ram__D$12  | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|  inst_ddr3_axi/inst_efx_ddr3/u_efx_ddr3_soft_controller/top_mc/controller_main/map_ram/ram__D$2  | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
++--------------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+
+----------- Simple Dual Port RAM Information (end) ----------
+
+
+---------- IO Interface Summary (begin) ----------
+
++------------------------+--------------+
+| Missing Interface Pins | Input/Output |
++------------------------+--------------+
+|       phy_rst_n        |    Output    |
+|       phy_rst_n1       |    Output    |
+|       tx_en_o_LO       |    Output    |
+|      rxd_lo_i[2]       |    Input     |
+|       tx_en_o_HI       |    Output    |
+|      rxd_hi_i[2]       |    Input     |
+|     jtag_inst1_SEL     |    Input     |
+|    jtag_inst1_DRCK     |    Input     |
+|     jtag_inst1_TDI     |    Input     |
+|     jtag_inst1_TMS     |    Input     |
+|     jtag_inst1_TCK     |    Input     |
+|    jtag_inst1_RESET    |    Input     |
+|   jtag_inst1_RUNTEST   |    Input     |
+|    jtag_inst1_SHIFT    |    Input     |
+|   jtag_inst1_UPDATE    |    Input     |
+|   jtag_inst1_CAPTURE   |    Input     |
+|      mdio_io1_OUT      |    Output    |
+|      mdio_io1_OE       |    Output    |
+|      mdio_io1_IN       |    Input     |
+|        uart_rx         |    Input     |
+|      txd_lo_o[1]       |    Output    |
+|      txd_hi_o[1]       |    Output    |
+|      rxd_lo_i[3]       |    Input     |
+|      rxd_hi_i[3]       |    Input     |
+|      txd_lo_o[0]       |    Output    |
+|      txd_hi_o[0]       |    Output    |
+|      rxd_lo_i[1]       |    Input     |
+|      rxd_hi_i[1]       |    Input     |
+|        txc_lo_o        |    Output    |
+|        txc_hi_o        |    Output    |
+|      rxd_lo_i[0]       |    Input     |
+|      rxd_hi_i[0]       |    Input     |
+|        rx_dv_LO        |    Input     |
+|        rx_dv_HI        |    Input     |
+|   pll_inst4_CLKOUT0    |    Input     |
+|       txd1_LO[3]       |    Output    |
+|       txd1_HI[3]       |    Output    |
+|       mdc_o1_LO        |    Output    |
+|       mdc_o1_HI        |    Output    |
+|         mdio_o         |    Output    |
+|        mdc_o_LO        |    Output    |
+|        mdc_o_HI        |    Output    |
+|        mdio_oe         |    Output    |
+|         mdio_i         |    Input     |
+|      txd_lo_o[2]       |    Output    |
+|      txd_hi_o[2]       |    Output    |
+|      txd_lo_o[3]       |    Output    |
+|      txd_hi_o[3]       |    Output    |
+|      tx_en_o1_LO       |    Output    |
+|      tx_en_o1_HI       |    Output    |
+|       rxd1_LO[3]       |    Input     |
+|       rxd1_HI[3]       |    Input     |
+|       txd1_LO[1]       |    Output    |
+|       txd1_HI[1]       |    Output    |
+|       txd1_LO[2]       |    Output    |
+|       txd1_HI[2]       |    Output    |
+|       txd1_LO[0]       |    Output    |
+|       txd1_HI[0]       |    Output    |
+|        txc1_LO         |    Output    |
+|        txc1_HI         |    Output    |
+|       rxd1_LO[2]       |    Input     |
+|       rxd1_HI[2]       |    Input     |
+|       rxd1_LO[0]       |    Input     |
+|       rxd1_LO[1]       |    Input     |
+|       rxd1_HI[0]       |    Input     |
+|       rxd1_HI[1]       |    Input     |
+|       rx_dv1_LO        |    Input     |
+|       rx_dv1_HI        |    Input     |
+|         inf_in         |    Input     |
+|     i_sysclk_div_2     |    Input     |
+|       o_lcd_rstn       |    Output    |
+|       LCD_POWER        |    Output    |
++------------------------+--------------+
+
+----------- IO Interface Summary (end) ----------
+
+
+---------- IO Placement Summary (begin) ----------
+
++----------------------+--------------+
+| Unassigned Core Pins | Input/Output |
++----------------------+--------------+
+|    o_dqs_n_hi[1]     |    Output    |
+|    o_dqs_n_hi[0]     |    Output    |
+|    o_dqs_n_lo[1]     |    Output    |
+|    o_dqs_n_lo[0]     |    Output    |
++----------------------+--------------+
+
+----------- IO Placement Summary (end) ----------
+
+Elapsed time for placement: 0 hours 5 minutes 51 seconds

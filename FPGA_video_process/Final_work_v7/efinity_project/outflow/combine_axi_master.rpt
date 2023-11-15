@@ -1,0 +1,8 @@
+**** Efinity Programming Tool Generation Report *****
+Time: 2023-11-06 15:03
+
+Generated FPGA Soc Image output file: F:\FPGA_PRJ\YLS\Nearest_900p_108MHZ_inf_rgb\efinity_project\outflow\combine_axi_master.hex
+Flash Address  Length      Input Image File
+0x00000000     0x000cbbad  F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf_rgb/efinity_project/outflow/DDR3_MC.hex
+0x00380000     0x0000094a  F:/FPGA_PRJ/YLS/Nearest_900p_108MHZ_inf_rgb/efinity_project/embedded_sw/soc_riscv/software/standalone/gpioDemo/build/gpioDemo.bin
+

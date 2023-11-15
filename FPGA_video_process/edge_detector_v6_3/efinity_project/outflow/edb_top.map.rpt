@@ -1,0 +1,252 @@
+Efinity Synthesis report for project edb_top
+Version: 2023.1.150.1.5
+Generated at: Nov 13, 2023 13:28:45
+Copyright (C) 2013 - 2023  Inc. All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+Top-level Entity Name : edb_top
+
+### ### File List (begin) ### ### ###
+F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/work_dbg/debug_top.v
+### ### File List (end) ### ### ###
+
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/work_dbg/debug_top.v:450)
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 45
+Total number of FFs with enable signals: 624
+CE signal <ceg_net5>, number of controlling flip flops: 3
+CE signal <la0/n1408>, number of controlling flip flops: 64
+CE signal <la0/n1324>, number of controlling flip flops: 21
+CE signal <la0/n1925>, number of controlling flip flops: 22
+CE signal <la0/addr_ct_en>, number of controlling flip flops: 27
+CE signal <la0/op_reg_en>, number of controlling flip flops: 4
+CE signal <ceg_net26>, number of controlling flip flops: 6
+CE signal <la0/word_ct_en>, number of controlling flip flops: 16
+CE signal <ceg_net14>, number of controlling flip flops: 64
+CE signal <la0/n2834>, number of controlling flip flops: 3
+CE signal <la0/n2849>, number of controlling flip flops: 8
+CE signal <la0/n3047>, number of controlling flip flops: 8
+CE signal <la0/n3731>, number of controlling flip flops: 3
+CE signal <la0/n3746>, number of controlling flip flops: 8
+CE signal <la0/n3944>, number of controlling flip flops: 8
+CE signal <la0/n4628>, number of controlling flip flops: 3
+CE signal <la0/n4643>, number of controlling flip flops: 8
+CE signal <la0/n4841>, number of controlling flip flops: 8
+CE signal <la0/n5469>, number of controlling flip flops: 3
+CE signal <la0/n6302>, number of controlling flip flops: 3
+CE signal <la0/n7135>, number of controlling flip flops: 3
+CE signal <la0/n8024>, number of controlling flip flops: 3
+CE signal <la0/n8039>, number of controlling flip flops: 8
+CE signal <la0/n8237>, number of controlling flip flops: 8
+CE signal <la0/n8921>, number of controlling flip flops: 3
+CE signal <la0/n8936>, number of controlling flip flops: 8
+CE signal <la0/n9134>, number of controlling flip flops: 8
+CE signal <la0/n9818>, number of controlling flip flops: 3
+CE signal <la0/n9833>, number of controlling flip flops: 8
+CE signal <la0/n10031>, number of controlling flip flops: 8
+CE signal <la0/n10659>, number of controlling flip flops: 3
+CE signal <la0/n11492>, number of controlling flip flops: 3
+CE signal <la0/n12325>, number of controlling flip flops: 3
+CE signal <la0/regsel_ld_en>, number of controlling flip flops: 13
+CE signal <ceg_net221>, number of controlling flip flops: 32
+CE signal <la0/la_biu_inst/n394>, number of controlling flip flops: 13
+CE signal <la0/la_biu_inst/n1339>, number of controlling flip flops: 56
+CE signal <ceg_net351>, number of controlling flip flops: 2
+CE signal <ceg_net348>, number of controlling flip flops: 1
+CE signal <la0/la_biu_inst/fifo_with_read_inst/is_last_data>, number of controlling flip flops: 12
+CE signal <la0/la_biu_inst/n2081>, number of controlling flip flops: 12
+CE signal <la0/la_biu_inst/fifo_push>, number of controlling flip flops: 12
+CE signal <ceg_net355>, number of controlling flip flops: 26
+CE signal <debug_hub_inst/n266>, number of controlling flip flops: 4
+CE signal <debug_hub_inst/n95>, number of controlling flip flops: 82
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of set/reset signals: 6
+Total number of FFs with set/reset signals: 645
+SR signal <bscan_RESET>, number of controlling flip flops: 512
+SR signal <la0/la_soft_reset_in>, number of controlling flip flops: 2
+SR signal <la0/la_resetn>, number of controlling flip flops: 68
+SR signal <la0/n17994>, number of controlling flip flops: 1
+SR signal <la0/la_biu_inst/fifo_rstn>, number of controlling flip flops: 25
+SR signal <la0/la_biu_inst/fifo_with_read_inst/n947>, number of controlling flip flops: 37
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Memory Trimming Report (begin) ### ### ### 
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$12' WE[1] tied off to 0.
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$2' WE[1] tied off to 0.
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b12' WE[1] tied off to 0.
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c12' WE[1] tied off to 0.
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$d12' WE[1] tied off to 0.
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$e12' WE[1] tied off to 0.
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$f12' WE[1] tied off to 0.
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$g12' WE[1] tied off to 0.
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$h12' WE[1] tied off to 0.
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$i12' WE[1] tied off to 0.
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$j12' WE[1] tied off to 0.
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$k12' WE[1] tied off to 0.
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$l12' WE[1] tied off to 0.
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$m12' WE[1] tied off to 0.
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$n12' WE[1] tied off to 0.
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$o12' WE[1] tied off to 0.
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$p12' WE[1] tied off to 0.
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$q12' WE[1] tied off to 0.
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$r12' WE[1] tied off to 0.
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$s12' WE[1] tied off to 0.
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$t12' WE[1] tied off to 0.
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$u12' WE[1] tied off to 0.
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$v12' WE[1] tied off to 0.
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$w12' WE[1] tied off to 0.
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$x12' WE[1] tied off to 0.
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$y12' WE[1] tied off to 0.
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$z12' WE[1] tied off to 0.
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$A1' WE[1] tied off to 0.
+### ### Memory Trimming Report (end) ### ### ### 
+
+### ### Sequential Elements Trimming Report (begin) ### ### ### 
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/work_dbg/debug_top.v (5583)" removed instance : la0/GEN_PROBE[11].genblk7.genblk3.trigger_cu/i25
+@ "F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/work_dbg/debug_top.v (5522)" representative instance : la0/GEN_PROBE[11].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/work_dbg/debug_top.v (5522)" removed instance : la0/GEN_PROBE[10].genblk7.genblk3.trigger_cu/i6
+@ "F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/work_dbg/debug_top.v (5522)" representative instance : la0/GEN_PROBE[11].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/work_dbg/debug_top.v (5583)" removed instance : la0/GEN_PROBE[10].genblk7.genblk3.trigger_cu/i25
+@ "F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/work_dbg/debug_top.v (5522)" representative instance : la0/GEN_PROBE[10].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/work_dbg/debug_top.v (5522)" removed instance : la0/GEN_PROBE[9].genblk7.genblk3.trigger_cu/i6
+@ "F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/work_dbg/debug_top.v (5522)" representative instance : la0/GEN_PROBE[11].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/work_dbg/debug_top.v (5583)" removed instance : la0/GEN_PROBE[9].genblk7.genblk3.trigger_cu/i25
+@ "F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/work_dbg/debug_top.v (5522)" representative instance : la0/GEN_PROBE[9].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/work_dbg/debug_top.v (5522)" removed instance : la0/GEN_PROBE[5].genblk7.genblk3.trigger_cu/i6
+@ "F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/work_dbg/debug_top.v (5522)" representative instance : la0/GEN_PROBE[11].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/work_dbg/debug_top.v (5583)" removed instance : la0/GEN_PROBE[5].genblk7.genblk3.trigger_cu/i25
+@ "F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/work_dbg/debug_top.v (5522)" representative instance : la0/GEN_PROBE[5].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/work_dbg/debug_top.v (5522)" removed instance : la0/GEN_PROBE[4].genblk7.genblk3.trigger_cu/i6
+@ "F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/work_dbg/debug_top.v (5522)" representative instance : la0/GEN_PROBE[11].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/work_dbg/debug_top.v (5583)" removed instance : la0/GEN_PROBE[4].genblk7.genblk3.trigger_cu/i25
+@ "F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/work_dbg/debug_top.v (5522)" representative instance : la0/GEN_PROBE[4].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/work_dbg/debug_top.v (5522)" removed instance : la0/GEN_PROBE[3].genblk7.genblk3.trigger_cu/i6
+@ "F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/work_dbg/debug_top.v (5522)" representative instance : la0/GEN_PROBE[11].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/work_dbg/debug_top.v (5583)" removed instance : la0/GEN_PROBE[3].genblk7.genblk3.trigger_cu/i25
+@ "F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/work_dbg/debug_top.v (5522)" representative instance : la0/GEN_PROBE[3].genblk7.genblk3.trigger_cu/i5
+FF Output: la0/data_from_biu[55](=0)
+FF Output: la0/data_from_biu[56](=0)
+FF Output: la0/data_from_biu[57](=0)
+FF Output: la0/data_from_biu[58](=0)
+FF Output: la0/data_from_biu[59](=0)
+FF Output: la0/data_from_biu[60](=0)
+FF Output: la0/data_from_biu[61](=0)
+FF Output: la0/data_from_biu[62](=0)
+FF Output: la0/data_from_biu[63](=0)
+FF instance: la0/address_counter[27]~FF(unreachable)
+FF instance: la0/address_counter[28]~FF(unreachable)
+FF instance: la0/address_counter[29]~FF(unreachable)
+FF instance: la0/address_counter[30]~FF(unreachable)
+FF instance: la0/address_counter[31]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[0]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/segment_rd_pointer[12]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/segment_wr_pointer[12]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[1]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[2]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[3]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[4]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[5]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[6]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[7]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[8]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[9]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[10]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[11]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[12]~FF(unreachable)
+### ### Sequential Elements Trimming Report (end) ### ### ### 
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                                                               FFs        SRLs        ADDs        LUTs    COMB4s      RAMs DSP/MULTs
+------------------------------------------------------------         ---        ----        ----        ----      ----      ---- ---------
+edb_top:edb_top                                                   884(0)       54(0)      102(0)     1050(0)      0(0)     28(0)      0(0)
+ +la0:edb_la_top_renamed_due_excessive_length_1                 798(433)       54(0)     102(43)   1020(527)      0(0)     28(0)      0(0)
+  +axi_crc_i:edb_adbg_crc32                                       32(32)        0(0)        0(0)      55(55)      0(0)      0(0)      0(0)
+  +GEN_PROBE[0].genblk7.genblk3.trigger_cu:compare_unit(W...      19(19)        0(0)        0(0)      26(26)      0(0)      0(0)      0(0)
+  +GEN_PROBE[1].genblk7.genblk3.trigger_cu:compare_unit(W...      19(19)        0(0)        0(0)      26(26)      0(0)      0(0)      0(0)
+  +GEN_PROBE[2].genblk7.genblk3.trigger_cu:compare_unit(W...      19(19)        0(0)        0(0)      26(26)      0(0)      0(0)      0(0)
+  +GEN_PROBE[3].genblk7.genblk3.trigger_cu:compare_unit(W...        7(7)        0(0)        0(0)        8(8)      0(0)      0(0)      0(0)
+  +GEN_PROBE[4].genblk7.genblk3.trigger_cu:compare_unit(W...        7(7)        0(0)        0(0)        9(9)      0(0)      0(0)      0(0)
+  +GEN_PROBE[5].genblk7.genblk3.trigger_cu:compare_unit(W...        7(7)        0(0)        0(0)        9(9)      0(0)      0(0)      0(0)
+  +GEN_PROBE[6].genblk7.genblk3.trigger_cu:compare_unit(W...      19(19)        0(0)        0(0)      27(27)      0(0)      0(0)      0(0)
+  +GEN_PROBE[7].genblk7.genblk3.trigger_cu:compare_unit(W...      19(19)        0(0)        0(0)      26(26)      0(0)      0(0)      0(0)
+  +GEN_PROBE[8].genblk7.genblk3.trigger_cu:compare_unit(W...      19(19)        0(0)        0(0)      28(28)      0(0)      0(0)      0(0)
+  +GEN_PROBE[9].genblk7.genblk3.trigger_cu:compare_unit(W...        7(7)        0(0)        0(0)        9(9)      0(0)      0(0)      0(0)
+  +GEN_PROBE[10].genblk7.genblk3.trigger_cu:compare_unit(...        7(7)        0(0)        0(0)        9(9)      0(0)      0(0)      0(0)
+  +GEN_PROBE[11].genblk7.genblk3.trigger_cu:compare_unit(...        8(8)        0(0)        0(0)      10(10)      0(0)      0(0)      0(0)
+  +trigger_tu:trigger_unit(WIDTH=32'b01100,PIPE=1)                  1(1)        0(0)        0(0)        6(6)      0(0)      0(0)      0(0)
+  +la_biu_inst:la_biu(CAPTURE_WIDTH=32'b0110110,DATA_DEPT...     175(86)       54(0)       59(0)     219(62)      0(0)     28(0)      0(0)
+   +fifo_with_read_inst:fifo_with_read(DATA_WIDTH=32'b011...      89(65)      54(54)      59(59)    157(121)      0(0)     28(0)      0(0)
+    +transcode_write_addr:fifo_address_trancode_unit(TOTA...      12(12)        0(0)        0(0)      12(12)      0(0)      0(0)      0(0)
+    +transcode_read_addr:fifo_address_trancode_unit(TOTAL...      12(12)        0(0)        0(0)      24(24)      0(0)      0(0)      0(0)
+    +simple_dual_port_ram_inst:edb_simple_dual_port_ram(D...        0(0)        0(0)        0(0)        0(0)      0(0)    28(28)      0(0)
+ +debug_hub_inst:debug_hub                                        86(86)        0(0)        0(0)      30(30)      0(0)      0(0)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+     Clock     Flip-Flops     Shift-Regs   Memory Ports    Multipliers
+     -----     ----------     ----------   ------------    -----------
+ bscan_TCK            512              0              0              0
+   la0_clk            372             54             56              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Titanium
+device : Ti60F225
+project : edb_top
+root : edb_top
+I : F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project
+I : F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/ip/efx_ddr3_axi_1
+I : F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/ip/dsi_tx
+I : F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/ip/blk_mem_gen_0
+output-dir : F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/outflow
+work-dir : F:/FPGA_PRJ/YLS/Nearest_v3.1/efinity_project/work_dbg
+insert-ios : 0
+insert-gclk : 0
+max-carry-cascade : 320
+max-dsp-cascade : 16
+max_mult : -1
+max_ram : -1
+mode : speed
+num_srl : -1
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	65
+OUTPUT PORTS    : 	1
+
+EFX_ADD         : 	102
+EFX_LUT4        : 	1050
+   1-2  Inputs  : 	318
+   3    Inputs  : 	278
+   4    Inputs  : 	454
+EFX_FF          : 	884
+EFX_SRL8        : 	54
+EFX_RAM10       : 	28
+EFX_GBUFCE      : 	1
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 16s
+Elapsed synthesis time : 16s

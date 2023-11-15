@@ -1,0 +1,11 @@
+17:56:16 **** Build of configuration Default for project axi4Demo ****
+make all 
+CC src/main.c
+CC ../common/start.S
+CC ../common/trap.S
+LD axi4Demo
+Memory region         Used Size  Region Size  %age Used
+             ram:        5920 B       124 KB      4.66%
+
+17:56:17 Build Finished. 0 errors, 0 warnings. (took 719ms)
+

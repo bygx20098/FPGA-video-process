@@ -1,0 +1,6 @@
+18:34:56 **** Incremental Build of configuration Default for project gpioDemo ****
+make all 
+make: Nothing to be done for 'all'.
+
+18:34:56 Build Finished. 0 errors, 0 warnings. (took 113ms)
+

@@ -1,0 +1,8 @@
+**** Efinity Programming Tool Generation Report *****
+Time: 2023-11-07 20:57
+
+Generated FPGA Soc Image output file: F:\FPGA_PRJ\YLS\inf_riscv_interconnect\efinity_project\outflow\combine_interconnect.hex
+Flash Address  Length      Input Image File
+0x00000000     0x000c9bc4  F:/FPGA_PRJ/YLS/inf_riscv_interconnect/efinity_project/outflow/DDR3_MC.hex
+0x00380000     0x0000094a  F:/FPGA_PRJ/YLS/inf_riscv_interconnect/efinity_project/embedded_sw/soc_riscv/software/standalone/gpioDemo/build/gpioDemo.bin
+
